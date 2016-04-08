@@ -3,11 +3,11 @@ class X8664UnknownCloudabiCurl < Formula
   homepage "http://curl.haxx.se/"
   url "http://this.package.cannot.be.built.from.source/"
   version "7.47.1"
-  depends_on "NuxiNL/cloudabi-ports/x86_64-unknown-cloudabi-cloudabi"
-  depends_on "NuxiNL/cloudabi-ports/x86_64-unknown-cloudabi-cloudlibc"
-  depends_on "NuxiNL/cloudabi-ports/x86_64-unknown-cloudabi-compiler-rt"
-  depends_on "NuxiNL/cloudabi-ports/x86_64-unknown-cloudabi-libressl"
-  depends_on "NuxiNL/cloudabi-ports/x86_64-unknown-cloudabi-zlib"
+  depends_on "nuxinl/cloudabi-ports/x86_64-unknown-cloudabi-cloudabi"
+  depends_on "nuxinl/cloudabi-ports/x86_64-unknown-cloudabi-cloudlibc"
+  depends_on "nuxinl/cloudabi-ports/x86_64-unknown-cloudabi-compiler-rt"
+  depends_on "nuxinl/cloudabi-ports/x86_64-unknown-cloudabi-libressl"
+  depends_on "nuxinl/cloudabi-ports/x86_64-unknown-cloudabi-zlib"
 
   bottle do
     root_url "https://nuxi.nl/distfiles/cloudabi-ports/homebrew/links"

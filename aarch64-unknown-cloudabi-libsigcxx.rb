@@ -3,12 +3,12 @@ class Aarch64UnknownCloudabiLibsigcxx < Formula
   homepage "http://libsigc.sourceforge.net/"
   url "http://this.package.cannot.be.built.from.source/"
   version "2.6.2"
-  depends_on "NuxiNL/cloudabi-ports/aarch64-unknown-cloudabi-cloudabi"
-  depends_on "NuxiNL/cloudabi-ports/aarch64-unknown-cloudabi-cloudlibc"
-  depends_on "NuxiNL/cloudabi-ports/aarch64-unknown-cloudabi-compiler-rt"
-  depends_on "NuxiNL/cloudabi-ports/aarch64-unknown-cloudabi-libcxx"
-  depends_on "NuxiNL/cloudabi-ports/aarch64-unknown-cloudabi-libcxxabi"
-  depends_on "NuxiNL/cloudabi-ports/aarch64-unknown-cloudabi-libunwind"
+  depends_on "nuxinl/cloudabi-ports/aarch64-unknown-cloudabi-cloudabi"
+  depends_on "nuxinl/cloudabi-ports/aarch64-unknown-cloudabi-cloudlibc"
+  depends_on "nuxinl/cloudabi-ports/aarch64-unknown-cloudabi-compiler-rt"
+  depends_on "nuxinl/cloudabi-ports/aarch64-unknown-cloudabi-libcxx"
+  depends_on "nuxinl/cloudabi-ports/aarch64-unknown-cloudabi-libcxxabi"
+  depends_on "nuxinl/cloudabi-ports/aarch64-unknown-cloudabi-libunwind"
 
   bottle do
     root_url "https://nuxi.nl/distfiles/cloudabi-ports/homebrew/links"

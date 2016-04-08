@@ -3,10 +3,10 @@ class X8664UnknownCloudabiLibxslt < Formula
   homepage "http://xmlsoft.org/libxslt/"
   url "http://this.package.cannot.be.built.from.source/"
   version "1.1.28"
-  depends_on "NuxiNL/cloudabi-ports/x86_64-unknown-cloudabi-cloudabi"
-  depends_on "NuxiNL/cloudabi-ports/x86_64-unknown-cloudabi-cloudlibc"
-  depends_on "NuxiNL/cloudabi-ports/x86_64-unknown-cloudabi-compiler-rt"
-  depends_on "NuxiNL/cloudabi-ports/x86_64-unknown-cloudabi-libxml2"
+  depends_on "nuxinl/cloudabi-ports/x86_64-unknown-cloudabi-cloudabi"
+  depends_on "nuxinl/cloudabi-ports/x86_64-unknown-cloudabi-cloudlibc"
+  depends_on "nuxinl/cloudabi-ports/x86_64-unknown-cloudabi-compiler-rt"
+  depends_on "nuxinl/cloudabi-ports/x86_64-unknown-cloudabi-libxml2"
 
   bottle do
     root_url "https://nuxi.nl/distfiles/cloudabi-ports/homebrew/links"
