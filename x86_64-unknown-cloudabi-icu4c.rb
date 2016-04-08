@@ -1,4 +1,4 @@
-class X8664UnknownCloudabiIcu4C < Formula
+class X8664UnknownCloudabiIcu4c < Formula
   desc "icu4c for x86_64-unknown-cloudabi"
   homepage "http://site.icu-project.org/"
   url "http://this.package.cannot.be.built.from.source/"

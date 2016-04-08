@@ -1,4 +1,4 @@
-class Aarch64UnknownCloudabiIcu4C < Formula
+class Aarch64UnknownCloudabiIcu4c < Formula
   desc "icu4c for aarch64-unknown-cloudabi"
   homepage "http://site.icu-project.org/"
   url "http://this.package.cannot.be.built.from.source/"
