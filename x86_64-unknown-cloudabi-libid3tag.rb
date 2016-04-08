@@ -1,4 +1,4 @@
-class X8664UnknownCloudabiLibid3Tag < Formula
+class X8664UnknownCloudabiLibid3tag < Formula
   desc "libid3tag for x86_64-unknown-cloudabi"
   homepage "http://www.underbit.com/products/mad/"
   url "http://this.package.cannot.be.built.from.source/"

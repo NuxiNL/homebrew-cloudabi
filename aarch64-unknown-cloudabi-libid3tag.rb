@@ -1,4 +1,4 @@
-class Aarch64UnknownCloudabiLibid3Tag < Formula
+class Aarch64UnknownCloudabiLibid3tag < Formula
   desc "libid3tag for aarch64-unknown-cloudabi"
   homepage "http://www.underbit.com/products/mad/"
   url "http://this.package.cannot.be.built.from.source/"
