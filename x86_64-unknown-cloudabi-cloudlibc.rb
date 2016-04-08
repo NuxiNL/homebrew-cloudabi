@@ -3,8 +3,6 @@ class X8664UnknownCloudabiCloudlibc < Formula
   homepage "https://github.com/nuxinl/cloudlibc"
   url "http://this.package.cannot.be.built.from.source/"
   version "0.25"
-  depends_on "nuxinl/cloudabi-ports/x86_64-unknown-cloudabi-cloudabi"
-  depends_on "nuxinl/cloudabi-ports/x86_64-unknown-cloudabi-compiler-rt"
 
   bottle do
     root_url "https://nuxi.nl/distfiles/cloudabi-ports/homebrew/links"

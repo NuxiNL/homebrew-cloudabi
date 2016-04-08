@@ -3,10 +3,6 @@ class Aarch64UnknownCloudabiMpfr < Formula
   homepage "http://www.mpfr.org/"
   url "http://this.package.cannot.be.built.from.source/"
   version "3.1.3"
-  depends_on "nuxinl/cloudabi-ports/aarch64-unknown-cloudabi-cloudabi"
-  depends_on "nuxinl/cloudabi-ports/aarch64-unknown-cloudabi-cloudlibc"
-  depends_on "nuxinl/cloudabi-ports/aarch64-unknown-cloudabi-compiler-rt"
-  depends_on "nuxinl/cloudabi-ports/aarch64-unknown-cloudabi-gmp"
 
   bottle do
     root_url "https://nuxi.nl/distfiles/cloudabi-ports/homebrew/links"

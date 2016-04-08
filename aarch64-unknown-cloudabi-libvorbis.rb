@@ -3,10 +3,6 @@ class Aarch64UnknownCloudabiLibvorbis < Formula
   homepage "https://xiph.org/vorbis/"
   url "http://this.package.cannot.be.built.from.source/"
   version "1.3.5"
-  depends_on "nuxinl/cloudabi-ports/aarch64-unknown-cloudabi-cloudabi"
-  depends_on "nuxinl/cloudabi-ports/aarch64-unknown-cloudabi-cloudlibc"
-  depends_on "nuxinl/cloudabi-ports/aarch64-unknown-cloudabi-compiler-rt"
-  depends_on "nuxinl/cloudabi-ports/aarch64-unknown-cloudabi-libogg"
 
   bottle do
     root_url "https://nuxi.nl/distfiles/cloudabi-ports/homebrew/links"

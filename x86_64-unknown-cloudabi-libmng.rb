@@ -3,16 +3,6 @@ class X8664UnknownCloudabiLibmng < Formula
   homepage "http://libmng.com/"
   url "http://this.package.cannot.be.built.from.source/"
   version "2.0.3"
-  depends_on "nuxinl/cloudabi-ports/x86_64-unknown-cloudabi-cloudabi"
-  depends_on "nuxinl/cloudabi-ports/x86_64-unknown-cloudabi-cloudlibc"
-  depends_on "nuxinl/cloudabi-ports/x86_64-unknown-cloudabi-compiler-rt"
-  depends_on "nuxinl/cloudabi-ports/x86_64-unknown-cloudabi-jpeg"
-  depends_on "nuxinl/cloudabi-ports/x86_64-unknown-cloudabi-lcms2"
-  depends_on "nuxinl/cloudabi-ports/x86_64-unknown-cloudabi-libcxx"
-  depends_on "nuxinl/cloudabi-ports/x86_64-unknown-cloudabi-libcxxabi"
-  depends_on "nuxinl/cloudabi-ports/x86_64-unknown-cloudabi-libunwind"
-  depends_on "nuxinl/cloudabi-ports/x86_64-unknown-cloudabi-tiff"
-  depends_on "nuxinl/cloudabi-ports/x86_64-unknown-cloudabi-zlib"
 
   bottle do
     root_url "https://nuxi.nl/distfiles/cloudabi-ports/homebrew/links"

@@ -3,9 +3,6 @@ class Aarch64UnknownCloudabiLibressl < Formula
   homepage "http://www.libressl.org/"
   url "http://this.package.cannot.be.built.from.source/"
   version "2.3.1"
-  depends_on "nuxinl/cloudabi-ports/aarch64-unknown-cloudabi-cloudabi"
-  depends_on "nuxinl/cloudabi-ports/aarch64-unknown-cloudabi-cloudlibc"
-  depends_on "nuxinl/cloudabi-ports/aarch64-unknown-cloudabi-compiler-rt"
 
   bottle do
     root_url "https://nuxi.nl/distfiles/cloudabi-ports/homebrew/links"

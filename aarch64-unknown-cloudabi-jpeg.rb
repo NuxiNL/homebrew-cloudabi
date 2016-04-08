@@ -3,9 +3,6 @@ class Aarch64UnknownCloudabiJpeg < Formula
   homepage "http://www.ijg.org/"
   url "http://this.package.cannot.be.built.from.source/"
   version "9.2"
-  depends_on "nuxinl/cloudabi-ports/aarch64-unknown-cloudabi-cloudabi"
-  depends_on "nuxinl/cloudabi-ports/aarch64-unknown-cloudabi-cloudlibc"
-  depends_on "nuxinl/cloudabi-ports/aarch64-unknown-cloudabi-compiler-rt"
 
   bottle do
     root_url "https://nuxi.nl/distfiles/cloudabi-ports/homebrew/links"

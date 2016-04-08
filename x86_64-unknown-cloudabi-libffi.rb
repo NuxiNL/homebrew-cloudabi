@@ -3,9 +3,6 @@ class X8664UnknownCloudabiLibffi < Formula
   homepage "https://sourceware.org/libffi/"
   url "http://this.package.cannot.be.built.from.source/"
   version "3.2.1"
-  depends_on "nuxinl/cloudabi-ports/x86_64-unknown-cloudabi-cloudabi"
-  depends_on "nuxinl/cloudabi-ports/x86_64-unknown-cloudabi-cloudlibc"
-  depends_on "nuxinl/cloudabi-ports/x86_64-unknown-cloudabi-compiler-rt"
 
   bottle do
     root_url "https://nuxi.nl/distfiles/cloudabi-ports/homebrew/links"
