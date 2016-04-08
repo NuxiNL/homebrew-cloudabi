@@ -3,10 +3,10 @@ class Aarch64UnknownCloudabiLibid3Tag < Formula
   homepage "http://www.underbit.com/products/mad/"
   url "http://this.package.cannot.be.built.from.source/"
   version "0.15.1.2"
-  depends_on "aarch64-unknown-cloudabi-cloudabi"
-  depends_on "aarch64-unknown-cloudabi-cloudlibc"
-  depends_on "aarch64-unknown-cloudabi-compiler-rt"
-  depends_on "aarch64-unknown-cloudabi-zlib"
+  depends_on "NuxiNL/cloudabi-ports/aarch64-unknown-cloudabi-cloudabi"
+  depends_on "NuxiNL/cloudabi-ports/aarch64-unknown-cloudabi-cloudlibc"
+  depends_on "NuxiNL/cloudabi-ports/aarch64-unknown-cloudabi-compiler-rt"
+  depends_on "NuxiNL/cloudabi-ports/aarch64-unknown-cloudabi-zlib"
 
   bottle do
     root_url "https://nuxi.nl/distfiles/cloudabi-ports/homebrew/links"

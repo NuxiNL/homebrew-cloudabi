@@ -3,10 +3,10 @@ class Aarch64UnknownCloudabiMemcached < Formula
   homepage "https://memcached.org/"
   url "http://this.package.cannot.be.built.from.source/"
   version "1.4.25"
-  depends_on "aarch64-unknown-cloudabi-cloudabi"
-  depends_on "aarch64-unknown-cloudabi-cloudlibc"
-  depends_on "aarch64-unknown-cloudabi-compiler-rt"
-  depends_on "aarch64-unknown-cloudabi-libevent"
+  depends_on "NuxiNL/cloudabi-ports/aarch64-unknown-cloudabi-cloudabi"
+  depends_on "NuxiNL/cloudabi-ports/aarch64-unknown-cloudabi-cloudlibc"
+  depends_on "NuxiNL/cloudabi-ports/aarch64-unknown-cloudabi-compiler-rt"
+  depends_on "NuxiNL/cloudabi-ports/aarch64-unknown-cloudabi-libevent"
 
   bottle do
     root_url "https://nuxi.nl/distfiles/cloudabi-ports/homebrew/links"

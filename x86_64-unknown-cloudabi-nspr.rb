@@ -3,9 +3,9 @@ class X8664UnknownCloudabiNspr < Formula
   homepage "https://developer.mozilla.org/en-US/docs/Mozilla/Projects/NSPR"
   url "http://this.package.cannot.be.built.from.source/"
   version "4.11"
-  depends_on "x86_64-unknown-cloudabi-cloudabi"
-  depends_on "x86_64-unknown-cloudabi-cloudlibc"
-  depends_on "x86_64-unknown-cloudabi-compiler-rt"
+  depends_on "NuxiNL/cloudabi-ports/x86_64-unknown-cloudabi-cloudabi"
+  depends_on "NuxiNL/cloudabi-ports/x86_64-unknown-cloudabi-cloudlibc"
+  depends_on "NuxiNL/cloudabi-ports/x86_64-unknown-cloudabi-compiler-rt"
 
   bottle do
     root_url "https://nuxi.nl/distfiles/cloudabi-ports/homebrew/links"
