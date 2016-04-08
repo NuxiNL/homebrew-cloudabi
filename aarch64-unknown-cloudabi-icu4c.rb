@@ -3,6 +3,12 @@ class Aarch64UnknownCloudabiIcu4c < Formula
   homepage "http://site.icu-project.org/"
   url "http://this.package.cannot.be.built.from.source/"
   version "56.1"
+  depends_on "aarch64-unknown-cloudabi-cloudabi"
+  depends_on "aarch64-unknown-cloudabi-cloudlibc"
+  depends_on "aarch64-unknown-cloudabi-compiler-rt"
+  depends_on "aarch64-unknown-cloudabi-libcxx"
+  depends_on "aarch64-unknown-cloudabi-libcxxabi"
+  depends_on "aarch64-unknown-cloudabi-libunwind"
 
   bottle do
     root_url "https://nuxi.nl/distfiles/cloudabi-ports/homebrew/links"

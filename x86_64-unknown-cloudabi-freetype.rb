@@ -3,6 +3,12 @@ class X8664UnknownCloudabiFreetype < Formula
   homepage "http://www.freetype.org/"
   url "http://this.package.cannot.be.built.from.source/"
   version "2.6.3"
+  depends_on "x86_64-unknown-cloudabi-bzip2"
+  depends_on "x86_64-unknown-cloudabi-cloudabi"
+  depends_on "x86_64-unknown-cloudabi-cloudlibc"
+  depends_on "x86_64-unknown-cloudabi-compiler-rt"
+  depends_on "x86_64-unknown-cloudabi-libpng"
+  depends_on "x86_64-unknown-cloudabi-zlib"
 
   bottle do
     root_url "https://nuxi.nl/distfiles/cloudabi-ports/homebrew/links"
