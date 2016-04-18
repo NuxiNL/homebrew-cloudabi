@@ -10,7 +10,6 @@ class Aarch64UnknownCloudabiGiflib < Formula
 
   bottle do
     root_url "https://nuxi.nl/distfiles/cloudabi-ports/homebrew/links"
-    revision 5
     sha256 "9f068338d8b98ddd8f1fbc3152b701ed3de5e3e2585f2def2956b4ef93bd2c2d" => :el_capitan
     sha256 "9f068338d8b98ddd8f1fbc3152b701ed3de5e3e2585f2def2956b4ef93bd2c2d" => :mavericks
     sha256 "9f068338d8b98ddd8f1fbc3152b701ed3de5e3e2585f2def2956b4ef93bd2c2d" => :yosemite

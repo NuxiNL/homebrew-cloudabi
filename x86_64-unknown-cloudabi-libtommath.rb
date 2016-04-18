@@ -10,7 +10,6 @@ class X8664UnknownCloudabiLibtommath < Formula
 
   bottle do
     root_url "https://nuxi.nl/distfiles/cloudabi-ports/homebrew/links"
-    revision 5
     sha256 "959e6333210acc4d3fb362ad926ef9634431fdc96224269e81e8e375578d1f0f" => :el_capitan
     sha256 "959e6333210acc4d3fb362ad926ef9634431fdc96224269e81e8e375578d1f0f" => :mavericks
     sha256 "959e6333210acc4d3fb362ad926ef9634431fdc96224269e81e8e375578d1f0f" => :yosemite
