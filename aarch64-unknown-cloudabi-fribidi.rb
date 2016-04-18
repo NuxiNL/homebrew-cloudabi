@@ -3,6 +3,7 @@ class Aarch64UnknownCloudabiFribidi < Formula
   homepage "http://fribidi.org/"
   url "http://this.package.cannot.be.built.from.source/"
   version "0.19.7"
+  revision 7
   depends_on "aarch64-unknown-cloudabi-cloudabi"
   depends_on "aarch64-unknown-cloudabi-cloudlibc"
   depends_on "aarch64-unknown-cloudabi-compiler-rt"

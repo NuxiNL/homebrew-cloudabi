@@ -3,6 +3,7 @@ class Aarch64UnknownCloudabiOpenjpeg < Formula
   homepage "http://www.openjpeg.org/"
   url "http://this.package.cannot.be.built.from.source/"
   version "2.1.0"
+  revision 10
   depends_on "aarch64-unknown-cloudabi-cloudabi"
   depends_on "aarch64-unknown-cloudabi-cloudlibc"
   depends_on "aarch64-unknown-cloudabi-compiler-rt"

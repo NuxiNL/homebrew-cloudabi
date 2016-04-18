@@ -3,6 +3,7 @@ class X8664UnknownCloudabiLibsamplerate < Formula
   homepage "http://www.mega-nerd.com/SRC/"
   url "http://this.package.cannot.be.built.from.source/"
   version "0.1.8"
+  revision 8
   depends_on "x86_64-unknown-cloudabi-cloudabi"
   depends_on "x86_64-unknown-cloudabi-cloudlibc"
   depends_on "x86_64-unknown-cloudabi-compiler-rt"
