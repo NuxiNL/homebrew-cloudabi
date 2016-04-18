@@ -10,8 +10,8 @@ class X8664UnknownCloudabiJasper < Formula
 
   bottle do
     root_url "https://nuxi.nl/distfiles/cloudabi-ports/homebrew/links"
-    sha256 "a7c3b0185abe95d2d71521876c3ee71724296e4d2802a7e750d98efec9ed47c9" => :el_capitan
-    sha256 "a7c3b0185abe95d2d71521876c3ee71724296e4d2802a7e750d98efec9ed47c9" => :mavericks
-    sha256 "a7c3b0185abe95d2d71521876c3ee71724296e4d2802a7e750d98efec9ed47c9" => :yosemite
+    sha256 "47dd65f32588e07f4255139f39907d4548437b8080b2412ca4f3ca5e1ffd8c13" => :el_capitan
+    sha256 "47dd65f32588e07f4255139f39907d4548437b8080b2412ca4f3ca5e1ffd8c13" => :mavericks
+    sha256 "47dd65f32588e07f4255139f39907d4548437b8080b2412ca4f3ca5e1ffd8c13" => :yosemite
   end
 end

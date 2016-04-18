@@ -10,8 +10,8 @@ class X8664UnknownCloudabiLibgpgError < Formula
 
   bottle do
     root_url "https://nuxi.nl/distfiles/cloudabi-ports/homebrew/links"
-    sha256 "4fe8204b854c23dc6c7aa353512c71d427aa561cc7f090c0d424d4cc17dbfea5" => :el_capitan
-    sha256 "4fe8204b854c23dc6c7aa353512c71d427aa561cc7f090c0d424d4cc17dbfea5" => :mavericks
-    sha256 "4fe8204b854c23dc6c7aa353512c71d427aa561cc7f090c0d424d4cc17dbfea5" => :yosemite
+    sha256 "94bec4503774027db38fc6530cbd1aa25c05cbc90b517ed546486fe9df79818a" => :el_capitan
+    sha256 "94bec4503774027db38fc6530cbd1aa25c05cbc90b517ed546486fe9df79818a" => :mavericks
+    sha256 "94bec4503774027db38fc6530cbd1aa25c05cbc90b517ed546486fe9df79818a" => :yosemite
   end
 end

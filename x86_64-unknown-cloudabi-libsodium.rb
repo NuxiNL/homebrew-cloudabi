@@ -10,8 +10,8 @@ class X8664UnknownCloudabiLibsodium < Formula
 
   bottle do
     root_url "https://nuxi.nl/distfiles/cloudabi-ports/homebrew/links"
-    sha256 "ccc1915efdd52eb6dd333f9c0a3cde46e8e609855ddc6d33f0c4df26db585aa9" => :el_capitan
-    sha256 "ccc1915efdd52eb6dd333f9c0a3cde46e8e609855ddc6d33f0c4df26db585aa9" => :mavericks
-    sha256 "ccc1915efdd52eb6dd333f9c0a3cde46e8e609855ddc6d33f0c4df26db585aa9" => :yosemite
+    sha256 "f5d83d054bcd26d9f428fd3d3598f7235c3e57b03acf29a48fcbce601de93b09" => :el_capitan
+    sha256 "f5d83d054bcd26d9f428fd3d3598f7235c3e57b03acf29a48fcbce601de93b09" => :mavericks
+    sha256 "f5d83d054bcd26d9f428fd3d3598f7235c3e57b03acf29a48fcbce601de93b09" => :yosemite
   end
 end
