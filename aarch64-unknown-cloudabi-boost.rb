@@ -3,7 +3,7 @@ class Aarch64UnknownCloudabiBoost < Formula
   homepage "http://www.boost.org/"
   url "http://this.package.cannot.be.built.from.source/"
   version "1.60.0"
-  revision 8
+  revision 9
   depends_on "aarch64-unknown-cloudabi-bzip2"
   depends_on "aarch64-unknown-cloudabi-cloudabi"
   depends_on "aarch64-unknown-cloudabi-cloudlibc"
@@ -16,8 +16,8 @@ class Aarch64UnknownCloudabiBoost < Formula
 
   bottle do
     root_url "https://nuxi.nl/distfiles/cloudabi-ports/homebrew/links"
-    sha256 "d8dc1f1f8cd5e43045fdad08ef97cfd42e49fe211a729c557e65714998de2d39" => :el_capitan
-    sha256 "d8dc1f1f8cd5e43045fdad08ef97cfd42e49fe211a729c557e65714998de2d39" => :mavericks
-    sha256 "d8dc1f1f8cd5e43045fdad08ef97cfd42e49fe211a729c557e65714998de2d39" => :yosemite
+    sha256 "9fd0c4185e593498a51f5596a557f1aec63d170b41ec3578d1461f27a4dbacb7" => :el_capitan
+    sha256 "9fd0c4185e593498a51f5596a557f1aec63d170b41ec3578d1461f27a4dbacb7" => :mavericks
+    sha256 "9fd0c4185e593498a51f5596a557f1aec63d170b41ec3578d1461f27a4dbacb7" => :yosemite
   end
 end
