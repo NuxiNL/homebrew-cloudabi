@@ -2,8 +2,8 @@ class Aarch64UnknownCloudabiRe2 < Formula
   desc "re2 for aarch64-unknown-cloudabi"
   homepage "https://github.com/google/re2"
   url "http://this.package.cannot.be.built.from.source/"
-  version "0.20160401"
-  revision 2
+  version "0.20160501"
+  revision 1
   depends_on "aarch64-unknown-cloudabi-cloudabi"
   depends_on "aarch64-unknown-cloudabi-cloudlibc"
   depends_on "aarch64-unknown-cloudabi-compiler-rt"
@@ -13,8 +13,8 @@ class Aarch64UnknownCloudabiRe2 < Formula
 
   bottle do
     root_url "https://nuxi.nl/distfiles/cloudabi-ports/homebrew/links"
-    sha256 "a9b466c22949a62587914873394b5bf62e6ed21b5cbcf2c29f730db85917c28c" => :el_capitan
-    sha256 "a9b466c22949a62587914873394b5bf62e6ed21b5cbcf2c29f730db85917c28c" => :mavericks
-    sha256 "a9b466c22949a62587914873394b5bf62e6ed21b5cbcf2c29f730db85917c28c" => :yosemite
+    sha256 "a5dd8758edef88d1f1b73db6f3e4f187465112f7801c54024dacaf7f1900a671" => :el_capitan
+    sha256 "a5dd8758edef88d1f1b73db6f3e4f187465112f7801c54024dacaf7f1900a671" => :mavericks
+    sha256 "a5dd8758edef88d1f1b73db6f3e4f187465112f7801c54024dacaf7f1900a671" => :yosemite
   end
 end
