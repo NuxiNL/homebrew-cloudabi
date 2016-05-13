@@ -3,7 +3,7 @@ class X8664UnknownCloudabiIcu4c < Formula
   homepage "http://site.icu-project.org/"
   url "http://this.package.cannot.be.built.from.source/"
   version "57.1"
-  revision 3
+  revision 4
   depends_on "x86_64-unknown-cloudabi-cloudabi"
   depends_on "x86_64-unknown-cloudabi-cloudlibc"
   depends_on "x86_64-unknown-cloudabi-compiler-rt"
@@ -13,8 +13,8 @@ class X8664UnknownCloudabiIcu4c < Formula
 
   bottle do
     root_url "https://nuxi.nl/distfiles/cloudabi-ports/homebrew/links"
-    sha256 "eded555316ba53213205f42df560c85f8faf5fcdb9b8e68d3e967ba27cab8b16" => :el_capitan
-    sha256 "eded555316ba53213205f42df560c85f8faf5fcdb9b8e68d3e967ba27cab8b16" => :mavericks
-    sha256 "eded555316ba53213205f42df560c85f8faf5fcdb9b8e68d3e967ba27cab8b16" => :yosemite
+    sha256 "c2b4cb0607e78785792fed9eac2e05fed9cb020d8243223c28f64f851e5a9888" => :el_capitan
+    sha256 "c2b4cb0607e78785792fed9eac2e05fed9cb020d8243223c28f64f851e5a9888" => :mavericks
+    sha256 "c2b4cb0607e78785792fed9eac2e05fed9cb020d8243223c28f64f851e5a9888" => :yosemite
   end
 end

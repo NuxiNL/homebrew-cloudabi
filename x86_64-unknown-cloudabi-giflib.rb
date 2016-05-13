@@ -3,15 +3,15 @@ class X8664UnknownCloudabiGiflib < Formula
   homepage "http://giflib.sourceforge.net/"
   url "http://this.package.cannot.be.built.from.source/"
   version "5.1.4"
-  revision 3
+  revision 4
   depends_on "x86_64-unknown-cloudabi-cloudabi"
   depends_on "x86_64-unknown-cloudabi-cloudlibc"
   depends_on "x86_64-unknown-cloudabi-compiler-rt"
 
   bottle do
     root_url "https://nuxi.nl/distfiles/cloudabi-ports/homebrew/links"
-    sha256 "74324c6857b81b7ca6a99a71bed8f170b978e3bcc3153664274ee07cc9b0d7ed" => :el_capitan
-    sha256 "74324c6857b81b7ca6a99a71bed8f170b978e3bcc3153664274ee07cc9b0d7ed" => :mavericks
-    sha256 "74324c6857b81b7ca6a99a71bed8f170b978e3bcc3153664274ee07cc9b0d7ed" => :yosemite
+    sha256 "b20a9d6e03b0dcba896258219dd0ad18000cb09d57a75b46ac3978619ff7c0a8" => :el_capitan
+    sha256 "b20a9d6e03b0dcba896258219dd0ad18000cb09d57a75b46ac3978619ff7c0a8" => :mavericks
+    sha256 "b20a9d6e03b0dcba896258219dd0ad18000cb09d57a75b46ac3978619ff7c0a8" => :yosemite
   end
 end

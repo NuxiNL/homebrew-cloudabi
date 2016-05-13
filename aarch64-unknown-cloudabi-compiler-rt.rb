@@ -3,12 +3,12 @@ class Aarch64UnknownCloudabiCompilerRt < Formula
   homepage "http://compiler-rt.llvm.org/"
   url "http://this.package.cannot.be.built.from.source/"
   version "3.8.0"
-  revision 3
+  revision 4
 
   bottle do
     root_url "https://nuxi.nl/distfiles/cloudabi-ports/homebrew/links"
-    sha256 "18a2a71aced0c662c3c96b12689b617d51bfd512436f1a19cf410dd95bc22326" => :el_capitan
-    sha256 "18a2a71aced0c662c3c96b12689b617d51bfd512436f1a19cf410dd95bc22326" => :mavericks
-    sha256 "18a2a71aced0c662c3c96b12689b617d51bfd512436f1a19cf410dd95bc22326" => :yosemite
+    sha256 "97c585159f6e7af01ef49dd3e976a6326bbbba31b5331355e980a0cac28fb7d0" => :el_capitan
+    sha256 "97c585159f6e7af01ef49dd3e976a6326bbbba31b5331355e980a0cac28fb7d0" => :mavericks
+    sha256 "97c585159f6e7af01ef49dd3e976a6326bbbba31b5331355e980a0cac28fb7d0" => :yosemite
   end
 end

@@ -3,15 +3,15 @@ class Aarch64UnknownCloudabiLzo < Formula
   homepage "http://www.oberhumer.com/opensource/lzo/"
   url "http://this.package.cannot.be.built.from.source/"
   version "2.9"
-  revision 7
+  revision 8
   depends_on "aarch64-unknown-cloudabi-cloudabi"
   depends_on "aarch64-unknown-cloudabi-cloudlibc"
   depends_on "aarch64-unknown-cloudabi-compiler-rt"
 
   bottle do
     root_url "https://nuxi.nl/distfiles/cloudabi-ports/homebrew/links"
-    sha256 "c75997c3b8dfda86dfee290cb19b7896f6e040cd5948ee785a063863e36e59e5" => :el_capitan
-    sha256 "c75997c3b8dfda86dfee290cb19b7896f6e040cd5948ee785a063863e36e59e5" => :mavericks
-    sha256 "c75997c3b8dfda86dfee290cb19b7896f6e040cd5948ee785a063863e36e59e5" => :yosemite
+    sha256 "0efe43e63bdcb5f41d9d475483a68c64f8c23b1ad609ee16675e6fc75dd9584d" => :el_capitan
+    sha256 "0efe43e63bdcb5f41d9d475483a68c64f8c23b1ad609ee16675e6fc75dd9584d" => :mavericks
+    sha256 "0efe43e63bdcb5f41d9d475483a68c64f8c23b1ad609ee16675e6fc75dd9584d" => :yosemite
   end
 end

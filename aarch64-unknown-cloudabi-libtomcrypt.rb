@@ -3,15 +3,15 @@ class Aarch64UnknownCloudabiLibtomcrypt < Formula
   homepage "http://www.libtom.net/"
   url "http://this.package.cannot.be.built.from.source/"
   version "1.17"
-  revision 7
+  revision 8
   depends_on "aarch64-unknown-cloudabi-cloudabi"
   depends_on "aarch64-unknown-cloudabi-cloudlibc"
   depends_on "aarch64-unknown-cloudabi-compiler-rt"
 
   bottle do
     root_url "https://nuxi.nl/distfiles/cloudabi-ports/homebrew/links"
-    sha256 "76c296d8f27744f1673983568c559d52c4f712e32a62822db9f4403c8fe5c06c" => :el_capitan
-    sha256 "76c296d8f27744f1673983568c559d52c4f712e32a62822db9f4403c8fe5c06c" => :mavericks
-    sha256 "76c296d8f27744f1673983568c559d52c4f712e32a62822db9f4403c8fe5c06c" => :yosemite
+    sha256 "e1caad9ffa596f6dd14aaf5d8fd657f2c8808dab4fa6cf07929e84c59692f55a" => :el_capitan
+    sha256 "e1caad9ffa596f6dd14aaf5d8fd657f2c8808dab4fa6cf07929e84c59692f55a" => :mavericks
+    sha256 "e1caad9ffa596f6dd14aaf5d8fd657f2c8808dab4fa6cf07929e84c59692f55a" => :yosemite
   end
 end

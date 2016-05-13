@@ -3,15 +3,15 @@ class Aarch64UnknownCloudabiGmp < Formula
   homepage "https://gmplib.org/"
   url "http://this.package.cannot.be.built.from.source/"
   version "6.1.0"
-  revision 10
+  revision 11
   depends_on "aarch64-unknown-cloudabi-cloudabi"
   depends_on "aarch64-unknown-cloudabi-cloudlibc"
   depends_on "aarch64-unknown-cloudabi-compiler-rt"
 
   bottle do
     root_url "https://nuxi.nl/distfiles/cloudabi-ports/homebrew/links"
-    sha256 "72ddb3a79c86874a3808450d8fe00a79eaa312f1c6afab26b54e30c7aa0c2d66" => :el_capitan
-    sha256 "72ddb3a79c86874a3808450d8fe00a79eaa312f1c6afab26b54e30c7aa0c2d66" => :mavericks
-    sha256 "72ddb3a79c86874a3808450d8fe00a79eaa312f1c6afab26b54e30c7aa0c2d66" => :yosemite
+    sha256 "dc413758991f4ad0c9c6844c1bfda2828d4882d76409d7abf3294737ed0181d4" => :el_capitan
+    sha256 "dc413758991f4ad0c9c6844c1bfda2828d4882d76409d7abf3294737ed0181d4" => :mavericks
+    sha256 "dc413758991f4ad0c9c6844c1bfda2828d4882d76409d7abf3294737ed0181d4" => :yosemite
   end
 end
