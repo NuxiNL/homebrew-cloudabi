@@ -2,8 +2,8 @@ class X8664UnknownCloudabiBoost < Formula
   desc "boost for x86_64-unknown-cloudabi"
   homepage "http://www.boost.org/"
   url "http://this.package.cannot.be.built.from.source/"
-  version "1.60.0"
-  revision 14
+  version "1.61.0"
+  revision 1
   depends_on "x86_64-unknown-cloudabi-bzip2"
   depends_on "x86_64-unknown-cloudabi-cloudabi"
   depends_on "x86_64-unknown-cloudabi-cloudlibc"
@@ -16,8 +16,8 @@ class X8664UnknownCloudabiBoost < Formula
 
   bottle do
     root_url "https://nuxi.nl/distfiles/cloudabi-ports/homebrew/links"
-    sha256 "36e80c080e99d6558f96f48cc1c2577273e846a426bf8d1e40dc6f2a075180bb" => :el_capitan
-    sha256 "36e80c080e99d6558f96f48cc1c2577273e846a426bf8d1e40dc6f2a075180bb" => :mavericks
-    sha256 "36e80c080e99d6558f96f48cc1c2577273e846a426bf8d1e40dc6f2a075180bb" => :yosemite
+    sha256 "7f2a536656fcd51a7ee313514bdaa99960c7deb8febc07a5bfd0c96ad6ea326a" => :el_capitan
+    sha256 "7f2a536656fcd51a7ee313514bdaa99960c7deb8febc07a5bfd0c96ad6ea326a" => :mavericks
+    sha256 "7f2a536656fcd51a7ee313514bdaa99960c7deb8febc07a5bfd0c96ad6ea326a" => :yosemite
   end
 end
