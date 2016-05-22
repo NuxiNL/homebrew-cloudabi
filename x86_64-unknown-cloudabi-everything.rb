@@ -3,7 +3,7 @@ class X8664UnknownCloudabiEverything < Formula
   homepage "https://nuxi.nl/"
   url "http://this.package.cannot.be.built.from.source/"
   version "1.0"
-  revision 7
+  revision 8
   depends_on "x86_64-unknown-cloudabi-boost"
   depends_on "x86_64-unknown-cloudabi-buddy"
   depends_on "x86_64-unknown-cloudabi-bzip2"
@@ -61,6 +61,7 @@ class X8664UnknownCloudabiEverything < Formula
   depends_on "x86_64-unknown-cloudabi-libxslt"
   depends_on "x86_64-unknown-cloudabi-libxspf"
   depends_on "x86_64-unknown-cloudabi-lua"
+  depends_on "x86_64-unknown-cloudabi-lz4"
   depends_on "x86_64-unknown-cloudabi-lzo"
   depends_on "x86_64-unknown-cloudabi-memcached"
   depends_on "x86_64-unknown-cloudabi-mpfr"
@@ -74,6 +75,7 @@ class X8664UnknownCloudabiEverything < Formula
   depends_on "x86_64-unknown-cloudabi-pixman"
   depends_on "x86_64-unknown-cloudabi-qpdf"
   depends_on "x86_64-unknown-cloudabi-re2"
+  depends_on "x86_64-unknown-cloudabi-snappy"
   depends_on "x86_64-unknown-cloudabi-speex"
   depends_on "x86_64-unknown-cloudabi-speexdsp"
   depends_on "x86_64-unknown-cloudabi-taglib"
@@ -87,8 +89,8 @@ class X8664UnknownCloudabiEverything < Formula
 
   bottle do
     root_url "https://nuxi.nl/distfiles/cloudabi-ports/homebrew/links"
-    sha256 "4f75cb67d04aa932dfb450ae8fa01857a22029089c587e20d27d5512967df27d" => :el_capitan
-    sha256 "4f75cb67d04aa932dfb450ae8fa01857a22029089c587e20d27d5512967df27d" => :mavericks
-    sha256 "4f75cb67d04aa932dfb450ae8fa01857a22029089c587e20d27d5512967df27d" => :yosemite
+    sha256 "49264693ba507e504c942c9401908bb5f2b690f9edbd57635bb4d21a3fa5a9d3" => :el_capitan
+    sha256 "49264693ba507e504c942c9401908bb5f2b690f9edbd57635bb4d21a3fa5a9d3" => :mavericks
+    sha256 "49264693ba507e504c942c9401908bb5f2b690f9edbd57635bb4d21a3fa5a9d3" => :yosemite
   end
 end
