@@ -3,15 +3,15 @@ class Aarch64UnknownCloudabiNspr < Formula
   homepage "https://developer.mozilla.org/en-US/docs/Mozilla/Projects/NSPR"
   url "http://this.package.cannot.be.built.from.source/"
   version "4.12"
-  revision 9
+  revision 10
   depends_on "aarch64-unknown-cloudabi-cloudabi"
   depends_on "aarch64-unknown-cloudabi-cloudlibc"
   depends_on "aarch64-unknown-cloudabi-compiler-rt"
 
   bottle do
     root_url "https://nuxi.nl/distfiles/cloudabi-ports/homebrew/links"
-    sha256 "daf86e68c43bd8c4c6c58ddaada0e1907a84e2c970c99c3715fec8020323b0e6" => :el_capitan
-    sha256 "daf86e68c43bd8c4c6c58ddaada0e1907a84e2c970c99c3715fec8020323b0e6" => :mavericks
-    sha256 "daf86e68c43bd8c4c6c58ddaada0e1907a84e2c970c99c3715fec8020323b0e6" => :yosemite
+    sha256 "e7496cbee55a10bd28bdbe8b7fee30cedd607020dc14d2c7e2a1b52be2d379c7" => :el_capitan
+    sha256 "e7496cbee55a10bd28bdbe8b7fee30cedd607020dc14d2c7e2a1b52be2d379c7" => :mavericks
+    sha256 "e7496cbee55a10bd28bdbe8b7fee30cedd607020dc14d2c7e2a1b52be2d379c7" => :yosemite
   end
 end
