@@ -3,7 +3,7 @@ class Aarch64UnknownCloudabiLibpng < Formula
   homepage "http://www.libpng.org/"
   url "http://this.package.cannot.be.built.from.source/"
   version "1.6.23"
-  revision 1
+  revision 2
   depends_on "aarch64-unknown-cloudabi-cloudabi"
   depends_on "aarch64-unknown-cloudabi-cloudlibc"
   depends_on "aarch64-unknown-cloudabi-compiler-rt"
@@ -11,8 +11,8 @@ class Aarch64UnknownCloudabiLibpng < Formula
 
   bottle do
     root_url "https://nuxi.nl/distfiles/cloudabi-ports/homebrew/links"
-    sha256 "75b028185d4d4e3c325bc4130181f6a4dcba97d8363e7bf57340170c791db629" => :el_capitan
-    sha256 "75b028185d4d4e3c325bc4130181f6a4dcba97d8363e7bf57340170c791db629" => :mavericks
-    sha256 "75b028185d4d4e3c325bc4130181f6a4dcba97d8363e7bf57340170c791db629" => :yosemite
+    sha256 "af70b900bc93ce78bb288ea30408e84e59b11866e20fbd90213588bfb22be5b7" => :el_capitan
+    sha256 "af70b900bc93ce78bb288ea30408e84e59b11866e20fbd90213588bfb22be5b7" => :mavericks
+    sha256 "af70b900bc93ce78bb288ea30408e84e59b11866e20fbd90213588bfb22be5b7" => :yosemite
   end
 end
