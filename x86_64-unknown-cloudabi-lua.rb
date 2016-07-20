@@ -3,15 +3,15 @@ class X8664UnknownCloudabiLua < Formula
   homepage "http://www.lua.org/"
   url "http://this.package.cannot.be.built.from.source/"
   version "5.3.3"
-  revision 4
+  revision 5
   depends_on "x86_64-unknown-cloudabi-cloudabi"
   depends_on "x86_64-unknown-cloudabi-cloudlibc"
   depends_on "x86_64-unknown-cloudabi-compiler-rt"
 
   bottle do
     root_url "https://nuxi.nl/distfiles/cloudabi-ports/homebrew/links"
-    sha256 "0fcccfbf4881e9085a8c3e649e6f44c5efdac310e7cf046a94295b49d51703ec" => :el_capitan
-    sha256 "0fcccfbf4881e9085a8c3e649e6f44c5efdac310e7cf046a94295b49d51703ec" => :mavericks
-    sha256 "0fcccfbf4881e9085a8c3e649e6f44c5efdac310e7cf046a94295b49d51703ec" => :yosemite
+    sha256 "7ee3e9687b0f67bdc463199a9e880bb013ead4b96492149cc6eaf2dd335c44b8" => :el_capitan
+    sha256 "7ee3e9687b0f67bdc463199a9e880bb013ead4b96492149cc6eaf2dd335c44b8" => :mavericks
+    sha256 "7ee3e9687b0f67bdc463199a9e880bb013ead4b96492149cc6eaf2dd335c44b8" => :yosemite
   end
 end
