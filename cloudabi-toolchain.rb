@@ -32,7 +32,7 @@ class CloudabiToolchain < Formula
       system "make", "install"
     end
 
-    %w[aarch64-unknown-cloudabi x86_64-unknown-cloudabi].each do |arch|
+    %w[aarch64-unknown-cloudabi i686-unknown-cloudabi x86_64-unknown-cloudabi].each do |arch|
       # Create symbolic links to various LLVM utilities, all starting
       # with the name of the cross compilation target. Tools like Clang
       # parse argv[0] to determine the target automatically.
