@@ -3,15 +3,15 @@ class X8664UnknownCloudabiPcre2 < Formula
   homepage "http://www.pcre.org/"
   url "http://this.package.cannot.be.built.from.source/"
   version "10.21"
-  revision 8
+  revision 9
   depends_on "x86_64-unknown-cloudabi-cloudabi"
   depends_on "x86_64-unknown-cloudabi-cloudlibc"
   depends_on "x86_64-unknown-cloudabi-compiler-rt"
 
   bottle do
     root_url "https://nuxi.nl/distfiles/cloudabi-ports/homebrew/links"
-    sha256 "38be5960e12dc31a903f8919a2869297e0d523a3fa6a0ed3852661ae511d932e" => :el_capitan
-    sha256 "38be5960e12dc31a903f8919a2869297e0d523a3fa6a0ed3852661ae511d932e" => :mavericks
-    sha256 "38be5960e12dc31a903f8919a2869297e0d523a3fa6a0ed3852661ae511d932e" => :yosemite
+    sha256 "e7a27f9bcc13b76835a245cf85e5ebeec07f0485dee076f0531f0bb4c89b90b3" => :el_capitan
+    sha256 "e7a27f9bcc13b76835a245cf85e5ebeec07f0485dee076f0531f0bb4c89b90b3" => :mavericks
+    sha256 "e7a27f9bcc13b76835a245cf85e5ebeec07f0485dee076f0531f0bb4c89b90b3" => :yosemite
   end
 end

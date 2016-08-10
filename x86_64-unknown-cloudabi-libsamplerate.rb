@@ -3,15 +3,15 @@ class X8664UnknownCloudabiLibsamplerate < Formula
   homepage "http://www.mega-nerd.com/SRC/"
   url "http://this.package.cannot.be.built.from.source/"
   version "0.1.8"
-  revision 10
+  revision 11
   depends_on "x86_64-unknown-cloudabi-cloudabi"
   depends_on "x86_64-unknown-cloudabi-cloudlibc"
   depends_on "x86_64-unknown-cloudabi-compiler-rt"
 
   bottle do
     root_url "https://nuxi.nl/distfiles/cloudabi-ports/homebrew/links"
-    sha256 "50a6f5c0f08983ab11a80c7410bf1d7a6152d5af77025ac73b25dc3a72d56cf5" => :el_capitan
-    sha256 "50a6f5c0f08983ab11a80c7410bf1d7a6152d5af77025ac73b25dc3a72d56cf5" => :mavericks
-    sha256 "50a6f5c0f08983ab11a80c7410bf1d7a6152d5af77025ac73b25dc3a72d56cf5" => :yosemite
+    sha256 "48682536a6c962ae8a8700ab134ae0e0d888030dcae7bfe0bd09c4548a49c060" => :el_capitan
+    sha256 "48682536a6c962ae8a8700ab134ae0e0d888030dcae7bfe0bd09c4548a49c060" => :mavericks
+    sha256 "48682536a6c962ae8a8700ab134ae0e0d888030dcae7bfe0bd09c4548a49c060" => :yosemite
   end
 end

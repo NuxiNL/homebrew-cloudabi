@@ -1,0 +1,17 @@
+class I686UnknownCloudabiBzip2 < Formula
+  desc "bzip2 for i686-unknown-cloudabi"
+  homepage "http://www.bzip.org/"
+  url "http://this.package.cannot.be.built.from.source/"
+  version "1.0.6"
+  revision 1
+  depends_on "i686-unknown-cloudabi-cloudabi"
+  depends_on "i686-unknown-cloudabi-cloudlibc"
+  depends_on "i686-unknown-cloudabi-compiler-rt"
+
+  bottle do
+    root_url "https://nuxi.nl/distfiles/cloudabi-ports/homebrew/links"
+    sha256 "77b699dc51520bbe92a99e8f27dd3fcc79d8d3726f63f91f913be9e9c7381634" => :el_capitan
+    sha256 "77b699dc51520bbe92a99e8f27dd3fcc79d8d3726f63f91f913be9e9c7381634" => :mavericks
+    sha256 "77b699dc51520bbe92a99e8f27dd3fcc79d8d3726f63f91f913be9e9c7381634" => :yosemite
+  end
+end

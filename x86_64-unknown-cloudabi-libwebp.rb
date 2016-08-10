@@ -3,15 +3,15 @@ class X8664UnknownCloudabiLibwebp < Formula
   homepage "https://developers.google.com/speed/webp/"
   url "http://this.package.cannot.be.built.from.source/"
   version "0.5.0"
-  revision 8
+  revision 9
   depends_on "x86_64-unknown-cloudabi-cloudabi"
   depends_on "x86_64-unknown-cloudabi-cloudlibc"
   depends_on "x86_64-unknown-cloudabi-compiler-rt"
 
   bottle do
     root_url "https://nuxi.nl/distfiles/cloudabi-ports/homebrew/links"
-    sha256 "979aa2aac6f71fb8a7196505d19480975c91dc0ea6568aa5da7eda35b825cf23" => :el_capitan
-    sha256 "979aa2aac6f71fb8a7196505d19480975c91dc0ea6568aa5da7eda35b825cf23" => :mavericks
-    sha256 "979aa2aac6f71fb8a7196505d19480975c91dc0ea6568aa5da7eda35b825cf23" => :yosemite
+    sha256 "0672f92fb65b12b639285406b2289d2e11efaf43de08e077cbc1f35d67ee78f0" => :el_capitan
+    sha256 "0672f92fb65b12b639285406b2289d2e11efaf43de08e077cbc1f35d67ee78f0" => :mavericks
+    sha256 "0672f92fb65b12b639285406b2289d2e11efaf43de08e077cbc1f35d67ee78f0" => :yosemite
   end
 end
