@@ -3,15 +3,15 @@ class Aarch64UnknownCloudabiJpeg < Formula
   homepage "http://www.ijg.org/"
   url "http://this.package.cannot.be.built.from.source/"
   version "9.2"
-  revision 7
+  revision 8
   depends_on "aarch64-unknown-cloudabi-cloudabi"
   depends_on "aarch64-unknown-cloudabi-cloudlibc"
   depends_on "aarch64-unknown-cloudabi-compiler-rt"
 
   bottle do
     root_url "https://nuxi.nl/distfiles/cloudabi-ports/homebrew/links"
-    sha256 "3e55d5b275da5b6e695717cb166b18115e3c12a82eaa604d03ecd34e5673357f" => :el_capitan
-    sha256 "3e55d5b275da5b6e695717cb166b18115e3c12a82eaa604d03ecd34e5673357f" => :mavericks
-    sha256 "3e55d5b275da5b6e695717cb166b18115e3c12a82eaa604d03ecd34e5673357f" => :yosemite
+    sha256 "efd6c15665b8a8ebc5760c03aa27c9313ee83cd885f4dc6bebbe782b9819b3c6" => :el_capitan
+    sha256 "efd6c15665b8a8ebc5760c03aa27c9313ee83cd885f4dc6bebbe782b9819b3c6" => :mavericks
+    sha256 "efd6c15665b8a8ebc5760c03aa27c9313ee83cd885f4dc6bebbe782b9819b3c6" => :yosemite
   end
 end

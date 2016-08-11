@@ -3,15 +3,15 @@ class Aarch64UnknownCloudabiFribidi < Formula
   homepage "http://fribidi.org/"
   url "http://this.package.cannot.be.built.from.source/"
   version "0.19.7"
-  revision 8
+  revision 9
   depends_on "aarch64-unknown-cloudabi-cloudabi"
   depends_on "aarch64-unknown-cloudabi-cloudlibc"
   depends_on "aarch64-unknown-cloudabi-compiler-rt"
 
   bottle do
     root_url "https://nuxi.nl/distfiles/cloudabi-ports/homebrew/links"
-    sha256 "0648bac42fe0d50d81191ec630e2853857a7772a6c9da4da1775ae8731ddae61" => :el_capitan
-    sha256 "0648bac42fe0d50d81191ec630e2853857a7772a6c9da4da1775ae8731ddae61" => :mavericks
-    sha256 "0648bac42fe0d50d81191ec630e2853857a7772a6c9da4da1775ae8731ddae61" => :yosemite
+    sha256 "79f09d72ae7c878249d07582ed5f4f74fa38b580b38a22b87906de3ea3164a3d" => :el_capitan
+    sha256 "79f09d72ae7c878249d07582ed5f4f74fa38b580b38a22b87906de3ea3164a3d" => :mavericks
+    sha256 "79f09d72ae7c878249d07582ed5f4f74fa38b580b38a22b87906de3ea3164a3d" => :yosemite
   end
 end

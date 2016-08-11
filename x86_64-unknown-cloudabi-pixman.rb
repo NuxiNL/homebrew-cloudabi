@@ -3,15 +3,15 @@ class X8664UnknownCloudabiPixman < Formula
   homepage "http://www.pixman.org/"
   url "http://this.package.cannot.be.built.from.source/"
   version "0.34.0"
-  revision 9
+  revision 10
   depends_on "x86_64-unknown-cloudabi-cloudabi"
   depends_on "x86_64-unknown-cloudabi-cloudlibc"
   depends_on "x86_64-unknown-cloudabi-compiler-rt"
 
   bottle do
     root_url "https://nuxi.nl/distfiles/cloudabi-ports/homebrew/links"
-    sha256 "6210b6e7fd131f43aeded03bd9e01b4f97cd74633de0e1080db4ff0d2cf614de" => :el_capitan
-    sha256 "6210b6e7fd131f43aeded03bd9e01b4f97cd74633de0e1080db4ff0d2cf614de" => :mavericks
-    sha256 "6210b6e7fd131f43aeded03bd9e01b4f97cd74633de0e1080db4ff0d2cf614de" => :yosemite
+    sha256 "92f167f3f5b059c713aabaa6ffe70d784a1c85872211871ec37f852752bebf48" => :el_capitan
+    sha256 "92f167f3f5b059c713aabaa6ffe70d784a1c85872211871ec37f852752bebf48" => :mavericks
+    sha256 "92f167f3f5b059c713aabaa6ffe70d784a1c85872211871ec37f852752bebf48" => :yosemite
   end
 end

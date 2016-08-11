@@ -3,15 +3,15 @@ class Aarch64UnknownCloudabiLibogg < Formula
   homepage "https://xiph.org/ogg/"
   url "http://this.package.cannot.be.built.from.source/"
   version "1.3.2"
-  revision 9
+  revision 10
   depends_on "aarch64-unknown-cloudabi-cloudabi"
   depends_on "aarch64-unknown-cloudabi-cloudlibc"
   depends_on "aarch64-unknown-cloudabi-compiler-rt"
 
   bottle do
     root_url "https://nuxi.nl/distfiles/cloudabi-ports/homebrew/links"
-    sha256 "924078164c83c7003c73da7629122385bc68e7f4331dc751942db91500090b3c" => :el_capitan
-    sha256 "924078164c83c7003c73da7629122385bc68e7f4331dc751942db91500090b3c" => :mavericks
-    sha256 "924078164c83c7003c73da7629122385bc68e7f4331dc751942db91500090b3c" => :yosemite
+    sha256 "6f49bef50fc302f59e44a7180992a36e8548694779759ac5bde0e6866f504e8d" => :el_capitan
+    sha256 "6f49bef50fc302f59e44a7180992a36e8548694779759ac5bde0e6866f504e8d" => :mavericks
+    sha256 "6f49bef50fc302f59e44a7180992a36e8548694779759ac5bde0e6866f504e8d" => :yosemite
   end
 end

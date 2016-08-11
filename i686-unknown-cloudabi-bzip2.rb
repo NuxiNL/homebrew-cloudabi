@@ -3,15 +3,15 @@ class I686UnknownCloudabiBzip2 < Formula
   homepage "http://www.bzip.org/"
   url "http://this.package.cannot.be.built.from.source/"
   version "1.0.6"
-  revision 1
+  revision 2
   depends_on "i686-unknown-cloudabi-cloudabi"
   depends_on "i686-unknown-cloudabi-cloudlibc"
   depends_on "i686-unknown-cloudabi-compiler-rt"
 
   bottle do
     root_url "https://nuxi.nl/distfiles/cloudabi-ports/homebrew/links"
-    sha256 "77b699dc51520bbe92a99e8f27dd3fcc79d8d3726f63f91f913be9e9c7381634" => :el_capitan
-    sha256 "77b699dc51520bbe92a99e8f27dd3fcc79d8d3726f63f91f913be9e9c7381634" => :mavericks
-    sha256 "77b699dc51520bbe92a99e8f27dd3fcc79d8d3726f63f91f913be9e9c7381634" => :yosemite
+    sha256 "c4330d01d833f811685f67d634c27a6952f61efa03e949be45f03603a2ba31aa" => :el_capitan
+    sha256 "c4330d01d833f811685f67d634c27a6952f61efa03e949be45f03603a2ba31aa" => :mavericks
+    sha256 "c4330d01d833f811685f67d634c27a6952f61efa03e949be45f03603a2ba31aa" => :yosemite
   end
 end

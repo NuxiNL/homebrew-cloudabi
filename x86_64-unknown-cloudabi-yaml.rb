@@ -3,15 +3,15 @@ class X8664UnknownCloudabiYaml < Formula
   homepage "http://pyyaml.org/wiki/LibYAML"
   url "http://this.package.cannot.be.built.from.source/"
   version "0.1.6"
-  revision 11
+  revision 12
   depends_on "x86_64-unknown-cloudabi-cloudabi"
   depends_on "x86_64-unknown-cloudabi-cloudlibc"
   depends_on "x86_64-unknown-cloudabi-compiler-rt"
 
   bottle do
     root_url "https://nuxi.nl/distfiles/cloudabi-ports/homebrew/links"
-    sha256 "13696aabf1e6c6c9ac0cfa7f274ba9fdc0d07f3e83c11bbb4363f3217ee1b703" => :el_capitan
-    sha256 "13696aabf1e6c6c9ac0cfa7f274ba9fdc0d07f3e83c11bbb4363f3217ee1b703" => :mavericks
-    sha256 "13696aabf1e6c6c9ac0cfa7f274ba9fdc0d07f3e83c11bbb4363f3217ee1b703" => :yosemite
+    sha256 "47ddd9c1a3ce6ac6a702a73a4c6761dced49e450620da08a89893630aa66774c" => :el_capitan
+    sha256 "47ddd9c1a3ce6ac6a702a73a4c6761dced49e450620da08a89893630aa66774c" => :mavericks
+    sha256 "47ddd9c1a3ce6ac6a702a73a4c6761dced49e450620da08a89893630aa66774c" => :yosemite
   end
 end

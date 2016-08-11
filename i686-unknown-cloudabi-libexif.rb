@@ -3,15 +3,15 @@ class I686UnknownCloudabiLibexif < Formula
   homepage "http://libexif.sourceforge.net/"
   url "http://this.package.cannot.be.built.from.source/"
   version "0.6.21"
-  revision 1
+  revision 2
   depends_on "i686-unknown-cloudabi-cloudabi"
   depends_on "i686-unknown-cloudabi-cloudlibc"
   depends_on "i686-unknown-cloudabi-compiler-rt"
 
   bottle do
     root_url "https://nuxi.nl/distfiles/cloudabi-ports/homebrew/links"
-    sha256 "1ff6225d76a395d767575c7c70f6ac779fabcf7237456b001991ddf953ce1af6" => :el_capitan
-    sha256 "1ff6225d76a395d767575c7c70f6ac779fabcf7237456b001991ddf953ce1af6" => :mavericks
-    sha256 "1ff6225d76a395d767575c7c70f6ac779fabcf7237456b001991ddf953ce1af6" => :yosemite
+    sha256 "a9a044968ff416a0f0b9144240a3c8916e3245e2ec2bf2693a6ece87258dfcf4" => :el_capitan
+    sha256 "a9a044968ff416a0f0b9144240a3c8916e3245e2ec2bf2693a6ece87258dfcf4" => :mavericks
+    sha256 "a9a044968ff416a0f0b9144240a3c8916e3245e2ec2bf2693a6ece87258dfcf4" => :yosemite
   end
 end
