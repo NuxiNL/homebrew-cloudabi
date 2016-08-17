@@ -3,15 +3,15 @@ class Aarch64UnknownCloudabiCloudabiReexec < Formula
   homepage "https://github.com/NuxiNL/cloudabi-utils"
   url "http://this.package.cannot.be.built.from.source/"
   version "1.0"
-  revision 18
+  revision 19
   depends_on "aarch64-unknown-cloudabi-cloudabi"
   depends_on "aarch64-unknown-cloudabi-cloudlibc"
   depends_on "aarch64-unknown-cloudabi-compiler-rt"
 
   bottle do
     root_url "https://nuxi.nl/distfiles/cloudabi-ports/homebrew/links"
-    sha256 "0fe146fc6d2f41d44c8cd8b022b72fba4a651eb5afa891bf955b9d1e7e9a9f4e" => :el_capitan
-    sha256 "0fe146fc6d2f41d44c8cd8b022b72fba4a651eb5afa891bf955b9d1e7e9a9f4e" => :mavericks
-    sha256 "0fe146fc6d2f41d44c8cd8b022b72fba4a651eb5afa891bf955b9d1e7e9a9f4e" => :yosemite
+    sha256 "cbb1e2064705729a07b2c5556335bfdb371811c0aaf36091e7a76e3a186d527a" => :el_capitan
+    sha256 "cbb1e2064705729a07b2c5556335bfdb371811c0aaf36091e7a76e3a186d527a" => :mavericks
+    sha256 "cbb1e2064705729a07b2c5556335bfdb371811c0aaf36091e7a76e3a186d527a" => :yosemite
   end
 end
