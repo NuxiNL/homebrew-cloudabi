@@ -3,7 +3,7 @@ class Aarch64UnknownCloudabiTaglib < Formula
   homepage "https://taglib.github.io/"
   url "http://this.package.cannot.be.built.from.source/"
   version "1.11"
-  revision 3
+  revision 4
   depends_on "aarch64-unknown-cloudabi-cloudabi"
   depends_on "aarch64-unknown-cloudabi-cloudlibc"
   depends_on "aarch64-unknown-cloudabi-compiler-rt"
@@ -14,8 +14,8 @@ class Aarch64UnknownCloudabiTaglib < Formula
 
   bottle do
     root_url "https://nuxi.nl/distfiles/cloudabi-ports/homebrew/links"
-    sha256 "9d1aa0439aaaeacfc12be4e966e8be5efa88c27005a59456a27045b6637a57aa" => :el_capitan
-    sha256 "9d1aa0439aaaeacfc12be4e966e8be5efa88c27005a59456a27045b6637a57aa" => :mavericks
-    sha256 "9d1aa0439aaaeacfc12be4e966e8be5efa88c27005a59456a27045b6637a57aa" => :yosemite
+    sha256 "450b26a0e810cb96422e6699f3120a0c080ef4107fdbf90d17c1b66c9428575c" => :el_capitan
+    sha256 "450b26a0e810cb96422e6699f3120a0c080ef4107fdbf90d17c1b66c9428575c" => :mavericks
+    sha256 "450b26a0e810cb96422e6699f3120a0c080ef4107fdbf90d17c1b66c9428575c" => :yosemite
   end
 end

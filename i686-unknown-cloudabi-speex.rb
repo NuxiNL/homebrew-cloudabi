@@ -3,15 +3,15 @@ class I686UnknownCloudabiSpeex < Formula
   homepage "http://www.speex.org/"
   url "http://this.package.cannot.be.built.from.source/"
   version "1.1.92"
-  revision 2
+  revision 3
   depends_on "i686-unknown-cloudabi-cloudabi"
   depends_on "i686-unknown-cloudabi-cloudlibc"
   depends_on "i686-unknown-cloudabi-compiler-rt"
 
   bottle do
     root_url "https://nuxi.nl/distfiles/cloudabi-ports/homebrew/links"
-    sha256 "0901815d0c987d009497e07bd378ab901b26c2c8888b4e5108fd2a5724163419" => :el_capitan
-    sha256 "0901815d0c987d009497e07bd378ab901b26c2c8888b4e5108fd2a5724163419" => :mavericks
-    sha256 "0901815d0c987d009497e07bd378ab901b26c2c8888b4e5108fd2a5724163419" => :yosemite
+    sha256 "2becb2a0c5e72539c235e0b12abfe0e01908d6854ab15bdbe4211312b397ef64" => :el_capitan
+    sha256 "2becb2a0c5e72539c235e0b12abfe0e01908d6854ab15bdbe4211312b397ef64" => :mavericks
+    sha256 "2becb2a0c5e72539c235e0b12abfe0e01908d6854ab15bdbe4211312b397ef64" => :yosemite
   end
 end

@@ -2,7 +2,7 @@ class Aarch64UnknownCloudabiLibunwind < Formula
   desc "libunwind for aarch64-unknown-cloudabi"
   homepage "http://libcxx.llvm.org/"
   url "http://this.package.cannot.be.built.from.source/"
-  version "3.8.91"
+  version "3.8.92"
   revision 1
   depends_on "aarch64-unknown-cloudabi-cloudabi"
   depends_on "aarch64-unknown-cloudabi-cloudlibc"
@@ -11,8 +11,8 @@ class Aarch64UnknownCloudabiLibunwind < Formula
 
   bottle do
     root_url "https://nuxi.nl/distfiles/cloudabi-ports/homebrew/links"
-    sha256 "c0689c32903eeb3bf3efc0509c5902676e290b3cf1c197be7155074268d3a104" => :el_capitan
-    sha256 "c0689c32903eeb3bf3efc0509c5902676e290b3cf1c197be7155074268d3a104" => :mavericks
-    sha256 "c0689c32903eeb3bf3efc0509c5902676e290b3cf1c197be7155074268d3a104" => :yosemite
+    sha256 "08c47ca500c051dd7ccaea87199648aa7f1b66a062bccfd4e8bd7e9c7f88ecec" => :el_capitan
+    sha256 "08c47ca500c051dd7ccaea87199648aa7f1b66a062bccfd4e8bd7e9c7f88ecec" => :mavericks
+    sha256 "08c47ca500c051dd7ccaea87199648aa7f1b66a062bccfd4e8bd7e9c7f88ecec" => :yosemite
   end
 end

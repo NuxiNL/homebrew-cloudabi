@@ -3,7 +3,7 @@ class X8664UnknownCloudabiSnappy < Formula
   homepage "https://google.github.io/snappy/"
   url "http://this.package.cannot.be.built.from.source/"
   version "1.1.3"
-  revision 3
+  revision 4
   depends_on "x86_64-unknown-cloudabi-cloudabi"
   depends_on "x86_64-unknown-cloudabi-cloudlibc"
   depends_on "x86_64-unknown-cloudabi-compiler-rt"
@@ -13,8 +13,8 @@ class X8664UnknownCloudabiSnappy < Formula
 
   bottle do
     root_url "https://nuxi.nl/distfiles/cloudabi-ports/homebrew/links"
-    sha256 "f2f302edbe2a437ef1b1da5396266135ef5eb4deee545e43c528c322bc4a2940" => :el_capitan
-    sha256 "f2f302edbe2a437ef1b1da5396266135ef5eb4deee545e43c528c322bc4a2940" => :mavericks
-    sha256 "f2f302edbe2a437ef1b1da5396266135ef5eb4deee545e43c528c322bc4a2940" => :yosemite
+    sha256 "955cbe4af86a576ac87db2aad3cf4ce6354133c67eeb1c97d1c3f9992b85096b" => :el_capitan
+    sha256 "955cbe4af86a576ac87db2aad3cf4ce6354133c67eeb1c97d1c3f9992b85096b" => :mavericks
+    sha256 "955cbe4af86a576ac87db2aad3cf4ce6354133c67eeb1c97d1c3f9992b85096b" => :yosemite
   end
 end

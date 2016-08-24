@@ -3,7 +3,7 @@ class I686UnknownCloudabiLibcroco < Formula
   homepage "https://github.com/GNOME/libcroco"
   url "http://this.package.cannot.be.built.from.source/"
   version "0.6.11"
-  revision 2
+  revision 3
   depends_on "i686-unknown-cloudabi-cloudabi"
   depends_on "i686-unknown-cloudabi-cloudlibc"
   depends_on "i686-unknown-cloudabi-compiler-rt"
@@ -18,8 +18,8 @@ class I686UnknownCloudabiLibcroco < Formula
 
   bottle do
     root_url "https://nuxi.nl/distfiles/cloudabi-ports/homebrew/links"
-    sha256 "07bfe84e638d35cf46e320da58b21e2a1e1155f38168f242bd40383bd06b52a9" => :el_capitan
-    sha256 "07bfe84e638d35cf46e320da58b21e2a1e1155f38168f242bd40383bd06b52a9" => :mavericks
-    sha256 "07bfe84e638d35cf46e320da58b21e2a1e1155f38168f242bd40383bd06b52a9" => :yosemite
+    sha256 "72f83b66d16cea2c0f49695cac316d7789d1a7f07117c1e06fb98ecc821e836d" => :el_capitan
+    sha256 "72f83b66d16cea2c0f49695cac316d7789d1a7f07117c1e06fb98ecc821e836d" => :mavericks
+    sha256 "72f83b66d16cea2c0f49695cac316d7789d1a7f07117c1e06fb98ecc821e836d" => :yosemite
   end
 end

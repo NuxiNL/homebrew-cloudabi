@@ -2,13 +2,13 @@ class I686UnknownCloudabiCompilerRt < Formula
   desc "compiler-rt for i686-unknown-cloudabi"
   homepage "http://compiler-rt.llvm.org/"
   url "http://this.package.cannot.be.built.from.source/"
-  version "3.8.91"
+  version "3.8.92"
   revision 1
 
   bottle do
     root_url "https://nuxi.nl/distfiles/cloudabi-ports/homebrew/links"
-    sha256 "2b5f5a82316537c5373854863d79556583250839c6ae6ffa406f886dd3bbcce6" => :el_capitan
-    sha256 "2b5f5a82316537c5373854863d79556583250839c6ae6ffa406f886dd3bbcce6" => :mavericks
-    sha256 "2b5f5a82316537c5373854863d79556583250839c6ae6ffa406f886dd3bbcce6" => :yosemite
+    sha256 "6c3a2d64af65668a07cebece157658b2e9d26f8768ee22a6eac3bffb16bf1572" => :el_capitan
+    sha256 "6c3a2d64af65668a07cebece157658b2e9d26f8768ee22a6eac3bffb16bf1572" => :mavericks
+    sha256 "6c3a2d64af65668a07cebece157658b2e9d26f8768ee22a6eac3bffb16bf1572" => :yosemite
   end
 end

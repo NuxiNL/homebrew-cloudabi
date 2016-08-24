@@ -3,7 +3,7 @@ class Aarch64UnknownCloudabiFlac < Formula
   homepage "https://xiph.org/flac/"
   url "http://this.package.cannot.be.built.from.source/"
   version "1.3.1"
-  revision 9
+  revision 10
   depends_on "aarch64-unknown-cloudabi-cloudabi"
   depends_on "aarch64-unknown-cloudabi-cloudlibc"
   depends_on "aarch64-unknown-cloudabi-compiler-rt"
@@ -14,8 +14,8 @@ class Aarch64UnknownCloudabiFlac < Formula
 
   bottle do
     root_url "https://nuxi.nl/distfiles/cloudabi-ports/homebrew/links"
-    sha256 "8f7a86af78a1b3423824ad4928867b7c46d9b7e1612b29d25a88d5e105a135ed" => :el_capitan
-    sha256 "8f7a86af78a1b3423824ad4928867b7c46d9b7e1612b29d25a88d5e105a135ed" => :mavericks
-    sha256 "8f7a86af78a1b3423824ad4928867b7c46d9b7e1612b29d25a88d5e105a135ed" => :yosemite
+    sha256 "b880ec58bc6499e76b1fea46a36ff86334ca338f2a09495cab48e500b699546e" => :el_capitan
+    sha256 "b880ec58bc6499e76b1fea46a36ff86334ca338f2a09495cab48e500b699546e" => :mavericks
+    sha256 "b880ec58bc6499e76b1fea46a36ff86334ca338f2a09495cab48e500b699546e" => :yosemite
   end
 end

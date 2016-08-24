@@ -3,15 +3,15 @@ class Aarch64UnknownCloudabiJasper < Formula
   homepage "http://www.ece.uvic.ca/~frodo/jasper/"
   url "http://this.package.cannot.be.built.from.source/"
   version "1.900.1"
-  revision 14
+  revision 15
   depends_on "aarch64-unknown-cloudabi-cloudabi"
   depends_on "aarch64-unknown-cloudabi-cloudlibc"
   depends_on "aarch64-unknown-cloudabi-compiler-rt"
 
   bottle do
     root_url "https://nuxi.nl/distfiles/cloudabi-ports/homebrew/links"
-    sha256 "139da8be37cb3b3f83bb60f34b10d6efcfab5a28998c7594d78b9785a2912539" => :el_capitan
-    sha256 "139da8be37cb3b3f83bb60f34b10d6efcfab5a28998c7594d78b9785a2912539" => :mavericks
-    sha256 "139da8be37cb3b3f83bb60f34b10d6efcfab5a28998c7594d78b9785a2912539" => :yosemite
+    sha256 "e6f9227623322f78b596a93e5a19a4d5b872a5c59abb8967c100fde08f1fb1b1" => :el_capitan
+    sha256 "e6f9227623322f78b596a93e5a19a4d5b872a5c59abb8967c100fde08f1fb1b1" => :mavericks
+    sha256 "e6f9227623322f78b596a93e5a19a4d5b872a5c59abb8967c100fde08f1fb1b1" => :yosemite
   end
 end
