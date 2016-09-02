@@ -3,15 +3,15 @@ class I686UnknownCloudabiUriparser < Formula
   homepage "http://uriparser.sourceforge.net/"
   url "http://this.package.cannot.be.built.from.source/"
   version "0.8.4"
-  revision 3
+  revision 4
   depends_on "i686-unknown-cloudabi-cloudabi"
   depends_on "i686-unknown-cloudabi-cloudlibc"
   depends_on "i686-unknown-cloudabi-compiler-rt"
 
   bottle do
     root_url "https://nuxi.nl/distfiles/cloudabi-ports/homebrew/links"
-    sha256 "c326295990d30c42bde29b7a43df942e3f7f44c2724cc55d03c74fc79230fbb8" => :el_capitan
-    sha256 "c326295990d30c42bde29b7a43df942e3f7f44c2724cc55d03c74fc79230fbb8" => :mavericks
-    sha256 "c326295990d30c42bde29b7a43df942e3f7f44c2724cc55d03c74fc79230fbb8" => :yosemite
+    sha256 "a10c3bb8de653e9a37363e9fe887ad42fbc6b99999cd2e68afc200058ba7548d" => :el_capitan
+    sha256 "a10c3bb8de653e9a37363e9fe887ad42fbc6b99999cd2e68afc200058ba7548d" => :mavericks
+    sha256 "a10c3bb8de653e9a37363e9fe887ad42fbc6b99999cd2e68afc200058ba7548d" => :yosemite
   end
 end

@@ -3,7 +3,7 @@ class I686UnknownCloudabiTiff < Formula
   homepage "http://www.remotesensing.org/libtiff/"
   url "http://this.package.cannot.be.built.from.source/"
   version "4.0.6"
-  revision 3
+  revision 4
   depends_on "i686-unknown-cloudabi-cloudabi"
   depends_on "i686-unknown-cloudabi-cloudlibc"
   depends_on "i686-unknown-cloudabi-compiler-rt"
@@ -13,8 +13,8 @@ class I686UnknownCloudabiTiff < Formula
 
   bottle do
     root_url "https://nuxi.nl/distfiles/cloudabi-ports/homebrew/links"
-    sha256 "87ce247573418f293dfa07b2e53a8af89c10ffb61e62f62a4d55fa978e396bf7" => :el_capitan
-    sha256 "87ce247573418f293dfa07b2e53a8af89c10ffb61e62f62a4d55fa978e396bf7" => :mavericks
-    sha256 "87ce247573418f293dfa07b2e53a8af89c10ffb61e62f62a4d55fa978e396bf7" => :yosemite
+    sha256 "76faa0ea76e042a63ddac206486d59099fb4572614a62f1d70c448ced4b56201" => :el_capitan
+    sha256 "76faa0ea76e042a63ddac206486d59099fb4572614a62f1d70c448ced4b56201" => :mavericks
+    sha256 "76faa0ea76e042a63ddac206486d59099fb4572614a62f1d70c448ced4b56201" => :yosemite
   end
 end

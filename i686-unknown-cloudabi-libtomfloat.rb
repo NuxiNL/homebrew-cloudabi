@@ -3,7 +3,7 @@ class I686UnknownCloudabiLibtomfloat < Formula
   homepage "http://www.libtom.net/"
   url "http://this.package.cannot.be.built.from.source/"
   version "0.2"
-  revision 3
+  revision 4
   depends_on "i686-unknown-cloudabi-cloudabi"
   depends_on "i686-unknown-cloudabi-cloudlibc"
   depends_on "i686-unknown-cloudabi-compiler-rt"
@@ -11,8 +11,8 @@ class I686UnknownCloudabiLibtomfloat < Formula
 
   bottle do
     root_url "https://nuxi.nl/distfiles/cloudabi-ports/homebrew/links"
-    sha256 "e0ebfed788edc82b0066e5de099b8650bb5a9e3fca45a16362bb75bce3fe51d9" => :el_capitan
-    sha256 "e0ebfed788edc82b0066e5de099b8650bb5a9e3fca45a16362bb75bce3fe51d9" => :mavericks
-    sha256 "e0ebfed788edc82b0066e5de099b8650bb5a9e3fca45a16362bb75bce3fe51d9" => :yosemite
+    sha256 "2e6e1b0486f1fddb137d055c273c69ae64edad930edf603d80d2547d72ce85f7" => :el_capitan
+    sha256 "2e6e1b0486f1fddb137d055c273c69ae64edad930edf603d80d2547d72ce85f7" => :mavericks
+    sha256 "2e6e1b0486f1fddb137d055c273c69ae64edad930edf603d80d2547d72ce85f7" => :yosemite
   end
 end

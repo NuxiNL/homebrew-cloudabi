@@ -3,7 +3,7 @@ class X8664UnknownCloudabiGlib < Formula
   homepage "https://developer.gnome.org/glib/"
   url "http://this.package.cannot.be.built.from.source/"
   version "2.48.1"
-  revision 5
+  revision 6
   depends_on "x86_64-unknown-cloudabi-cloudabi"
   depends_on "x86_64-unknown-cloudabi-cloudlibc"
   depends_on "x86_64-unknown-cloudabi-compiler-rt"
@@ -16,8 +16,8 @@ class X8664UnknownCloudabiGlib < Formula
 
   bottle do
     root_url "https://nuxi.nl/distfiles/cloudabi-ports/homebrew/links"
-    sha256 "b6e1b8eaf620c272d90706ae88765ad3887841ebe9ceae294730879e2e7a5b1f" => :el_capitan
-    sha256 "b6e1b8eaf620c272d90706ae88765ad3887841ebe9ceae294730879e2e7a5b1f" => :mavericks
-    sha256 "b6e1b8eaf620c272d90706ae88765ad3887841ebe9ceae294730879e2e7a5b1f" => :yosemite
+    sha256 "54441f97da6605a24cf9f4479a47fed294d5bf3fe6e6036f012cf4476fd83f09" => :el_capitan
+    sha256 "54441f97da6605a24cf9f4479a47fed294d5bf3fe6e6036f012cf4476fd83f09" => :mavericks
+    sha256 "54441f97da6605a24cf9f4479a47fed294d5bf3fe6e6036f012cf4476fd83f09" => :yosemite
   end
 end

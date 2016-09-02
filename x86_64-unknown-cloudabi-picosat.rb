@@ -3,15 +3,15 @@ class X8664UnknownCloudabiPicosat < Formula
   homepage "http://fmv.jku.at/picosat/"
   url "http://this.package.cannot.be.built.from.source/"
   version "965"
-  revision 10
+  revision 11
   depends_on "x86_64-unknown-cloudabi-cloudabi"
   depends_on "x86_64-unknown-cloudabi-cloudlibc"
   depends_on "x86_64-unknown-cloudabi-compiler-rt"
 
   bottle do
     root_url "https://nuxi.nl/distfiles/cloudabi-ports/homebrew/links"
-    sha256 "1c4e82f8eae952ff1542c92231cebe2b4fcf8e6a510c32e9921a7e8a22bb63b2" => :el_capitan
-    sha256 "1c4e82f8eae952ff1542c92231cebe2b4fcf8e6a510c32e9921a7e8a22bb63b2" => :mavericks
-    sha256 "1c4e82f8eae952ff1542c92231cebe2b4fcf8e6a510c32e9921a7e8a22bb63b2" => :yosemite
+    sha256 "474ee6c7450f21bca9cd7df2572f80d5e68c0e22e603a45aea80141a95d2756f" => :el_capitan
+    sha256 "474ee6c7450f21bca9cd7df2572f80d5e68c0e22e603a45aea80141a95d2756f" => :mavericks
+    sha256 "474ee6c7450f21bca9cd7df2572f80d5e68c0e22e603a45aea80141a95d2756f" => :yosemite
   end
 end

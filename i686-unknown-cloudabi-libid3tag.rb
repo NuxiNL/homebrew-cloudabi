@@ -3,7 +3,7 @@ class I686UnknownCloudabiLibid3tag < Formula
   homepage "http://www.underbit.com/products/mad/"
   url "http://this.package.cannot.be.built.from.source/"
   version "0.15.1.2"
-  revision 3
+  revision 4
   depends_on "i686-unknown-cloudabi-cloudabi"
   depends_on "i686-unknown-cloudabi-cloudlibc"
   depends_on "i686-unknown-cloudabi-compiler-rt"
@@ -11,8 +11,8 @@ class I686UnknownCloudabiLibid3tag < Formula
 
   bottle do
     root_url "https://nuxi.nl/distfiles/cloudabi-ports/homebrew/links"
-    sha256 "94d409ec2f60a5d6a8551040a9d0c8c27f37a16f06b618b4646c2fc5ba7f54ee" => :el_capitan
-    sha256 "94d409ec2f60a5d6a8551040a9d0c8c27f37a16f06b618b4646c2fc5ba7f54ee" => :mavericks
-    sha256 "94d409ec2f60a5d6a8551040a9d0c8c27f37a16f06b618b4646c2fc5ba7f54ee" => :yosemite
+    sha256 "22f2a210cffd69cc06f4afec957ac0ed4d182a4220a211976f7857da27de4e63" => :el_capitan
+    sha256 "22f2a210cffd69cc06f4afec957ac0ed4d182a4220a211976f7857da27de4e63" => :mavericks
+    sha256 "22f2a210cffd69cc06f4afec957ac0ed4d182a4220a211976f7857da27de4e63" => :yosemite
   end
 end

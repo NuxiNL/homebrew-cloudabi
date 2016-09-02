@@ -3,15 +3,15 @@ class Aarch64UnknownCloudabiLibevent < Formula
   homepage "http://libevent.org/"
   url "http://this.package.cannot.be.built.from.source/"
   version "2.0.22"
-  revision 13
+  revision 14
   depends_on "aarch64-unknown-cloudabi-cloudabi"
   depends_on "aarch64-unknown-cloudabi-cloudlibc"
   depends_on "aarch64-unknown-cloudabi-compiler-rt"
 
   bottle do
     root_url "https://nuxi.nl/distfiles/cloudabi-ports/homebrew/links"
-    sha256 "6de37a8fa0ed05605b389f2c1ceae5ec5f8821c0bc9d6452d50a74434271f12e" => :el_capitan
-    sha256 "6de37a8fa0ed05605b389f2c1ceae5ec5f8821c0bc9d6452d50a74434271f12e" => :mavericks
-    sha256 "6de37a8fa0ed05605b389f2c1ceae5ec5f8821c0bc9d6452d50a74434271f12e" => :yosemite
+    sha256 "b097502e1cc1f17a6f3333ea6812d0aff05d86f501a6928296e9fc9b9ca9d9bb" => :el_capitan
+    sha256 "b097502e1cc1f17a6f3333ea6812d0aff05d86f501a6928296e9fc9b9ca9d9bb" => :mavericks
+    sha256 "b097502e1cc1f17a6f3333ea6812d0aff05d86f501a6928296e9fc9b9ca9d9bb" => :yosemite
   end
 end

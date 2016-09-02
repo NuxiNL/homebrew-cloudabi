@@ -3,7 +3,7 @@ class I686UnknownCloudabiLibmng < Formula
   homepage "http://libmng.com/"
   url "http://this.package.cannot.be.built.from.source/"
   version "2.0.3"
-  revision 4
+  revision 5
   depends_on "i686-unknown-cloudabi-cloudabi"
   depends_on "i686-unknown-cloudabi-cloudlibc"
   depends_on "i686-unknown-cloudabi-compiler-rt"
@@ -17,8 +17,8 @@ class I686UnknownCloudabiLibmng < Formula
 
   bottle do
     root_url "https://nuxi.nl/distfiles/cloudabi-ports/homebrew/links"
-    sha256 "209a880335b232235d178a70d1776770e0f3523f2c3a8cdcc80be94aa5bd41f3" => :el_capitan
-    sha256 "209a880335b232235d178a70d1776770e0f3523f2c3a8cdcc80be94aa5bd41f3" => :mavericks
-    sha256 "209a880335b232235d178a70d1776770e0f3523f2c3a8cdcc80be94aa5bd41f3" => :yosemite
+    sha256 "593e2b372f816983dc32814ea25ccf6437be09a2066f6d7fbffa9ff1ddb584af" => :el_capitan
+    sha256 "593e2b372f816983dc32814ea25ccf6437be09a2066f6d7fbffa9ff1ddb584af" => :mavericks
+    sha256 "593e2b372f816983dc32814ea25ccf6437be09a2066f6d7fbffa9ff1ddb584af" => :yosemite
   end
 end

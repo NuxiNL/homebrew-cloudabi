@@ -3,15 +3,15 @@ class X8664UnknownCloudabiLibsodium < Formula
   homepage "https://www.libsodium.org/"
   url "http://this.package.cannot.be.built.from.source/"
   version "1.0.10"
-  revision 7
+  revision 8
   depends_on "x86_64-unknown-cloudabi-cloudabi"
   depends_on "x86_64-unknown-cloudabi-cloudlibc"
   depends_on "x86_64-unknown-cloudabi-compiler-rt"
 
   bottle do
     root_url "https://nuxi.nl/distfiles/cloudabi-ports/homebrew/links"
-    sha256 "7c88f0700ad4c07fd03bb727bb298b13e2b80c21abfa9696c5c3a299d2008aa2" => :el_capitan
-    sha256 "7c88f0700ad4c07fd03bb727bb298b13e2b80c21abfa9696c5c3a299d2008aa2" => :mavericks
-    sha256 "7c88f0700ad4c07fd03bb727bb298b13e2b80c21abfa9696c5c3a299d2008aa2" => :yosemite
+    sha256 "d509a7ef84d771afbd9a28c172f18e6bd69d0b847b3a337d32c7e6acc81f0d09" => :el_capitan
+    sha256 "d509a7ef84d771afbd9a28c172f18e6bd69d0b847b3a337d32c7e6acc81f0d09" => :mavericks
+    sha256 "d509a7ef84d771afbd9a28c172f18e6bd69d0b847b3a337d32c7e6acc81f0d09" => :yosemite
   end
 end
