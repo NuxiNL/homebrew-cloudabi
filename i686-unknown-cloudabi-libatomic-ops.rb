@@ -3,15 +3,15 @@ class I686UnknownCloudabiLibatomicOps < Formula
   homepage "http://www.hpl.hp.com/research/linux/atomic_ops/"
   url "http://this.package.cannot.be.built.from.source/"
   version "7.4.0"
-  revision 4
+  revision 5
   depends_on "i686-unknown-cloudabi-cloudabi"
   depends_on "i686-unknown-cloudabi-cloudlibc"
   depends_on "i686-unknown-cloudabi-compiler-rt"
 
   bottle do
     root_url "https://nuxi.nl/distfiles/cloudabi-ports/homebrew/links"
-    sha256 "3a74afa19ac4dda2985cab5a89a82c97233d903d727d8708df9b6864df106852" => :el_capitan
-    sha256 "3a74afa19ac4dda2985cab5a89a82c97233d903d727d8708df9b6864df106852" => :mavericks
-    sha256 "3a74afa19ac4dda2985cab5a89a82c97233d903d727d8708df9b6864df106852" => :yosemite
+    sha256 "a043c37cbe8fd3a61f8628ed8379575e3a12c8a479aabdc413c5df0c96ba889c" => :el_capitan
+    sha256 "a043c37cbe8fd3a61f8628ed8379575e3a12c8a479aabdc413c5df0c96ba889c" => :mavericks
+    sha256 "a043c37cbe8fd3a61f8628ed8379575e3a12c8a479aabdc413c5df0c96ba889c" => :yosemite
   end
 end

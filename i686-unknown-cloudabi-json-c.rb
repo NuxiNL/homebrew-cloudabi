@@ -3,15 +3,15 @@ class I686UnknownCloudabiJsonC < Formula
   homepage "https://github.com/json-c/json-c"
   url "http://this.package.cannot.be.built.from.source/"
   version "0.12"
-  revision 4
+  revision 5
   depends_on "i686-unknown-cloudabi-cloudabi"
   depends_on "i686-unknown-cloudabi-cloudlibc"
   depends_on "i686-unknown-cloudabi-compiler-rt"
 
   bottle do
     root_url "https://nuxi.nl/distfiles/cloudabi-ports/homebrew/links"
-    sha256 "b62aeeb7a210a0e137f7e85d119e3c7bcd92c977ce699553b8a3b1f5171c5459" => :el_capitan
-    sha256 "b62aeeb7a210a0e137f7e85d119e3c7bcd92c977ce699553b8a3b1f5171c5459" => :mavericks
-    sha256 "b62aeeb7a210a0e137f7e85d119e3c7bcd92c977ce699553b8a3b1f5171c5459" => :yosemite
+    sha256 "932abefb4e5fb44d64810364dc4367ad17088866f706ebc19779d6ca52149ba1" => :el_capitan
+    sha256 "932abefb4e5fb44d64810364dc4367ad17088866f706ebc19779d6ca52149ba1" => :mavericks
+    sha256 "932abefb4e5fb44d64810364dc4367ad17088866f706ebc19779d6ca52149ba1" => :yosemite
   end
 end

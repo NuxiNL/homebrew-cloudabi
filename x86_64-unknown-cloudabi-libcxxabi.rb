@@ -2,7 +2,7 @@ class X8664UnknownCloudabiLibcxxabi < Formula
   desc "libcxxabi for x86_64-unknown-cloudabi"
   homepage "http://libcxxabi.llvm.org/"
   url "http://this.package.cannot.be.built.from.source/"
-  version "3.8.93"
+  version "3.9.0"
   revision 1
   depends_on "x86_64-unknown-cloudabi-cloudabi"
   depends_on "x86_64-unknown-cloudabi-cloudlibc"
@@ -11,8 +11,8 @@ class X8664UnknownCloudabiLibcxxabi < Formula
 
   bottle do
     root_url "https://nuxi.nl/distfiles/cloudabi-ports/homebrew/links"
-    sha256 "e8791a4f5172cebd0cfabe19bf646f7d7bb979318cd0a9b42d5af37f89cb94d8" => :el_capitan
-    sha256 "e8791a4f5172cebd0cfabe19bf646f7d7bb979318cd0a9b42d5af37f89cb94d8" => :mavericks
-    sha256 "e8791a4f5172cebd0cfabe19bf646f7d7bb979318cd0a9b42d5af37f89cb94d8" => :yosemite
+    sha256 "af16c0680022654524afa24b7623c098d2b14977fb59a20c2df1e1d2ed17c069" => :el_capitan
+    sha256 "af16c0680022654524afa24b7623c098d2b14977fb59a20c2df1e1d2ed17c069" => :mavericks
+    sha256 "af16c0680022654524afa24b7623c098d2b14977fb59a20c2df1e1d2ed17c069" => :yosemite
   end
 end

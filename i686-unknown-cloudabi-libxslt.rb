@@ -3,7 +3,7 @@ class I686UnknownCloudabiLibxslt < Formula
   homepage "http://xmlsoft.org/libxslt/"
   url "http://this.package.cannot.be.built.from.source/"
   version "1.1.29"
-  revision 4
+  revision 5
   depends_on "i686-unknown-cloudabi-cloudabi"
   depends_on "i686-unknown-cloudabi-cloudlibc"
   depends_on "i686-unknown-cloudabi-compiler-rt"
@@ -11,8 +11,8 @@ class I686UnknownCloudabiLibxslt < Formula
 
   bottle do
     root_url "https://nuxi.nl/distfiles/cloudabi-ports/homebrew/links"
-    sha256 "b4479ee19e16a8a53f7dd756772dad583a4b5b6b404879cb0b0b8ec304755959" => :el_capitan
-    sha256 "b4479ee19e16a8a53f7dd756772dad583a4b5b6b404879cb0b0b8ec304755959" => :mavericks
-    sha256 "b4479ee19e16a8a53f7dd756772dad583a4b5b6b404879cb0b0b8ec304755959" => :yosemite
+    sha256 "9b365c20f4e7cf6d044dd4bc94c3653de79f224f243e8fc1904f43c990eb11d3" => :el_capitan
+    sha256 "9b365c20f4e7cf6d044dd4bc94c3653de79f224f243e8fc1904f43c990eb11d3" => :mavericks
+    sha256 "9b365c20f4e7cf6d044dd4bc94c3653de79f224f243e8fc1904f43c990eb11d3" => :yosemite
   end
 end

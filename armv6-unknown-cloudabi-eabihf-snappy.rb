@@ -3,7 +3,7 @@ class Armv6UnknownCloudabiEabihfSnappy < Formula
   homepage "https://google.github.io/snappy/"
   url "http://this.package.cannot.be.built.from.source/"
   version "1.1.3"
-  revision 1
+  revision 2
   depends_on "armv6-unknown-cloudabi-eabihf-cloudabi"
   depends_on "armv6-unknown-cloudabi-eabihf-cloudlibc"
   depends_on "armv6-unknown-cloudabi-eabihf-compiler-rt"
@@ -13,8 +13,8 @@ class Armv6UnknownCloudabiEabihfSnappy < Formula
 
   bottle do
     root_url "https://nuxi.nl/distfiles/cloudabi-ports/homebrew/links"
-    sha256 "6f22e74eb02ccf8d7508e06b3c1b236ddd582feba70e4a3814c27dd267140b85" => :el_capitan
-    sha256 "6f22e74eb02ccf8d7508e06b3c1b236ddd582feba70e4a3814c27dd267140b85" => :mavericks
-    sha256 "6f22e74eb02ccf8d7508e06b3c1b236ddd582feba70e4a3814c27dd267140b85" => :yosemite
+    sha256 "302d632f25ad441c3358e8262ded7a653e516f6e20e96be3c01f5f6dcdd00876" => :el_capitan
+    sha256 "302d632f25ad441c3358e8262ded7a653e516f6e20e96be3c01f5f6dcdd00876" => :mavericks
+    sha256 "302d632f25ad441c3358e8262ded7a653e516f6e20e96be3c01f5f6dcdd00876" => :yosemite
   end
 end

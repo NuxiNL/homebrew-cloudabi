@@ -3,15 +3,15 @@ class X8664UnknownCloudabiExpat < Formula
   homepage "http://expat.sourceforge.net/"
   url "http://this.package.cannot.be.built.from.source/"
   version "2.2.0"
-  revision 5
+  revision 6
   depends_on "x86_64-unknown-cloudabi-cloudabi"
   depends_on "x86_64-unknown-cloudabi-cloudlibc"
   depends_on "x86_64-unknown-cloudabi-compiler-rt"
 
   bottle do
     root_url "https://nuxi.nl/distfiles/cloudabi-ports/homebrew/links"
-    sha256 "92340f23f7216517fbf3099e7098ead86f3f891fc5fa5ab23ffaae88d81ff6b9" => :el_capitan
-    sha256 "92340f23f7216517fbf3099e7098ead86f3f891fc5fa5ab23ffaae88d81ff6b9" => :mavericks
-    sha256 "92340f23f7216517fbf3099e7098ead86f3f891fc5fa5ab23ffaae88d81ff6b9" => :yosemite
+    sha256 "51919440b7f5306adcfdf24b3cbb75597bee52a60165a5a688da93db71211293" => :el_capitan
+    sha256 "51919440b7f5306adcfdf24b3cbb75597bee52a60165a5a688da93db71211293" => :mavericks
+    sha256 "51919440b7f5306adcfdf24b3cbb75597bee52a60165a5a688da93db71211293" => :yosemite
   end
 end

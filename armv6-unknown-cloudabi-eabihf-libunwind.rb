@@ -2,7 +2,7 @@ class Armv6UnknownCloudabiEabihfLibunwind < Formula
   desc "libunwind for armv6-unknown-cloudabi-eabihf"
   homepage "http://libcxx.llvm.org/"
   url "http://this.package.cannot.be.built.from.source/"
-  version "3.8.93"
+  version "3.9.0"
   revision 1
   depends_on "armv6-unknown-cloudabi-eabihf-cloudabi"
   depends_on "armv6-unknown-cloudabi-eabihf-cloudlibc"
@@ -11,8 +11,8 @@ class Armv6UnknownCloudabiEabihfLibunwind < Formula
 
   bottle do
     root_url "https://nuxi.nl/distfiles/cloudabi-ports/homebrew/links"
-    sha256 "f9c5f0688bb3518c9dd17dd59a3e62099a1ad227e3cab4fd2c55163714a44891" => :el_capitan
-    sha256 "f9c5f0688bb3518c9dd17dd59a3e62099a1ad227e3cab4fd2c55163714a44891" => :mavericks
-    sha256 "f9c5f0688bb3518c9dd17dd59a3e62099a1ad227e3cab4fd2c55163714a44891" => :yosemite
+    sha256 "1c53ba243d51338e4b5fdd8041eb461ee32ae99021b772532f781e5a282284cb" => :el_capitan
+    sha256 "1c53ba243d51338e4b5fdd8041eb461ee32ae99021b772532f781e5a282284cb" => :mavericks
+    sha256 "1c53ba243d51338e4b5fdd8041eb461ee32ae99021b772532f781e5a282284cb" => :yosemite
   end
 end

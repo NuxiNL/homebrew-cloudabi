@@ -3,7 +3,7 @@ class I686UnknownCloudabiCurl < Formula
   homepage "http://curl.haxx.se/"
   url "http://this.package.cannot.be.built.from.source/"
   version "7.49.1"
-  revision 5
+  revision 6
   depends_on "i686-unknown-cloudabi-cloudabi"
   depends_on "i686-unknown-cloudabi-cloudlibc"
   depends_on "i686-unknown-cloudabi-compiler-rt"
@@ -12,8 +12,8 @@ class I686UnknownCloudabiCurl < Formula
 
   bottle do
     root_url "https://nuxi.nl/distfiles/cloudabi-ports/homebrew/links"
-    sha256 "d29bdf9be7af1f92e7ed9d1ffcb08d71afa3d796114811b3ca697887d8290aaa" => :el_capitan
-    sha256 "d29bdf9be7af1f92e7ed9d1ffcb08d71afa3d796114811b3ca697887d8290aaa" => :mavericks
-    sha256 "d29bdf9be7af1f92e7ed9d1ffcb08d71afa3d796114811b3ca697887d8290aaa" => :yosemite
+    sha256 "112f0296807c5b08e835261f71afb03b4babfcb8a3517f03be541d6db9761700" => :el_capitan
+    sha256 "112f0296807c5b08e835261f71afb03b4babfcb8a3517f03be541d6db9761700" => :mavericks
+    sha256 "112f0296807c5b08e835261f71afb03b4babfcb8a3517f03be541d6db9761700" => :yosemite
   end
 end

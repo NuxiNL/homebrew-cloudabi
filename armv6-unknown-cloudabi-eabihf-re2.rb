@@ -3,7 +3,7 @@ class Armv6UnknownCloudabiEabihfRe2 < Formula
   homepage "https://github.com/google/re2"
   url "http://this.package.cannot.be.built.from.source/"
   version "0.20160601"
-  revision 1
+  revision 2
   depends_on "armv6-unknown-cloudabi-eabihf-cloudabi"
   depends_on "armv6-unknown-cloudabi-eabihf-cloudlibc"
   depends_on "armv6-unknown-cloudabi-eabihf-compiler-rt"
@@ -13,8 +13,8 @@ class Armv6UnknownCloudabiEabihfRe2 < Formula
 
   bottle do
     root_url "https://nuxi.nl/distfiles/cloudabi-ports/homebrew/links"
-    sha256 "e61b531dabd8b7afd761a295aa491362fd5fee2a6c93c9d8536336dc81052ba2" => :el_capitan
-    sha256 "e61b531dabd8b7afd761a295aa491362fd5fee2a6c93c9d8536336dc81052ba2" => :mavericks
-    sha256 "e61b531dabd8b7afd761a295aa491362fd5fee2a6c93c9d8536336dc81052ba2" => :yosemite
+    sha256 "7b07712ab5e39ea39d14fea43f1756aceaa49d6191a4ae1a6182507df3efc35e" => :el_capitan
+    sha256 "7b07712ab5e39ea39d14fea43f1756aceaa49d6191a4ae1a6182507df3efc35e" => :mavericks
+    sha256 "7b07712ab5e39ea39d14fea43f1756aceaa49d6191a4ae1a6182507df3efc35e" => :yosemite
   end
 end

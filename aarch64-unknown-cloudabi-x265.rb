@@ -3,7 +3,7 @@ class Aarch64UnknownCloudabiX265 < Formula
   homepage "http://x265.org/"
   url "http://this.package.cannot.be.built.from.source/"
   version "2.0"
-  revision 4
+  revision 5
   depends_on "aarch64-unknown-cloudabi-cloudabi"
   depends_on "aarch64-unknown-cloudabi-cloudlibc"
   depends_on "aarch64-unknown-cloudabi-compiler-rt"
@@ -13,8 +13,8 @@ class Aarch64UnknownCloudabiX265 < Formula
 
   bottle do
     root_url "https://nuxi.nl/distfiles/cloudabi-ports/homebrew/links"
-    sha256 "a97f1ccab2ff42139461cfa9f23f3f524f87c9724f59a56fcaf4e96aa13712c5" => :el_capitan
-    sha256 "a97f1ccab2ff42139461cfa9f23f3f524f87c9724f59a56fcaf4e96aa13712c5" => :mavericks
-    sha256 "a97f1ccab2ff42139461cfa9f23f3f524f87c9724f59a56fcaf4e96aa13712c5" => :yosemite
+    sha256 "8deea700094e894323a19bb35ef332d4bc171df69d9c33f1df39e7126cc451bc" => :el_capitan
+    sha256 "8deea700094e894323a19bb35ef332d4bc171df69d9c33f1df39e7126cc451bc" => :mavericks
+    sha256 "8deea700094e894323a19bb35ef332d4bc171df69d9c33f1df39e7126cc451bc" => :yosemite
   end
 end

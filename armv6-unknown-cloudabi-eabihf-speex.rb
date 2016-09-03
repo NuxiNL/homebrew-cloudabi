@@ -3,15 +3,15 @@ class Armv6UnknownCloudabiEabihfSpeex < Formula
   homepage "http://www.speex.org/"
   url "http://this.package.cannot.be.built.from.source/"
   version "1.1.92"
-  revision 1
+  revision 2
   depends_on "armv6-unknown-cloudabi-eabihf-cloudabi"
   depends_on "armv6-unknown-cloudabi-eabihf-cloudlibc"
   depends_on "armv6-unknown-cloudabi-eabihf-compiler-rt"
 
   bottle do
     root_url "https://nuxi.nl/distfiles/cloudabi-ports/homebrew/links"
-    sha256 "b5f06f345416045b3611859a1e5a0defa3ba7a3ccf9d66c487949efb2872cb91" => :el_capitan
-    sha256 "b5f06f345416045b3611859a1e5a0defa3ba7a3ccf9d66c487949efb2872cb91" => :mavericks
-    sha256 "b5f06f345416045b3611859a1e5a0defa3ba7a3ccf9d66c487949efb2872cb91" => :yosemite
+    sha256 "73782b5b1c5165db280f430c198f9f2b3dacf448c432f89f691410a90ddcaef0" => :el_capitan
+    sha256 "73782b5b1c5165db280f430c198f9f2b3dacf448c432f89f691410a90ddcaef0" => :mavericks
+    sha256 "73782b5b1c5165db280f430c198f9f2b3dacf448c432f89f691410a90ddcaef0" => :yosemite
   end
 end

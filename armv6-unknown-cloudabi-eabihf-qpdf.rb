@@ -3,7 +3,7 @@ class Armv6UnknownCloudabiEabihfQpdf < Formula
   homepage "http://qpdf.sourceforge.net/"
   url "http://this.package.cannot.be.built.from.source/"
   version "6.0.0"
-  revision 1
+  revision 2
   depends_on "armv6-unknown-cloudabi-eabihf-cloudabi"
   depends_on "armv6-unknown-cloudabi-eabihf-cloudlibc"
   depends_on "armv6-unknown-cloudabi-eabihf-compiler-rt"
@@ -15,8 +15,8 @@ class Armv6UnknownCloudabiEabihfQpdf < Formula
 
   bottle do
     root_url "https://nuxi.nl/distfiles/cloudabi-ports/homebrew/links"
-    sha256 "e6282c7bbc69b6773989add3daade53e6d3aa182de9026d6d4c4742ab0bdce45" => :el_capitan
-    sha256 "e6282c7bbc69b6773989add3daade53e6d3aa182de9026d6d4c4742ab0bdce45" => :mavericks
-    sha256 "e6282c7bbc69b6773989add3daade53e6d3aa182de9026d6d4c4742ab0bdce45" => :yosemite
+    sha256 "6bc57c88781ae5865d5e2f905989e41cc25d3a081026bc94252b560bffc7c440" => :el_capitan
+    sha256 "6bc57c88781ae5865d5e2f905989e41cc25d3a081026bc94252b560bffc7c440" => :mavericks
+    sha256 "6bc57c88781ae5865d5e2f905989e41cc25d3a081026bc94252b560bffc7c440" => :yosemite
   end
 end

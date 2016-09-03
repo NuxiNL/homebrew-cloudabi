@@ -3,15 +3,15 @@ class Armv6UnknownCloudabiEabihfOpus < Formula
   homepage "http://www.opus-codec.org/"
   url "http://this.package.cannot.be.built.from.source/"
   version "1.1.2"
-  revision 1
+  revision 2
   depends_on "armv6-unknown-cloudabi-eabihf-cloudabi"
   depends_on "armv6-unknown-cloudabi-eabihf-cloudlibc"
   depends_on "armv6-unknown-cloudabi-eabihf-compiler-rt"
 
   bottle do
     root_url "https://nuxi.nl/distfiles/cloudabi-ports/homebrew/links"
-    sha256 "9c6568cdd8294da234c3a13219757724ab3aa8b244ed671fe3ff6efcf4b5107e" => :el_capitan
-    sha256 "9c6568cdd8294da234c3a13219757724ab3aa8b244ed671fe3ff6efcf4b5107e" => :mavericks
-    sha256 "9c6568cdd8294da234c3a13219757724ab3aa8b244ed671fe3ff6efcf4b5107e" => :yosemite
+    sha256 "67b831a20c005acf931f289a342eec2ea16799df67fca19809d7f6fa55248f55" => :el_capitan
+    sha256 "67b831a20c005acf931f289a342eec2ea16799df67fca19809d7f6fa55248f55" => :mavericks
+    sha256 "67b831a20c005acf931f289a342eec2ea16799df67fca19809d7f6fa55248f55" => :yosemite
   end
 end

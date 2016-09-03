@@ -3,15 +3,15 @@ class X8664UnknownCloudabiLibtasn1 < Formula
   homepage "https://www.gnu.org/software/libtasn1/"
   url "http://this.package.cannot.be.built.from.source/"
   version "4.8"
-  revision 7
+  revision 8
   depends_on "x86_64-unknown-cloudabi-cloudabi"
   depends_on "x86_64-unknown-cloudabi-cloudlibc"
   depends_on "x86_64-unknown-cloudabi-compiler-rt"
 
   bottle do
     root_url "https://nuxi.nl/distfiles/cloudabi-ports/homebrew/links"
-    sha256 "446efe52a8522c420301d9e26f43d44d806ba0f2cac5440cd044f42b35cff628" => :el_capitan
-    sha256 "446efe52a8522c420301d9e26f43d44d806ba0f2cac5440cd044f42b35cff628" => :mavericks
-    sha256 "446efe52a8522c420301d9e26f43d44d806ba0f2cac5440cd044f42b35cff628" => :yosemite
+    sha256 "46d2fb1b575e9db94613ae27ee8120bbfb047513077c8a592e409f1b5b3fce19" => :el_capitan
+    sha256 "46d2fb1b575e9db94613ae27ee8120bbfb047513077c8a592e409f1b5b3fce19" => :mavericks
+    sha256 "46d2fb1b575e9db94613ae27ee8120bbfb047513077c8a592e409f1b5b3fce19" => :yosemite
   end
 end
