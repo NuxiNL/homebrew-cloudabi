@@ -2,6 +2,21 @@ class CloudabiToolchain < Formula
   desc "C/C++ toolchain for developing CloudABI applications"
   homepage "https://nuxi.nl/cloudabi/"
 
+  stable do
+    url "http://llvm.org/releases/3.9.0/llvm-3.9.0.src.tar.xz"
+    sha256 "66c73179da42cee1386371641241f79ded250e117a79f571bbd69e56daa48948"
+
+    resource "clang" do
+      url "http://llvm.org/releases/3.9.0/cfe-3.9.0.src.tar.xz"
+      sha256 "7596a7c7d9376d0c89e60028fe1ceb4d3e535e8ea8b89e0eb094e0dcb3183d28"
+    end
+
+    resource "lld" do
+      url "http://llvm.org/releases/3.9.0/lld-3.9.0.src.tar.xz"
+      sha256 "986e8150ec5f457469a20666628bf634a5ca992a53e157f3b69dbc35056b32d9"
+    end
+  end
+
   head do
     url "http://llvm.org/git/llvm.git"
 
@@ -32,7 +47,8 @@ class CloudabiToolchain < Formula
       system "make", "install"
     end
 
-    %w[aarch64-unknown-cloudabi i686-unknown-cloudabi x86_64-unknown-cloudabi].each do |arch|
+    %w[aarch64-unknown-cloudabi armv6-unknown-cloudabi-eabihf
+       i686-unknown-cloudabi x86_64-unknown-cloudabi].each do |arch|
       # Create symbolic links to various LLVM utilities, all starting
       # with the name of the cross compilation target. Tools like Clang
       # parse argv[0] to determine the target automatically.
