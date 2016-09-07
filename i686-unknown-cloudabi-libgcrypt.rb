@@ -2,8 +2,8 @@ class I686UnknownCloudabiLibgcrypt < Formula
   desc "libgcrypt for i686-unknown-cloudabi"
   homepage "https://www.gnupg.org/"
   url "http://this.package.cannot.be.built.from.source/"
-  version "1.7.1"
-  revision 5
+  version "1.7.3"
+  revision 1
   depends_on "i686-unknown-cloudabi-cloudabi"
   depends_on "i686-unknown-cloudabi-cloudlibc"
   depends_on "i686-unknown-cloudabi-compiler-rt"
@@ -11,8 +11,8 @@ class I686UnknownCloudabiLibgcrypt < Formula
 
   bottle do
     root_url "https://nuxi.nl/distfiles/cloudabi-ports/homebrew/links"
-    sha256 "94a16cb0d93dbbdf1892a5cd64005be0e8f4494aa2a2de4554a12331fbae3c4d" => :el_capitan
-    sha256 "94a16cb0d93dbbdf1892a5cd64005be0e8f4494aa2a2de4554a12331fbae3c4d" => :mavericks
-    sha256 "94a16cb0d93dbbdf1892a5cd64005be0e8f4494aa2a2de4554a12331fbae3c4d" => :yosemite
+    sha256 "b2ea52adc71fab94e500471a380968e512666a2e5166825203de948013bfd27e" => :el_capitan
+    sha256 "b2ea52adc71fab94e500471a380968e512666a2e5166825203de948013bfd27e" => :mavericks
+    sha256 "b2ea52adc71fab94e500471a380968e512666a2e5166825203de948013bfd27e" => :yosemite
   end
 end

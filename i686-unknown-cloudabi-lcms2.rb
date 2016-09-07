@@ -2,8 +2,8 @@ class I686UnknownCloudabiLcms2 < Formula
   desc "lcms2 for i686-unknown-cloudabi"
   homepage "http://www.littlecms.com/"
   url "http://this.package.cannot.be.built.from.source/"
-  version "2.7"
-  revision 5
+  version "2.8"
+  revision 1
   depends_on "i686-unknown-cloudabi-cloudabi"
   depends_on "i686-unknown-cloudabi-cloudlibc"
   depends_on "i686-unknown-cloudabi-compiler-rt"
@@ -16,8 +16,8 @@ class I686UnknownCloudabiLcms2 < Formula
 
   bottle do
     root_url "https://nuxi.nl/distfiles/cloudabi-ports/homebrew/links"
-    sha256 "7118ef10430c0414d590a840ad46ceed09fe9c2c5a82edf5ee5a44bbd12b86d6" => :el_capitan
-    sha256 "7118ef10430c0414d590a840ad46ceed09fe9c2c5a82edf5ee5a44bbd12b86d6" => :mavericks
-    sha256 "7118ef10430c0414d590a840ad46ceed09fe9c2c5a82edf5ee5a44bbd12b86d6" => :yosemite
+    sha256 "9360b6833e6d5212231d68728da2d9b36884d5c026b0980bfca4e5093485cdaf" => :el_capitan
+    sha256 "9360b6833e6d5212231d68728da2d9b36884d5c026b0980bfca4e5093485cdaf" => :mavericks
+    sha256 "9360b6833e6d5212231d68728da2d9b36884d5c026b0980bfca4e5093485cdaf" => :yosemite
   end
 end

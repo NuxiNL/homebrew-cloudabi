@@ -2,8 +2,8 @@ class Armv6UnknownCloudabiEabihfLibpng < Formula
   desc "libpng for armv6-unknown-cloudabi-eabihf"
   homepage "http://www.libpng.org/"
   url "http://this.package.cannot.be.built.from.source/"
-  version "1.6.23"
-  revision 2
+  version "1.6.25"
+  revision 1
   depends_on "armv6-unknown-cloudabi-eabihf-cloudabi"
   depends_on "armv6-unknown-cloudabi-eabihf-cloudlibc"
   depends_on "armv6-unknown-cloudabi-eabihf-compiler-rt"
@@ -11,8 +11,8 @@ class Armv6UnknownCloudabiEabihfLibpng < Formula
 
   bottle do
     root_url "https://nuxi.nl/distfiles/cloudabi-ports/homebrew/links"
-    sha256 "b787c9239d262da2529a926d1de482e9914a82b69f70e741f75a9a28cb31108b" => :el_capitan
-    sha256 "b787c9239d262da2529a926d1de482e9914a82b69f70e741f75a9a28cb31108b" => :mavericks
-    sha256 "b787c9239d262da2529a926d1de482e9914a82b69f70e741f75a9a28cb31108b" => :yosemite
+    sha256 "7a070c26dfebb182b9ac134c6e8768bd30f3c17b958d405d970c0fe2882758df" => :el_capitan
+    sha256 "7a070c26dfebb182b9ac134c6e8768bd30f3c17b958d405d970c0fe2882758df" => :mavericks
+    sha256 "7a070c26dfebb182b9ac134c6e8768bd30f3c17b958d405d970c0fe2882758df" => :yosemite
   end
 end

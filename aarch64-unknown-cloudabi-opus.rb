@@ -2,16 +2,16 @@ class Aarch64UnknownCloudabiOpus < Formula
   desc "opus for aarch64-unknown-cloudabi"
   homepage "http://www.opus-codec.org/"
   url "http://this.package.cannot.be.built.from.source/"
-  version "1.1.2"
-  revision 11
+  version "1.1.3"
+  revision 1
   depends_on "aarch64-unknown-cloudabi-cloudabi"
   depends_on "aarch64-unknown-cloudabi-cloudlibc"
   depends_on "aarch64-unknown-cloudabi-compiler-rt"
 
   bottle do
     root_url "https://nuxi.nl/distfiles/cloudabi-ports/homebrew/links"
-    sha256 "2a0c8a99b938b91a4b778f3678484f87f4e31a50a327a546f7a9304d7179f4d6" => :el_capitan
-    sha256 "2a0c8a99b938b91a4b778f3678484f87f4e31a50a327a546f7a9304d7179f4d6" => :mavericks
-    sha256 "2a0c8a99b938b91a4b778f3678484f87f4e31a50a327a546f7a9304d7179f4d6" => :yosemite
+    sha256 "018c2e5ef66fc707f7d761ab8081f7d9958a1ea4f8c4956dbac2a84ab7cd31ef" => :el_capitan
+    sha256 "018c2e5ef66fc707f7d761ab8081f7d9958a1ea4f8c4956dbac2a84ab7cd31ef" => :mavericks
+    sha256 "018c2e5ef66fc707f7d761ab8081f7d9958a1ea4f8c4956dbac2a84ab7cd31ef" => :yosemite
   end
 end
