@@ -3,7 +3,7 @@ class I686UnknownCloudabiMemcached < Formula
   homepage "https://memcached.org/"
   url "http://this.package.cannot.be.built.from.source/"
   version "1.4.31"
-  revision 1
+  revision 2
   depends_on "i686-unknown-cloudabi-cloudabi"
   depends_on "i686-unknown-cloudabi-cloudlibc"
   depends_on "i686-unknown-cloudabi-compiler-rt"
@@ -11,8 +11,8 @@ class I686UnknownCloudabiMemcached < Formula
 
   bottle do
     root_url "https://nuxi.nl/distfiles/cloudabi-ports/homebrew/links"
-    sha256 "299373eb9c32725b7459ade0d87d175a39bcede1b797c6203badb97bfdda875d" => :el_capitan
-    sha256 "299373eb9c32725b7459ade0d87d175a39bcede1b797c6203badb97bfdda875d" => :mavericks
-    sha256 "299373eb9c32725b7459ade0d87d175a39bcede1b797c6203badb97bfdda875d" => :yosemite
+    sha256 "509622d559af4a43aaaa0bcbcf809861b76e8eaf2cd5f26dc5a201a8bf3ec614" => :el_capitan
+    sha256 "509622d559af4a43aaaa0bcbcf809861b76e8eaf2cd5f26dc5a201a8bf3ec614" => :mavericks
+    sha256 "509622d559af4a43aaaa0bcbcf809861b76e8eaf2cd5f26dc5a201a8bf3ec614" => :yosemite
   end
 end

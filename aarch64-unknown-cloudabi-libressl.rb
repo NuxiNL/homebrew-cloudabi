@@ -3,15 +3,15 @@ class Aarch64UnknownCloudabiLibressl < Formula
   homepage "http://www.libressl.org/"
   url "http://this.package.cannot.be.built.from.source/"
   version "2.4.2"
-  revision 1
+  revision 2
   depends_on "aarch64-unknown-cloudabi-cloudabi"
   depends_on "aarch64-unknown-cloudabi-cloudlibc"
   depends_on "aarch64-unknown-cloudabi-compiler-rt"
 
   bottle do
     root_url "https://nuxi.nl/distfiles/cloudabi-ports/homebrew/links"
-    sha256 "601aa8b8d374b6724ea366f7c43570ec1248269cfb99376b1f44fb62f0065857" => :el_capitan
-    sha256 "601aa8b8d374b6724ea366f7c43570ec1248269cfb99376b1f44fb62f0065857" => :mavericks
-    sha256 "601aa8b8d374b6724ea366f7c43570ec1248269cfb99376b1f44fb62f0065857" => :yosemite
+    sha256 "5b01b14b3c8aaefdaada8dad22a5caabe008640dbc0715c1663297896e11dcde" => :el_capitan
+    sha256 "5b01b14b3c8aaefdaada8dad22a5caabe008640dbc0715c1663297896e11dcde" => :mavericks
+    sha256 "5b01b14b3c8aaefdaada8dad22a5caabe008640dbc0715c1663297896e11dcde" => :yosemite
   end
 end
