@@ -3,7 +3,7 @@ class Armv6UnknownCloudabiEabihfPython < Formula
   homepage "https://www.python.org/"
   url "http://this.package.cannot.be.built.from.source/"
   version "3.6.0"
-  revision 5
+  revision 6
   depends_on "armv6-unknown-cloudabi-eabihf-bzip2"
   depends_on "armv6-unknown-cloudabi-eabihf-cloudabi"
   depends_on "armv6-unknown-cloudabi-eabihf-cloudlibc"
@@ -16,8 +16,8 @@ class Armv6UnknownCloudabiEabihfPython < Formula
 
   bottle do
     root_url "https://nuxi.nl/distfiles/cloudabi-ports/homebrew/links"
-    sha256 "eca1b74361ef0a48b9190141b3d4e32e4ea31730e9442bb217657c13cb3e2f86" => :el_capitan
-    sha256 "eca1b74361ef0a48b9190141b3d4e32e4ea31730e9442bb217657c13cb3e2f86" => :mavericks
-    sha256 "eca1b74361ef0a48b9190141b3d4e32e4ea31730e9442bb217657c13cb3e2f86" => :yosemite
+    sha256 "7820ac5519cbb359245d3a6414a1c4bc619019c82037e74c2f05749ba7fdd066" => :el_capitan
+    sha256 "7820ac5519cbb359245d3a6414a1c4bc619019c82037e74c2f05749ba7fdd066" => :mavericks
+    sha256 "7820ac5519cbb359245d3a6414a1c4bc619019c82037e74c2f05749ba7fdd066" => :yosemite
   end
 end
