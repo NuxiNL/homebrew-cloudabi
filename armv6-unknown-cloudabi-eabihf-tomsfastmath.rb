@@ -12,6 +12,7 @@ class Armv6UnknownCloudabiEabihfTomsfastmath < Formula
     root_url "https://nuxi.nl/distfiles/cloudabi-ports/homebrew/links"
     sha256 "5b1ec06fc0127a6351e5e24040d0188981d7b297913614693658ecf06b369789" => :el_capitan
     sha256 "5b1ec06fc0127a6351e5e24040d0188981d7b297913614693658ecf06b369789" => :mavericks
+    sha256 "5b1ec06fc0127a6351e5e24040d0188981d7b297913614693658ecf06b369789" => :sierra
     sha256 "5b1ec06fc0127a6351e5e24040d0188981d7b297913614693658ecf06b369789" => :yosemite
   end
 end

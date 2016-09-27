@@ -12,6 +12,7 @@ class X8664UnknownCloudabiGmp < Formula
     root_url "https://nuxi.nl/distfiles/cloudabi-ports/homebrew/links"
     sha256 "f5c92c12b0b2cecb385ecdcbd34b02d7e7e9d0bc13739a8c9aeaa0936224246e" => :el_capitan
     sha256 "f5c92c12b0b2cecb385ecdcbd34b02d7e7e9d0bc13739a8c9aeaa0936224246e" => :mavericks
+    sha256 "f5c92c12b0b2cecb385ecdcbd34b02d7e7e9d0bc13739a8c9aeaa0936224246e" => :sierra
     sha256 "f5c92c12b0b2cecb385ecdcbd34b02d7e7e9d0bc13739a8c9aeaa0936224246e" => :yosemite
   end
 end

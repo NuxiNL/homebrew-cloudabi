@@ -20,6 +20,7 @@ class Aarch64UnknownCloudabiLibcroco < Formula
     root_url "https://nuxi.nl/distfiles/cloudabi-ports/homebrew/links"
     sha256 "0e6b17ccf582f850cf5b215a20c6a866ff1a99bf0b077cf321a1c04b289b97bd" => :el_capitan
     sha256 "0e6b17ccf582f850cf5b215a20c6a866ff1a99bf0b077cf321a1c04b289b97bd" => :mavericks
+    sha256 "0e6b17ccf582f850cf5b215a20c6a866ff1a99bf0b077cf321a1c04b289b97bd" => :sierra
     sha256 "0e6b17ccf582f850cf5b215a20c6a866ff1a99bf0b077cf321a1c04b289b97bd" => :yosemite
   end
 end

@@ -12,6 +12,7 @@ class Armv6UnknownCloudabiEabihfLibgpgError < Formula
     root_url "https://nuxi.nl/distfiles/cloudabi-ports/homebrew/links"
     sha256 "e3c44c624b1df0426dd1644eaa5b9aea70f2ece08c721b5e83b421fc001bfd53" => :el_capitan
     sha256 "e3c44c624b1df0426dd1644eaa5b9aea70f2ece08c721b5e83b421fc001bfd53" => :mavericks
+    sha256 "e3c44c624b1df0426dd1644eaa5b9aea70f2ece08c721b5e83b421fc001bfd53" => :sierra
     sha256 "e3c44c624b1df0426dd1644eaa5b9aea70f2ece08c721b5e83b421fc001bfd53" => :yosemite
   end
 end

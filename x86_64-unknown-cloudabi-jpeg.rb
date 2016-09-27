@@ -12,6 +12,7 @@ class X8664UnknownCloudabiJpeg < Formula
     root_url "https://nuxi.nl/distfiles/cloudabi-ports/homebrew/links"
     sha256 "db2955f0195035382497233afa8b8e2b2c3714b9ba88a8f9a23af2cef39af4b4" => :el_capitan
     sha256 "db2955f0195035382497233afa8b8e2b2c3714b9ba88a8f9a23af2cef39af4b4" => :mavericks
+    sha256 "db2955f0195035382497233afa8b8e2b2c3714b9ba88a8f9a23af2cef39af4b4" => :sierra
     sha256 "db2955f0195035382497233afa8b8e2b2c3714b9ba88a8f9a23af2cef39af4b4" => :yosemite
   end
 end

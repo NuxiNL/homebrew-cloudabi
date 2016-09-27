@@ -12,6 +12,7 @@ class I686UnknownCloudabiCRuntime < Formula
     root_url "https://nuxi.nl/distfiles/cloudabi-ports/homebrew/links"
     sha256 "b8ff419e08779f07151306ecbe7f2213b322f68f84fde868a2fbd1b7ed3e741f" => :el_capitan
     sha256 "b8ff419e08779f07151306ecbe7f2213b322f68f84fde868a2fbd1b7ed3e741f" => :mavericks
+    sha256 "b8ff419e08779f07151306ecbe7f2213b322f68f84fde868a2fbd1b7ed3e741f" => :sierra
     sha256 "b8ff419e08779f07151306ecbe7f2213b322f68f84fde868a2fbd1b7ed3e741f" => :yosemite
   end
 end

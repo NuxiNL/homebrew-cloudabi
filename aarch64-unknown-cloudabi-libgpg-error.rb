@@ -12,6 +12,7 @@ class Aarch64UnknownCloudabiLibgpgError < Formula
     root_url "https://nuxi.nl/distfiles/cloudabi-ports/homebrew/links"
     sha256 "a8087080b42ca92aa58c00d2e1dce3d7372b1b078b63c842e187987052ced531" => :el_capitan
     sha256 "a8087080b42ca92aa58c00d2e1dce3d7372b1b078b63c842e187987052ced531" => :mavericks
+    sha256 "a8087080b42ca92aa58c00d2e1dce3d7372b1b078b63c842e187987052ced531" => :sierra
     sha256 "a8087080b42ca92aa58c00d2e1dce3d7372b1b078b63c842e187987052ced531" => :yosemite
   end
 end

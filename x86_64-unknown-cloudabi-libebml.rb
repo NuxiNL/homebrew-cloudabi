@@ -15,6 +15,7 @@ class X8664UnknownCloudabiLibebml < Formula
     root_url "https://nuxi.nl/distfiles/cloudabi-ports/homebrew/links"
     sha256 "6a70ce3dba72bfe09a8bcb775340a7968d0584bf3f2f13662b97af59653463d8" => :el_capitan
     sha256 "6a70ce3dba72bfe09a8bcb775340a7968d0584bf3f2f13662b97af59653463d8" => :mavericks
+    sha256 "6a70ce3dba72bfe09a8bcb775340a7968d0584bf3f2f13662b97af59653463d8" => :sierra
     sha256 "6a70ce3dba72bfe09a8bcb775340a7968d0584bf3f2f13662b97af59653463d8" => :yosemite
   end
 end

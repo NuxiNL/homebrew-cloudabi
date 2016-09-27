@@ -12,6 +12,7 @@ class Armv6UnknownCloudabiEabihfJpeg < Formula
     root_url "https://nuxi.nl/distfiles/cloudabi-ports/homebrew/links"
     sha256 "216c8389f22c9919c7057cdcc3d205593f85fec8c48463cbcba13234c64a1907" => :el_capitan
     sha256 "216c8389f22c9919c7057cdcc3d205593f85fec8c48463cbcba13234c64a1907" => :mavericks
+    sha256 "216c8389f22c9919c7057cdcc3d205593f85fec8c48463cbcba13234c64a1907" => :sierra
     sha256 "216c8389f22c9919c7057cdcc3d205593f85fec8c48463cbcba13234c64a1907" => :yosemite
   end
 end

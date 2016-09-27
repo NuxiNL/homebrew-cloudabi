@@ -12,6 +12,7 @@ class Aarch64UnknownCloudabiLibcxx < Formula
     root_url "https://nuxi.nl/distfiles/cloudabi-ports/homebrew/links"
     sha256 "407add8a56623ef930544c3e6c680434d20eb439d60d0e7635ff5ac53f1b74b5" => :el_capitan
     sha256 "407add8a56623ef930544c3e6c680434d20eb439d60d0e7635ff5ac53f1b74b5" => :mavericks
+    sha256 "407add8a56623ef930544c3e6c680434d20eb439d60d0e7635ff5ac53f1b74b5" => :sierra
     sha256 "407add8a56623ef930544c3e6c680434d20eb439d60d0e7635ff5ac53f1b74b5" => :yosemite
   end
 end

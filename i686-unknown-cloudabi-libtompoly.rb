@@ -13,6 +13,7 @@ class I686UnknownCloudabiLibtompoly < Formula
     root_url "https://nuxi.nl/distfiles/cloudabi-ports/homebrew/links"
     sha256 "7139f7bb4a7d8d5545c3d3e5d231cbf29a045a4f007ab66706e6a2a820ba4e70" => :el_capitan
     sha256 "7139f7bb4a7d8d5545c3d3e5d231cbf29a045a4f007ab66706e6a2a820ba4e70" => :mavericks
+    sha256 "7139f7bb4a7d8d5545c3d3e5d231cbf29a045a4f007ab66706e6a2a820ba4e70" => :sierra
     sha256 "7139f7bb4a7d8d5545c3d3e5d231cbf29a045a4f007ab66706e6a2a820ba4e70" => :yosemite
   end
 end

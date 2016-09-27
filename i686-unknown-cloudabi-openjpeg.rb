@@ -12,6 +12,7 @@ class I686UnknownCloudabiOpenjpeg < Formula
     root_url "https://nuxi.nl/distfiles/cloudabi-ports/homebrew/links"
     sha256 "a22e15a500c62003a062c48dce6e2ce2ae7cfe94655d9d9e97314a89f9a4061d" => :el_capitan
     sha256 "a22e15a500c62003a062c48dce6e2ce2ae7cfe94655d9d9e97314a89f9a4061d" => :mavericks
+    sha256 "a22e15a500c62003a062c48dce6e2ce2ae7cfe94655d9d9e97314a89f9a4061d" => :sierra
     sha256 "a22e15a500c62003a062c48dce6e2ce2ae7cfe94655d9d9e97314a89f9a4061d" => :yosemite
   end
 end

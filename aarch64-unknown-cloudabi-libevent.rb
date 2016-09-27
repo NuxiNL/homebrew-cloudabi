@@ -12,6 +12,7 @@ class Aarch64UnknownCloudabiLibevent < Formula
     root_url "https://nuxi.nl/distfiles/cloudabi-ports/homebrew/links"
     sha256 "ff5b73c30731c153377812023c997baec35dcb369c681dea502e62e8330d7bbf" => :el_capitan
     sha256 "ff5b73c30731c153377812023c997baec35dcb369c681dea502e62e8330d7bbf" => :mavericks
+    sha256 "ff5b73c30731c153377812023c997baec35dcb369c681dea502e62e8330d7bbf" => :sierra
     sha256 "ff5b73c30731c153377812023c997baec35dcb369c681dea502e62e8330d7bbf" => :yosemite
   end
 end

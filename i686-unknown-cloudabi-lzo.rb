@@ -12,6 +12,7 @@ class I686UnknownCloudabiLzo < Formula
     root_url "https://nuxi.nl/distfiles/cloudabi-ports/homebrew/links"
     sha256 "cd7250de02ef7a422e6729ed90499064e7c61cddea67a318aee6aa6d0e786122" => :el_capitan
     sha256 "cd7250de02ef7a422e6729ed90499064e7c61cddea67a318aee6aa6d0e786122" => :mavericks
+    sha256 "cd7250de02ef7a422e6729ed90499064e7c61cddea67a318aee6aa6d0e786122" => :sierra
     sha256 "cd7250de02ef7a422e6729ed90499064e7c61cddea67a318aee6aa6d0e786122" => :yosemite
   end
 end

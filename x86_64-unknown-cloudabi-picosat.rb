@@ -12,6 +12,7 @@ class X8664UnknownCloudabiPicosat < Formula
     root_url "https://nuxi.nl/distfiles/cloudabi-ports/homebrew/links"
     sha256 "45b98285f0eb0d88c59c92fb001702f5d99a777d801035dfcd618db232006dc0" => :el_capitan
     sha256 "45b98285f0eb0d88c59c92fb001702f5d99a777d801035dfcd618db232006dc0" => :mavericks
+    sha256 "45b98285f0eb0d88c59c92fb001702f5d99a777d801035dfcd618db232006dc0" => :sierra
     sha256 "45b98285f0eb0d88c59c92fb001702f5d99a777d801035dfcd618db232006dc0" => :yosemite
   end
 end

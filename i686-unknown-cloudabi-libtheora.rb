@@ -13,6 +13,7 @@ class I686UnknownCloudabiLibtheora < Formula
     root_url "https://nuxi.nl/distfiles/cloudabi-ports/homebrew/links"
     sha256 "e31988932436648b9a7c81c7f3aa8c9bf001cda109ad1b3dcfe3d5ef42143b55" => :el_capitan
     sha256 "e31988932436648b9a7c81c7f3aa8c9bf001cda109ad1b3dcfe3d5ef42143b55" => :mavericks
+    sha256 "e31988932436648b9a7c81c7f3aa8c9bf001cda109ad1b3dcfe3d5ef42143b55" => :sierra
     sha256 "e31988932436648b9a7c81c7f3aa8c9bf001cda109ad1b3dcfe3d5ef42143b55" => :yosemite
   end
 end

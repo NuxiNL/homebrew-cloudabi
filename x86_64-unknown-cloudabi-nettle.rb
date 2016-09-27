@@ -13,6 +13,7 @@ class X8664UnknownCloudabiNettle < Formula
     root_url "https://nuxi.nl/distfiles/cloudabi-ports/homebrew/links"
     sha256 "d702c8c7367983f2708449c84907eb4002e370d0dc5aed92737df0c51ec2acaa" => :el_capitan
     sha256 "d702c8c7367983f2708449c84907eb4002e370d0dc5aed92737df0c51ec2acaa" => :mavericks
+    sha256 "d702c8c7367983f2708449c84907eb4002e370d0dc5aed92737df0c51ec2acaa" => :sierra
     sha256 "d702c8c7367983f2708449c84907eb4002e370d0dc5aed92737df0c51ec2acaa" => :yosemite
   end
 end

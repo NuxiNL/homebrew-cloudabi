@@ -12,6 +12,7 @@ class I686UnknownCloudabiSpeexdsp < Formula
     root_url "https://nuxi.nl/distfiles/cloudabi-ports/homebrew/links"
     sha256 "fb468b8d96a31a34b25cd1dadd57369e47f83566459fe15af721b7d538f22ea6" => :el_capitan
     sha256 "fb468b8d96a31a34b25cd1dadd57369e47f83566459fe15af721b7d538f22ea6" => :mavericks
+    sha256 "fb468b8d96a31a34b25cd1dadd57369e47f83566459fe15af721b7d538f22ea6" => :sierra
     sha256 "fb468b8d96a31a34b25cd1dadd57369e47f83566459fe15af721b7d538f22ea6" => :yosemite
   end
 end

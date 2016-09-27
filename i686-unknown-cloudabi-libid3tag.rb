@@ -13,6 +13,7 @@ class I686UnknownCloudabiLibid3tag < Formula
     root_url "https://nuxi.nl/distfiles/cloudabi-ports/homebrew/links"
     sha256 "7270f2406b54e038d4f207b77441b87e55314b5566986b4bacc4d894e0f4372b" => :el_capitan
     sha256 "7270f2406b54e038d4f207b77441b87e55314b5566986b4bacc4d894e0f4372b" => :mavericks
+    sha256 "7270f2406b54e038d4f207b77441b87e55314b5566986b4bacc4d894e0f4372b" => :sierra
     sha256 "7270f2406b54e038d4f207b77441b87e55314b5566986b4bacc4d894e0f4372b" => :yosemite
   end
 end

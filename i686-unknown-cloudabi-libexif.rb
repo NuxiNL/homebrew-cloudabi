@@ -12,6 +12,7 @@ class I686UnknownCloudabiLibexif < Formula
     root_url "https://nuxi.nl/distfiles/cloudabi-ports/homebrew/links"
     sha256 "64c2e7e2f26af4f6b2aec04c1f9eeac2de0d34062b55af407a9cf878344113cb" => :el_capitan
     sha256 "64c2e7e2f26af4f6b2aec04c1f9eeac2de0d34062b55af407a9cf878344113cb" => :mavericks
+    sha256 "64c2e7e2f26af4f6b2aec04c1f9eeac2de0d34062b55af407a9cf878344113cb" => :sierra
     sha256 "64c2e7e2f26af4f6b2aec04c1f9eeac2de0d34062b55af407a9cf878344113cb" => :yosemite
   end
 end

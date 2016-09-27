@@ -12,6 +12,7 @@ class Aarch64UnknownCloudabiLibsodium < Formula
     root_url "https://nuxi.nl/distfiles/cloudabi-ports/homebrew/links"
     sha256 "b5aa776b779baeb272fb85e56fd303a4295d9bf771a23087abf9a2367e74ff1f" => :el_capitan
     sha256 "b5aa776b779baeb272fb85e56fd303a4295d9bf771a23087abf9a2367e74ff1f" => :mavericks
+    sha256 "b5aa776b779baeb272fb85e56fd303a4295d9bf771a23087abf9a2367e74ff1f" => :sierra
     sha256 "b5aa776b779baeb272fb85e56fd303a4295d9bf771a23087abf9a2367e74ff1f" => :yosemite
   end
 end

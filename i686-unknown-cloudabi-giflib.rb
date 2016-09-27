@@ -12,6 +12,7 @@ class I686UnknownCloudabiGiflib < Formula
     root_url "https://nuxi.nl/distfiles/cloudabi-ports/homebrew/links"
     sha256 "5097ffda66f097bed72482d4ef09ac4601a55cb75cc089643d02eece9a8e7e22" => :el_capitan
     sha256 "5097ffda66f097bed72482d4ef09ac4601a55cb75cc089643d02eece9a8e7e22" => :mavericks
+    sha256 "5097ffda66f097bed72482d4ef09ac4601a55cb75cc089643d02eece9a8e7e22" => :sierra
     sha256 "5097ffda66f097bed72482d4ef09ac4601a55cb75cc089643d02eece9a8e7e22" => :yosemite
   end
 end
