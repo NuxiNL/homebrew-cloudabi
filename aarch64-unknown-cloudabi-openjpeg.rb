@@ -2,7 +2,7 @@ class Aarch64UnknownCloudabiOpenjpeg < Formula
   desc "openjpeg for aarch64-unknown-cloudabi"
   homepage "http://www.openjpeg.org/"
   url "http://this.package.cannot.be.built.from.source/"
-  version "2.1.1"
+  version "2.1.2"
   revision 1
   depends_on "aarch64-unknown-cloudabi-cloudabi"
   depends_on "aarch64-unknown-cloudabi-cloudlibc"
@@ -10,9 +10,9 @@ class Aarch64UnknownCloudabiOpenjpeg < Formula
 
   bottle do
     root_url "https://nuxi.nl/distfiles/cloudabi-ports/homebrew/links"
-    sha256 "c3334cda30297716f5162c8beb98fb1d3603ad45f9ae21dcd09cdac0a9910ec8" => :el_capitan
-    sha256 "c3334cda30297716f5162c8beb98fb1d3603ad45f9ae21dcd09cdac0a9910ec8" => :mavericks
-    sha256 "c3334cda30297716f5162c8beb98fb1d3603ad45f9ae21dcd09cdac0a9910ec8" => :sierra
-    sha256 "c3334cda30297716f5162c8beb98fb1d3603ad45f9ae21dcd09cdac0a9910ec8" => :yosemite
+    sha256 "71c074815b85d3fb3673fa994170ec631128d57aea4f9efcc1e1d18b1833b03c" => :el_capitan
+    sha256 "71c074815b85d3fb3673fa994170ec631128d57aea4f9efcc1e1d18b1833b03c" => :mavericks
+    sha256 "71c074815b85d3fb3673fa994170ec631128d57aea4f9efcc1e1d18b1833b03c" => :sierra
+    sha256 "71c074815b85d3fb3673fa994170ec631128d57aea4f9efcc1e1d18b1833b03c" => :yosemite
   end
 end

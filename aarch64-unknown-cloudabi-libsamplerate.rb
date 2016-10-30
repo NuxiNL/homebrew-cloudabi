@@ -2,17 +2,17 @@ class Aarch64UnknownCloudabiLibsamplerate < Formula
   desc "libsamplerate for aarch64-unknown-cloudabi"
   homepage "http://www.mega-nerd.com/SRC/"
   url "http://this.package.cannot.be.built.from.source/"
-  version "0.1.8"
-  revision 14
+  version "0.1.9"
+  revision 1
   depends_on "aarch64-unknown-cloudabi-cloudabi"
   depends_on "aarch64-unknown-cloudabi-cloudlibc"
   depends_on "aarch64-unknown-cloudabi-compiler-rt"
 
   bottle do
     root_url "https://nuxi.nl/distfiles/cloudabi-ports/homebrew/links"
-    sha256 "9b31d1942420a555df6039e578b327707255bb765151ce63d3e122a6d655696a" => :el_capitan
-    sha256 "9b31d1942420a555df6039e578b327707255bb765151ce63d3e122a6d655696a" => :mavericks
-    sha256 "9b31d1942420a555df6039e578b327707255bb765151ce63d3e122a6d655696a" => :sierra
-    sha256 "9b31d1942420a555df6039e578b327707255bb765151ce63d3e122a6d655696a" => :yosemite
+    sha256 "acdb1e128e862f02c0c2c5bb26c43af9b8a579dcb1675dfe5155e1c1922ec663" => :el_capitan
+    sha256 "acdb1e128e862f02c0c2c5bb26c43af9b8a579dcb1675dfe5155e1c1922ec663" => :mavericks
+    sha256 "acdb1e128e862f02c0c2c5bb26c43af9b8a579dcb1675dfe5155e1c1922ec663" => :sierra
+    sha256 "acdb1e128e862f02c0c2c5bb26c43af9b8a579dcb1675dfe5155e1c1922ec663" => :yosemite
   end
 end
