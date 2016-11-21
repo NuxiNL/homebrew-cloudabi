@@ -3,16 +3,16 @@ class I686UnknownCloudabiLibevent < Formula
   homepage "http://libevent.org/"
   url "http://this.package.cannot.be.built.from.source/"
   version "2.0.22"
-  revision 7
+  revision 8
   depends_on "i686-unknown-cloudabi-cloudabi"
   depends_on "i686-unknown-cloudabi-cloudlibc"
   depends_on "i686-unknown-cloudabi-compiler-rt"
 
   bottle do
     root_url "https://nuxi.nl/distfiles/cloudabi-ports/homebrew/links"
-    sha256 "4cda989f08ef5c900d80851a27d3be534d24b04e99b7465627f6bafeb107a625" => :el_capitan
-    sha256 "4cda989f08ef5c900d80851a27d3be534d24b04e99b7465627f6bafeb107a625" => :mavericks
-    sha256 "4cda989f08ef5c900d80851a27d3be534d24b04e99b7465627f6bafeb107a625" => :sierra
-    sha256 "4cda989f08ef5c900d80851a27d3be534d24b04e99b7465627f6bafeb107a625" => :yosemite
+    sha256 "4ff8b14a5bc66edcb51e0377cf01918311d10038139b06f8c9dd968ade40ab2d" => :el_capitan
+    sha256 "4ff8b14a5bc66edcb51e0377cf01918311d10038139b06f8c9dd968ade40ab2d" => :mavericks
+    sha256 "4ff8b14a5bc66edcb51e0377cf01918311d10038139b06f8c9dd968ade40ab2d" => :sierra
+    sha256 "4ff8b14a5bc66edcb51e0377cf01918311d10038139b06f8c9dd968ade40ab2d" => :yosemite
   end
 end

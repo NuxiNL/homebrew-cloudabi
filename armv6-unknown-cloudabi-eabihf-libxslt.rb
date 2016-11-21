@@ -3,7 +3,7 @@ class Armv6UnknownCloudabiEabihfLibxslt < Formula
   homepage "http://xmlsoft.org/libxslt/"
   url "http://this.package.cannot.be.built.from.source/"
   version "1.1.29"
-  revision 3
+  revision 4
   depends_on "armv6-unknown-cloudabi-eabihf-cloudabi"
   depends_on "armv6-unknown-cloudabi-eabihf-cloudlibc"
   depends_on "armv6-unknown-cloudabi-eabihf-compiler-rt"
@@ -11,9 +11,9 @@ class Armv6UnknownCloudabiEabihfLibxslt < Formula
 
   bottle do
     root_url "https://nuxi.nl/distfiles/cloudabi-ports/homebrew/links"
-    sha256 "74f9504e0a07c3e9b5571ae211e52de4439f5fb598c60f76e7b9cb20556a73e9" => :el_capitan
-    sha256 "74f9504e0a07c3e9b5571ae211e52de4439f5fb598c60f76e7b9cb20556a73e9" => :mavericks
-    sha256 "74f9504e0a07c3e9b5571ae211e52de4439f5fb598c60f76e7b9cb20556a73e9" => :sierra
-    sha256 "74f9504e0a07c3e9b5571ae211e52de4439f5fb598c60f76e7b9cb20556a73e9" => :yosemite
+    sha256 "e5a83fccaf6f51dc7a32d9abdb9146b58d16fde9143f241abcb54a23d064bde5" => :el_capitan
+    sha256 "e5a83fccaf6f51dc7a32d9abdb9146b58d16fde9143f241abcb54a23d064bde5" => :mavericks
+    sha256 "e5a83fccaf6f51dc7a32d9abdb9146b58d16fde9143f241abcb54a23d064bde5" => :sierra
+    sha256 "e5a83fccaf6f51dc7a32d9abdb9146b58d16fde9143f241abcb54a23d064bde5" => :yosemite
   end
 end

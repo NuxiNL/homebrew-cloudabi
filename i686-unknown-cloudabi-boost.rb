@@ -3,7 +3,7 @@ class I686UnknownCloudabiBoost < Formula
   homepage "http://www.boost.org/"
   url "http://this.package.cannot.be.built.from.source/"
   version "1.61.0"
-  revision 7
+  revision 8
   depends_on "i686-unknown-cloudabi-bzip2"
   depends_on "i686-unknown-cloudabi-cloudabi"
   depends_on "i686-unknown-cloudabi-cloudlibc"
@@ -16,9 +16,9 @@ class I686UnknownCloudabiBoost < Formula
 
   bottle do
     root_url "https://nuxi.nl/distfiles/cloudabi-ports/homebrew/links"
-    sha256 "ade110b546d1e4a6842721786fd9e083751b5994a73abe10ab36c46854686b97" => :el_capitan
-    sha256 "ade110b546d1e4a6842721786fd9e083751b5994a73abe10ab36c46854686b97" => :mavericks
-    sha256 "ade110b546d1e4a6842721786fd9e083751b5994a73abe10ab36c46854686b97" => :sierra
-    sha256 "ade110b546d1e4a6842721786fd9e083751b5994a73abe10ab36c46854686b97" => :yosemite
+    sha256 "7efdf10e7b2c4e32b7a0e7bcf0b9786731ac22735fd551f85ddb80b9779bb994" => :el_capitan
+    sha256 "7efdf10e7b2c4e32b7a0e7bcf0b9786731ac22735fd551f85ddb80b9779bb994" => :mavericks
+    sha256 "7efdf10e7b2c4e32b7a0e7bcf0b9786731ac22735fd551f85ddb80b9779bb994" => :sierra
+    sha256 "7efdf10e7b2c4e32b7a0e7bcf0b9786731ac22735fd551f85ddb80b9779bb994" => :yosemite
   end
 end
