@@ -3,7 +3,7 @@ class I686UnknownCloudabiIcu4c < Formula
   homepage "http://site.icu-project.org/"
   url "http://this.package.cannot.be.built.from.source/"
   version "58.1"
-  revision 1
+  revision 2
   depends_on "i686-unknown-cloudabi-cloudabi"
   depends_on "i686-unknown-cloudabi-cloudlibc"
   depends_on "i686-unknown-cloudabi-compiler-rt"
@@ -13,9 +13,9 @@ class I686UnknownCloudabiIcu4c < Formula
 
   bottle do
     root_url "https://nuxi.nl/distfiles/cloudabi-ports/homebrew/links"
-    sha256 "b8258960d5a94c95c2582ada6328c4dfe324ef4781776fd969e88917b4a1e9ab" => :el_capitan
-    sha256 "b8258960d5a94c95c2582ada6328c4dfe324ef4781776fd969e88917b4a1e9ab" => :mavericks
-    sha256 "b8258960d5a94c95c2582ada6328c4dfe324ef4781776fd969e88917b4a1e9ab" => :sierra
-    sha256 "b8258960d5a94c95c2582ada6328c4dfe324ef4781776fd969e88917b4a1e9ab" => :yosemite
+    sha256 "62eeeed291753b5b9ce8b9c2000a1f5e6c2f3ed70cc1d386c9e42682af3b8d5b" => :el_capitan
+    sha256 "62eeeed291753b5b9ce8b9c2000a1f5e6c2f3ed70cc1d386c9e42682af3b8d5b" => :mavericks
+    sha256 "62eeeed291753b5b9ce8b9c2000a1f5e6c2f3ed70cc1d386c9e42682af3b8d5b" => :sierra
+    sha256 "62eeeed291753b5b9ce8b9c2000a1f5e6c2f3ed70cc1d386c9e42682af3b8d5b" => :yosemite
   end
 end

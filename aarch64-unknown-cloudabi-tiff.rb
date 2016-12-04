@@ -3,7 +3,7 @@ class Aarch64UnknownCloudabiTiff < Formula
   homepage "http://www.remotesensing.org/libtiff/"
   url "http://this.package.cannot.be.built.from.source/"
   version "4.0.6"
-  revision 16
+  revision 17
   depends_on "aarch64-unknown-cloudabi-cloudabi"
   depends_on "aarch64-unknown-cloudabi-cloudlibc"
   depends_on "aarch64-unknown-cloudabi-compiler-rt"
@@ -13,9 +13,9 @@ class Aarch64UnknownCloudabiTiff < Formula
 
   bottle do
     root_url "https://nuxi.nl/distfiles/cloudabi-ports/homebrew/links"
-    sha256 "ed885970e3b7dd54d2d295777b3b2eb21f4a2603f484124f8496b1f0d5f9fab0" => :el_capitan
-    sha256 "ed885970e3b7dd54d2d295777b3b2eb21f4a2603f484124f8496b1f0d5f9fab0" => :mavericks
-    sha256 "ed885970e3b7dd54d2d295777b3b2eb21f4a2603f484124f8496b1f0d5f9fab0" => :sierra
-    sha256 "ed885970e3b7dd54d2d295777b3b2eb21f4a2603f484124f8496b1f0d5f9fab0" => :yosemite
+    sha256 "951a2f965243d2ff224feba7237aa4cbebb51950752a357f0358961ee579fd01" => :el_capitan
+    sha256 "951a2f965243d2ff224feba7237aa4cbebb51950752a357f0358961ee579fd01" => :mavericks
+    sha256 "951a2f965243d2ff224feba7237aa4cbebb51950752a357f0358961ee579fd01" => :sierra
+    sha256 "951a2f965243d2ff224feba7237aa4cbebb51950752a357f0358961ee579fd01" => :yosemite
   end
 end

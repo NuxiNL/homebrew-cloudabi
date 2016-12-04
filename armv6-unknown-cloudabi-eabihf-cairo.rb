@@ -3,7 +3,7 @@ class Armv6UnknownCloudabiEabihfCairo < Formula
   homepage "http://cairographics.org/"
   url "http://this.package.cannot.be.built.from.source/"
   version "1.14.6"
-  revision 6
+  revision 7
   depends_on "armv6-unknown-cloudabi-eabihf-bzip2"
   depends_on "armv6-unknown-cloudabi-eabihf-cloudabi"
   depends_on "armv6-unknown-cloudabi-eabihf-cloudlibc"
@@ -15,9 +15,9 @@ class Armv6UnknownCloudabiEabihfCairo < Formula
 
   bottle do
     root_url "https://nuxi.nl/distfiles/cloudabi-ports/homebrew/links"
-    sha256 "ff5054e645dcd343f58861485c9d48908dd9e06f8bd6db882ae99e56c71ba726" => :el_capitan
-    sha256 "ff5054e645dcd343f58861485c9d48908dd9e06f8bd6db882ae99e56c71ba726" => :mavericks
-    sha256 "ff5054e645dcd343f58861485c9d48908dd9e06f8bd6db882ae99e56c71ba726" => :sierra
-    sha256 "ff5054e645dcd343f58861485c9d48908dd9e06f8bd6db882ae99e56c71ba726" => :yosemite
+    sha256 "6f8b5b68d906e5ceb4afd6932be24617b3dce400bb35306eca027ee493d51c60" => :el_capitan
+    sha256 "6f8b5b68d906e5ceb4afd6932be24617b3dce400bb35306eca027ee493d51c60" => :mavericks
+    sha256 "6f8b5b68d906e5ceb4afd6932be24617b3dce400bb35306eca027ee493d51c60" => :sierra
+    sha256 "6f8b5b68d906e5ceb4afd6932be24617b3dce400bb35306eca027ee493d51c60" => :yosemite
   end
 end

@@ -3,7 +3,7 @@ class X8664UnknownCloudabiLibxspf < Formula
   homepage "http://libspiff.sourceforge.net/"
   url "http://this.package.cannot.be.built.from.source/"
   version "1.2.0"
-  revision 19
+  revision 20
   depends_on "x86_64-unknown-cloudabi-cloudabi"
   depends_on "x86_64-unknown-cloudabi-cloudlibc"
   depends_on "x86_64-unknown-cloudabi-compiler-rt"
@@ -15,9 +15,9 @@ class X8664UnknownCloudabiLibxspf < Formula
 
   bottle do
     root_url "https://nuxi.nl/distfiles/cloudabi-ports/homebrew/links"
-    sha256 "824aa96554e9bd8d78a596455f0f67f294b2efc3869d529bb6ec4e2153fc2f50" => :el_capitan
-    sha256 "824aa96554e9bd8d78a596455f0f67f294b2efc3869d529bb6ec4e2153fc2f50" => :mavericks
-    sha256 "824aa96554e9bd8d78a596455f0f67f294b2efc3869d529bb6ec4e2153fc2f50" => :sierra
-    sha256 "824aa96554e9bd8d78a596455f0f67f294b2efc3869d529bb6ec4e2153fc2f50" => :yosemite
+    sha256 "dd2fedcdc91efb975e7fcf072f959a9739748e5ff81db943ccdf869a85e48fe7" => :el_capitan
+    sha256 "dd2fedcdc91efb975e7fcf072f959a9739748e5ff81db943ccdf869a85e48fe7" => :mavericks
+    sha256 "dd2fedcdc91efb975e7fcf072f959a9739748e5ff81db943ccdf869a85e48fe7" => :sierra
+    sha256 "dd2fedcdc91efb975e7fcf072f959a9739748e5ff81db943ccdf869a85e48fe7" => :yosemite
   end
 end

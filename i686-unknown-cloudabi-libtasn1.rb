@@ -3,16 +3,16 @@ class I686UnknownCloudabiLibtasn1 < Formula
   homepage "https://www.gnu.org/software/libtasn1/"
   url "http://this.package.cannot.be.built.from.source/"
   version "4.9"
-  revision 1
+  revision 2
   depends_on "i686-unknown-cloudabi-cloudabi"
   depends_on "i686-unknown-cloudabi-cloudlibc"
   depends_on "i686-unknown-cloudabi-compiler-rt"
 
   bottle do
     root_url "https://nuxi.nl/distfiles/cloudabi-ports/homebrew/links"
-    sha256 "a729f527495ded31cd98b6fb5ddaece82535e6e95028585cb343b79b87919d24" => :el_capitan
-    sha256 "a729f527495ded31cd98b6fb5ddaece82535e6e95028585cb343b79b87919d24" => :mavericks
-    sha256 "a729f527495ded31cd98b6fb5ddaece82535e6e95028585cb343b79b87919d24" => :sierra
-    sha256 "a729f527495ded31cd98b6fb5ddaece82535e6e95028585cb343b79b87919d24" => :yosemite
+    sha256 "0e7e128e2c43bef8072479da4fe17c70102a36aedd423569c3f9518fc6fe1583" => :el_capitan
+    sha256 "0e7e128e2c43bef8072479da4fe17c70102a36aedd423569c3f9518fc6fe1583" => :mavericks
+    sha256 "0e7e128e2c43bef8072479da4fe17c70102a36aedd423569c3f9518fc6fe1583" => :sierra
+    sha256 "0e7e128e2c43bef8072479da4fe17c70102a36aedd423569c3f9518fc6fe1583" => :yosemite
   end
 end
