@@ -37,7 +37,7 @@ class CloudabiToolchain < Formula
     (buildpath/"tools/lld").install resource("lld")
 
     args = [
-      "-DLLVM_TARGETS_TO_BUILD=AArch64;X86",
+      "-DLLVM_TARGETS_TO_BUILD=AArch64;ARM;X86",
       "-DCMAKE_INSTALL_PREFIX=#{libexec}"
     ]
 
