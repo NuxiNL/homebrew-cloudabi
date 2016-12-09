@@ -3,7 +3,7 @@ class I686UnknownCloudabiNettle < Formula
   homepage "http://www.lysator.liu.se/~nisse/nettle/"
   url "http://this.package.cannot.be.built.from.source/"
   version "3.3"
-  revision 2
+  revision 3
   depends_on "i686-unknown-cloudabi-cloudabi"
   depends_on "i686-unknown-cloudabi-cloudlibc"
   depends_on "i686-unknown-cloudabi-compiler-rt"
@@ -11,9 +11,9 @@ class I686UnknownCloudabiNettle < Formula
 
   bottle do
     root_url "https://nuxi.nl/distfiles/cloudabi-ports/homebrew/links"
-    sha256 "7248a7f543279a633a1485a89136673a718d882094798bea964e0e43c8a9e3c2" => :el_capitan
-    sha256 "7248a7f543279a633a1485a89136673a718d882094798bea964e0e43c8a9e3c2" => :mavericks
-    sha256 "7248a7f543279a633a1485a89136673a718d882094798bea964e0e43c8a9e3c2" => :sierra
-    sha256 "7248a7f543279a633a1485a89136673a718d882094798bea964e0e43c8a9e3c2" => :yosemite
+    sha256 "f5224485c08db8b54db32d46dc739b2057548feae4eaff4f853e6fd3ea28f673" => :el_capitan
+    sha256 "f5224485c08db8b54db32d46dc739b2057548feae4eaff4f853e6fd3ea28f673" => :mavericks
+    sha256 "f5224485c08db8b54db32d46dc739b2057548feae4eaff4f853e6fd3ea28f673" => :sierra
+    sha256 "f5224485c08db8b54db32d46dc739b2057548feae4eaff4f853e6fd3ea28f673" => :yosemite
   end
 end
