@@ -3,7 +3,7 @@ class X8664UnknownCloudabiEverything < Formula
   homepage "https://nuxi.nl/"
   url "http://this.package.cannot.be.built.from.source/"
   version "1.0"
-  revision 12
+  revision 13
   depends_on "x86_64-unknown-cloudabi-boost"
   depends_on "x86_64-unknown-cloudabi-buddy"
   depends_on "x86_64-unknown-cloudabi-bzip2"
@@ -14,6 +14,7 @@ class X8664UnknownCloudabiEverything < Formula
   depends_on "x86_64-unknown-cloudabi-cloudlibc"
   depends_on "x86_64-unknown-cloudabi-compiler-rt"
   depends_on "x86_64-unknown-cloudabi-curl"
+  depends_on "x86_64-unknown-cloudabi-django"
   depends_on "x86_64-unknown-cloudabi-expat"
   depends_on "x86_64-unknown-cloudabi-flac"
   depends_on "x86_64-unknown-cloudabi-freetype"
@@ -92,9 +93,9 @@ class X8664UnknownCloudabiEverything < Formula
 
   bottle do
     root_url "https://nuxi.nl/distfiles/cloudabi-ports/homebrew/links"
-    sha256 "523847788d12524d864cb83b8d0a881d78d65a6d52dd1fadaec28ca81eade80b" => :el_capitan
-    sha256 "523847788d12524d864cb83b8d0a881d78d65a6d52dd1fadaec28ca81eade80b" => :mavericks
-    sha256 "523847788d12524d864cb83b8d0a881d78d65a6d52dd1fadaec28ca81eade80b" => :sierra
-    sha256 "523847788d12524d864cb83b8d0a881d78d65a6d52dd1fadaec28ca81eade80b" => :yosemite
+    sha256 "923a2d642a712afb2f17ec8f926bcb05b19c1d21fa1d23a50f35540a026a037e" => :el_capitan
+    sha256 "923a2d642a712afb2f17ec8f926bcb05b19c1d21fa1d23a50f35540a026a037e" => :mavericks
+    sha256 "923a2d642a712afb2f17ec8f926bcb05b19c1d21fa1d23a50f35540a026a037e" => :sierra
+    sha256 "923a2d642a712afb2f17ec8f926bcb05b19c1d21fa1d23a50f35540a026a037e" => :yosemite
   end
 end
