@@ -2,14 +2,14 @@ class X8664UnknownCloudabiCloudabi < Formula
   desc "cloudabi for x86_64-unknown-cloudabi"
   homepage "https://github.com/NuxiNL/cloudabi"
   url "http://this.package.cannot.be.built.from.source/"
-  version "0.8"
+  version "0.9"
   revision 1
 
   bottle do
     root_url "https://nuxi.nl/distfiles/cloudabi-ports/homebrew/links"
-    sha256 "1ab932026a14a1b0fdec288a087c38a89b41afa80ab8082c5209b36fda326821" => :el_capitan
-    sha256 "1ab932026a14a1b0fdec288a087c38a89b41afa80ab8082c5209b36fda326821" => :mavericks
-    sha256 "1ab932026a14a1b0fdec288a087c38a89b41afa80ab8082c5209b36fda326821" => :sierra
-    sha256 "1ab932026a14a1b0fdec288a087c38a89b41afa80ab8082c5209b36fda326821" => :yosemite
+    sha256 "5bc3208ded04af3949edabf20de890d7d151483e26e93d6621afb1235eb6a0b5" => :el_capitan
+    sha256 "5bc3208ded04af3949edabf20de890d7d151483e26e93d6621afb1235eb6a0b5" => :mavericks
+    sha256 "5bc3208ded04af3949edabf20de890d7d151483e26e93d6621afb1235eb6a0b5" => :sierra
+    sha256 "5bc3208ded04af3949edabf20de890d7d151483e26e93d6621afb1235eb6a0b5" => :yosemite
   end
 end
