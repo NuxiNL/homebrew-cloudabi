@@ -1,8 +1,8 @@
 class Cloudabi < Formula
   desc "Definitions for the CloudABI data types and system calls"
   homepage "https://github.com/NuxiNL/cloudabi"
-  url "https://github.com/NuxiNL/cloudabi/archive/v0.9.tar.gz"
-  sha256 "88f3d5e374f4b605c26ab09c9e5396ae573e1a634a642f76b9b626e1d4c0f78a"
+  url "https://github.com/NuxiNL/cloudabi/archive/v0.10.tar.gz"
+  sha256 "b425e111cbb8bea75069c46a3bd7c8ddb7b0adbf87af3fa5bb927f779eaa6e34"
 
   def install
     include.install Dir["headers/*"]
