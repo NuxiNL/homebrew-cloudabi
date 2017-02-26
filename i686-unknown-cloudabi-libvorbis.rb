@@ -3,7 +3,7 @@ class I686UnknownCloudabiLibvorbis < Formula
   homepage "https://xiph.org/vorbis/"
   url "http://this.package.cannot.be.built.from.source/"
   version "1.3.5"
-  revision 7
+  revision 8
   depends_on "i686-unknown-cloudabi-cloudabi"
   depends_on "i686-unknown-cloudabi-cloudlibc"
   depends_on "i686-unknown-cloudabi-compiler-rt"
@@ -11,9 +11,9 @@ class I686UnknownCloudabiLibvorbis < Formula
 
   bottle do
     root_url "https://nuxi.nl/distfiles/cloudabi-ports/homebrew/links"
-    sha256 "e8dbebcefa77e1d5edc32158398b3fcf7ba06e67f3eee4a6ca8c65e05b41243a" => :el_capitan
-    sha256 "e8dbebcefa77e1d5edc32158398b3fcf7ba06e67f3eee4a6ca8c65e05b41243a" => :mavericks
-    sha256 "e8dbebcefa77e1d5edc32158398b3fcf7ba06e67f3eee4a6ca8c65e05b41243a" => :sierra
-    sha256 "e8dbebcefa77e1d5edc32158398b3fcf7ba06e67f3eee4a6ca8c65e05b41243a" => :yosemite
+    sha256 "c92407b5f0081f4f244c79b16f7dbee2409a967b057b62c55adb6ebf45a32ba7" => :el_capitan
+    sha256 "c92407b5f0081f4f244c79b16f7dbee2409a967b057b62c55adb6ebf45a32ba7" => :mavericks
+    sha256 "c92407b5f0081f4f244c79b16f7dbee2409a967b057b62c55adb6ebf45a32ba7" => :sierra
+    sha256 "c92407b5f0081f4f244c79b16f7dbee2409a967b057b62c55adb6ebf45a32ba7" => :yosemite
   end
 end

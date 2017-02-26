@@ -3,16 +3,16 @@ class Aarch64UnknownCloudabiYaml < Formula
   homepage "http://pyyaml.org/wiki/LibYAML"
   url "http://this.package.cannot.be.built.from.source/"
   version "0.1.7"
-  revision 2
+  revision 3
   depends_on "aarch64-unknown-cloudabi-cloudabi"
   depends_on "aarch64-unknown-cloudabi-cloudlibc"
   depends_on "aarch64-unknown-cloudabi-compiler-rt"
 
   bottle do
     root_url "https://nuxi.nl/distfiles/cloudabi-ports/homebrew/links"
-    sha256 "61d5fcbc27843f2d05f7df066c54b93d200b19534391d78ff079ef7f8b339d77" => :el_capitan
-    sha256 "61d5fcbc27843f2d05f7df066c54b93d200b19534391d78ff079ef7f8b339d77" => :mavericks
-    sha256 "61d5fcbc27843f2d05f7df066c54b93d200b19534391d78ff079ef7f8b339d77" => :sierra
-    sha256 "61d5fcbc27843f2d05f7df066c54b93d200b19534391d78ff079ef7f8b339d77" => :yosemite
+    sha256 "82bcfe46a281ea93e00843d792baeedcff899c8967106d7dd9e978b846a5147e" => :el_capitan
+    sha256 "82bcfe46a281ea93e00843d792baeedcff899c8967106d7dd9e978b846a5147e" => :mavericks
+    sha256 "82bcfe46a281ea93e00843d792baeedcff899c8967106d7dd9e978b846a5147e" => :sierra
+    sha256 "82bcfe46a281ea93e00843d792baeedcff899c8967106d7dd9e978b846a5147e" => :yosemite
   end
 end

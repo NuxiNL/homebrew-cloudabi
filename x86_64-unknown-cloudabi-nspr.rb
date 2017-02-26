@@ -3,16 +3,16 @@ class X8664UnknownCloudabiNspr < Formula
   homepage "https://developer.mozilla.org/en-US/docs/Mozilla/Projects/NSPR"
   url "http://this.package.cannot.be.built.from.source/"
   version "4.13.1"
-  revision 6
+  revision 7
   depends_on "x86_64-unknown-cloudabi-cloudabi"
   depends_on "x86_64-unknown-cloudabi-cloudlibc"
   depends_on "x86_64-unknown-cloudabi-compiler-rt"
 
   bottle do
     root_url "https://nuxi.nl/distfiles/cloudabi-ports/homebrew/links"
-    sha256 "78eef93c0447c20676837032c049bc595ada36784f5d3ca67f6fab64f91eea56" => :el_capitan
-    sha256 "78eef93c0447c20676837032c049bc595ada36784f5d3ca67f6fab64f91eea56" => :mavericks
-    sha256 "78eef93c0447c20676837032c049bc595ada36784f5d3ca67f6fab64f91eea56" => :sierra
-    sha256 "78eef93c0447c20676837032c049bc595ada36784f5d3ca67f6fab64f91eea56" => :yosemite
+    sha256 "0d92041f193b0479fa8ae85032a6996b33e1c88609cb3e8e23e195c90ad0832f" => :el_capitan
+    sha256 "0d92041f193b0479fa8ae85032a6996b33e1c88609cb3e8e23e195c90ad0832f" => :mavericks
+    sha256 "0d92041f193b0479fa8ae85032a6996b33e1c88609cb3e8e23e195c90ad0832f" => :sierra
+    sha256 "0d92041f193b0479fa8ae85032a6996b33e1c88609cb3e8e23e195c90ad0832f" => :yosemite
   end
 end

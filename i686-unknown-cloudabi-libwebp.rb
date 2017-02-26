@@ -3,16 +3,16 @@ class I686UnknownCloudabiLibwebp < Formula
   homepage "https://developers.google.com/speed/webp/"
   url "http://this.package.cannot.be.built.from.source/"
   version "0.5.1"
-  revision 3
+  revision 4
   depends_on "i686-unknown-cloudabi-cloudabi"
   depends_on "i686-unknown-cloudabi-cloudlibc"
   depends_on "i686-unknown-cloudabi-compiler-rt"
 
   bottle do
     root_url "https://nuxi.nl/distfiles/cloudabi-ports/homebrew/links"
-    sha256 "8159dc5a4b8a3498e573b2daa689d0ea3598a2e037e78d7fd13550b7fe4a40ad" => :el_capitan
-    sha256 "8159dc5a4b8a3498e573b2daa689d0ea3598a2e037e78d7fd13550b7fe4a40ad" => :mavericks
-    sha256 "8159dc5a4b8a3498e573b2daa689d0ea3598a2e037e78d7fd13550b7fe4a40ad" => :sierra
-    sha256 "8159dc5a4b8a3498e573b2daa689d0ea3598a2e037e78d7fd13550b7fe4a40ad" => :yosemite
+    sha256 "f731929b1f5799129b9db09bf4195cbcc3970819b19696d34c8bd1994b2d3fd2" => :el_capitan
+    sha256 "f731929b1f5799129b9db09bf4195cbcc3970819b19696d34c8bd1994b2d3fd2" => :mavericks
+    sha256 "f731929b1f5799129b9db09bf4195cbcc3970819b19696d34c8bd1994b2d3fd2" => :sierra
+    sha256 "f731929b1f5799129b9db09bf4195cbcc3970819b19696d34c8bd1994b2d3fd2" => :yosemite
   end
 end

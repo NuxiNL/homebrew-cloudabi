@@ -3,7 +3,7 @@ class Armv6UnknownCloudabiEabihfLibtompoly < Formula
   homepage "http://www.libtom.net/"
   url "http://this.package.cannot.be.built.from.source/"
   version "0.4"
-  revision 3
+  revision 4
   depends_on "armv6-unknown-cloudabi-eabihf-cloudabi"
   depends_on "armv6-unknown-cloudabi-eabihf-cloudlibc"
   depends_on "armv6-unknown-cloudabi-eabihf-compiler-rt"
@@ -11,9 +11,9 @@ class Armv6UnknownCloudabiEabihfLibtompoly < Formula
 
   bottle do
     root_url "https://nuxi.nl/distfiles/cloudabi-ports/homebrew/links"
-    sha256 "2b7e8b2ce09c7538099c0e8f0390518bdf702c5f3b567115cf3ef84183a19eca" => :el_capitan
-    sha256 "2b7e8b2ce09c7538099c0e8f0390518bdf702c5f3b567115cf3ef84183a19eca" => :mavericks
-    sha256 "2b7e8b2ce09c7538099c0e8f0390518bdf702c5f3b567115cf3ef84183a19eca" => :sierra
-    sha256 "2b7e8b2ce09c7538099c0e8f0390518bdf702c5f3b567115cf3ef84183a19eca" => :yosemite
+    sha256 "0b4fc04bc57c935fe8bc175a38e3701108fc12475c8707b034c597e651b4f0c5" => :el_capitan
+    sha256 "0b4fc04bc57c935fe8bc175a38e3701108fc12475c8707b034c597e651b4f0c5" => :mavericks
+    sha256 "0b4fc04bc57c935fe8bc175a38e3701108fc12475c8707b034c597e651b4f0c5" => :sierra
+    sha256 "0b4fc04bc57c935fe8bc175a38e3701108fc12475c8707b034c597e651b4f0c5" => :yosemite
   end
 end

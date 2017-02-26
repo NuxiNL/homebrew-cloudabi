@@ -2,7 +2,7 @@ class I686UnknownCloudabiLibcxx < Formula
   desc "libcxx for i686-unknown-cloudabi"
   homepage "http://libcxx.llvm.org/"
   url "http://this.package.cannot.be.built.from.source/"
-  version "3.9.1"
+  version "4.0.0"
   revision 1
   depends_on "i686-unknown-cloudabi-cloudabi"
   depends_on "i686-unknown-cloudabi-cloudlibc"
@@ -10,9 +10,9 @@ class I686UnknownCloudabiLibcxx < Formula
 
   bottle do
     root_url "https://nuxi.nl/distfiles/cloudabi-ports/homebrew/links"
-    sha256 "8c017cbd5b9c58403eb38f440c768ca9c29912529163f151f5f566beaefc165b" => :el_capitan
-    sha256 "8c017cbd5b9c58403eb38f440c768ca9c29912529163f151f5f566beaefc165b" => :mavericks
-    sha256 "8c017cbd5b9c58403eb38f440c768ca9c29912529163f151f5f566beaefc165b" => :sierra
-    sha256 "8c017cbd5b9c58403eb38f440c768ca9c29912529163f151f5f566beaefc165b" => :yosemite
+    sha256 "5cf41e0802f2f044cc27018b78469ad75c2e2cb9f42934f562ed38f6a6262ab3" => :el_capitan
+    sha256 "5cf41e0802f2f044cc27018b78469ad75c2e2cb9f42934f562ed38f6a6262ab3" => :mavericks
+    sha256 "5cf41e0802f2f044cc27018b78469ad75c2e2cb9f42934f562ed38f6a6262ab3" => :sierra
+    sha256 "5cf41e0802f2f044cc27018b78469ad75c2e2cb9f42934f562ed38f6a6262ab3" => :yosemite
   end
 end

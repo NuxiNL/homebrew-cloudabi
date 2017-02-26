@@ -3,19 +3,17 @@ class Aarch64UnknownCloudabiMstd < Formula
   homepage "https://github.com/m-ou-se/mstd"
   url "http://this.package.cannot.be.built.from.source/"
   version "1"
-  revision 1
+  revision 2
   depends_on "aarch64-unknown-cloudabi-cloudabi"
   depends_on "aarch64-unknown-cloudabi-cloudlibc"
   depends_on "aarch64-unknown-cloudabi-compiler-rt"
   depends_on "aarch64-unknown-cloudabi-libcxx"
-  depends_on "aarch64-unknown-cloudabi-libcxxabi"
-  depends_on "aarch64-unknown-cloudabi-libunwind"
 
   bottle do
     root_url "https://nuxi.nl/distfiles/cloudabi-ports/homebrew/links"
-    sha256 "206d92ccc26bf3eebf285e6296abe39b717748e3d17419b5a0f7c44fe617c38e" => :el_capitan
-    sha256 "206d92ccc26bf3eebf285e6296abe39b717748e3d17419b5a0f7c44fe617c38e" => :mavericks
-    sha256 "206d92ccc26bf3eebf285e6296abe39b717748e3d17419b5a0f7c44fe617c38e" => :sierra
-    sha256 "206d92ccc26bf3eebf285e6296abe39b717748e3d17419b5a0f7c44fe617c38e" => :yosemite
+    sha256 "4ca91ba351217f2bf4bcfb34a28b12e271d8f39a82f06573077838eba6f508c6" => :el_capitan
+    sha256 "4ca91ba351217f2bf4bcfb34a28b12e271d8f39a82f06573077838eba6f508c6" => :mavericks
+    sha256 "4ca91ba351217f2bf4bcfb34a28b12e271d8f39a82f06573077838eba6f508c6" => :sierra
+    sha256 "4ca91ba351217f2bf4bcfb34a28b12e271d8f39a82f06573077838eba6f508c6" => :yosemite
   end
 end
