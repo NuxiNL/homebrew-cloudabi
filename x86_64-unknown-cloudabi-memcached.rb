@@ -3,7 +3,7 @@ class X8664UnknownCloudabiMemcached < Formula
   homepage "https://memcached.org/"
   url "http://this.package.cannot.be.built.from.source/"
   version "1.4.32"
-  revision 8
+  revision 9
   depends_on "x86_64-unknown-cloudabi-cloudabi"
   depends_on "x86_64-unknown-cloudabi-cloudlibc"
   depends_on "x86_64-unknown-cloudabi-compiler-rt"
@@ -11,9 +11,9 @@ class X8664UnknownCloudabiMemcached < Formula
 
   bottle do
     root_url "https://nuxi.nl/distfiles/cloudabi-ports/homebrew/links"
-    sha256 "d4bb4712623e839eb13b04aade727999cfa304c09560b4e30c2a3a663f25c9eb" => :el_capitan
-    sha256 "d4bb4712623e839eb13b04aade727999cfa304c09560b4e30c2a3a663f25c9eb" => :mavericks
-    sha256 "d4bb4712623e839eb13b04aade727999cfa304c09560b4e30c2a3a663f25c9eb" => :sierra
-    sha256 "d4bb4712623e839eb13b04aade727999cfa304c09560b4e30c2a3a663f25c9eb" => :yosemite
+    sha256 "c04b21188b2a552412d2aeacea66efef355903b78503ed6029877291201289a9" => :el_capitan
+    sha256 "c04b21188b2a552412d2aeacea66efef355903b78503ed6029877291201289a9" => :mavericks
+    sha256 "c04b21188b2a552412d2aeacea66efef355903b78503ed6029877291201289a9" => :sierra
+    sha256 "c04b21188b2a552412d2aeacea66efef355903b78503ed6029877291201289a9" => :yosemite
   end
 end
