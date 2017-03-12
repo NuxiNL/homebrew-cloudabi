@@ -3,7 +3,7 @@ class Armv6UnknownCloudabiEabihfTaglib < Formula
   homepage "https://taglib.github.io/"
   url "http://this.package.cannot.be.built.from.source/"
   version "1.11.1"
-  revision 3
+  revision 4
   depends_on "armv6-unknown-cloudabi-eabihf-argdata"
   depends_on "armv6-unknown-cloudabi-eabihf-cloudabi"
   depends_on "armv6-unknown-cloudabi-eabihf-cloudlibc"
@@ -16,9 +16,9 @@ class Armv6UnknownCloudabiEabihfTaglib < Formula
 
   bottle do
     root_url "https://nuxi.nl/distfiles/cloudabi-ports/homebrew/links"
-    sha256 "be70639d6eff0d34a63bb6b3901ed9b841190bf06238e12fca9c4b4922f2daf0" => :el_capitan
-    sha256 "be70639d6eff0d34a63bb6b3901ed9b841190bf06238e12fca9c4b4922f2daf0" => :mavericks
-    sha256 "be70639d6eff0d34a63bb6b3901ed9b841190bf06238e12fca9c4b4922f2daf0" => :sierra
-    sha256 "be70639d6eff0d34a63bb6b3901ed9b841190bf06238e12fca9c4b4922f2daf0" => :yosemite
+    sha256 "66acfe81803a0211c5f000004bd649132a226a6a11f93a5460f7d6c28b5c0800" => :el_capitan
+    sha256 "66acfe81803a0211c5f000004bd649132a226a6a11f93a5460f7d6c28b5c0800" => :mavericks
+    sha256 "66acfe81803a0211c5f000004bd649132a226a6a11f93a5460f7d6c28b5c0800" => :sierra
+    sha256 "66acfe81803a0211c5f000004bd649132a226a6a11f93a5460f7d6c28b5c0800" => :yosemite
   end
 end

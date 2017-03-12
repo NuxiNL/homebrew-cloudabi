@@ -2,8 +2,8 @@ class I686UnknownCloudabiCairo < Formula
   desc "cairo for i686-unknown-cloudabi"
   homepage "http://cairographics.org/"
   url "http://this.package.cannot.be.built.from.source/"
-  version "1.14.6"
-  revision 12
+  version "1.14.8"
+  revision 1
   depends_on "i686-unknown-cloudabi-bzip2"
   depends_on "i686-unknown-cloudabi-cloudabi"
   depends_on "i686-unknown-cloudabi-cloudlibc"
@@ -15,9 +15,9 @@ class I686UnknownCloudabiCairo < Formula
 
   bottle do
     root_url "https://nuxi.nl/distfiles/cloudabi-ports/homebrew/links"
-    sha256 "5284f6bda1966f15e06ac226accc3a061db1b1d80e820904adb0d98e87fa8d01" => :el_capitan
-    sha256 "5284f6bda1966f15e06ac226accc3a061db1b1d80e820904adb0d98e87fa8d01" => :mavericks
-    sha256 "5284f6bda1966f15e06ac226accc3a061db1b1d80e820904adb0d98e87fa8d01" => :sierra
-    sha256 "5284f6bda1966f15e06ac226accc3a061db1b1d80e820904adb0d98e87fa8d01" => :yosemite
+    sha256 "e57704cd8a162b65f02b7c3648dcd1d2037d099647fbf8021fded8cee9ac6da9" => :el_capitan
+    sha256 "e57704cd8a162b65f02b7c3648dcd1d2037d099647fbf8021fded8cee9ac6da9" => :mavericks
+    sha256 "e57704cd8a162b65f02b7c3648dcd1d2037d099647fbf8021fded8cee9ac6da9" => :sierra
+    sha256 "e57704cd8a162b65f02b7c3648dcd1d2037d099647fbf8021fded8cee9ac6da9" => :yosemite
   end
 end
