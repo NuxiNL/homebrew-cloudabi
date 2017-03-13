@@ -3,17 +3,17 @@ class CloudabiToolchain < Formula
   homepage "https://nuxi.nl/cloudabi/"
 
   stable do
-    url "http://llvm.org/releases/3.9.0/llvm-3.9.0.src.tar.xz"
-    sha256 "66c73179da42cee1386371641241f79ded250e117a79f571bbd69e56daa48948"
+    url "http://llvm.org/releases/4.0.0/llvm-4.0.0.src.tar.xz"
+    sha256 "8d10511df96e73b8ff9e7abbfb4d4d432edbdbe965f1f4f07afaf370b8a533be"
 
     resource "clang" do
-      url "http://llvm.org/releases/3.9.0/cfe-3.9.0.src.tar.xz"
-      sha256 "7596a7c7d9376d0c89e60028fe1ceb4d3e535e8ea8b89e0eb094e0dcb3183d28"
+      url "http://llvm.org/releases/4.0.0/cfe-4.0.0.src.tar.xz"
+      sha256 "cea5f88ebddb30e296ca89130c83b9d46c2d833685e2912303c828054c4dc98a"
     end
 
     resource "lld" do
-      url "http://llvm.org/releases/3.9.0/lld-3.9.0.src.tar.xz"
-      sha256 "986e8150ec5f457469a20666628bf634a5ca992a53e157f3b69dbc35056b32d9"
+      url "http://llvm.org/releases/4.0.0/lld-4.0.0.src.tar.xz"
+      sha256 "33e06457b9ce0563c89b11ccc7ccabf9cff71b83571985a5bf8684c9150e7502"
     end
   end
 
