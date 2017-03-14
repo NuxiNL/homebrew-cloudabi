@@ -3,7 +3,7 @@ class I686UnknownCloudabiLibsndfile < Formula
   homepage "http://www.mega-nerd.com/libsndfile/"
   url "http://this.package.cannot.be.built.from.source/"
   version "1.0.27"
-  revision 9
+  revision 10
   depends_on "i686-unknown-cloudabi-argdata"
   depends_on "i686-unknown-cloudabi-cloudabi"
   depends_on "i686-unknown-cloudabi-cloudlibc"
@@ -19,9 +19,9 @@ class I686UnknownCloudabiLibsndfile < Formula
 
   bottle do
     root_url "https://nuxi.nl/distfiles/cloudabi-ports/homebrew/links"
-    sha256 "588130798a7c09f37cd0c7586f3a3ee667f260a02a5fc8ea6fc47e33f210eeb2" => :el_capitan
-    sha256 "588130798a7c09f37cd0c7586f3a3ee667f260a02a5fc8ea6fc47e33f210eeb2" => :mavericks
-    sha256 "588130798a7c09f37cd0c7586f3a3ee667f260a02a5fc8ea6fc47e33f210eeb2" => :sierra
-    sha256 "588130798a7c09f37cd0c7586f3a3ee667f260a02a5fc8ea6fc47e33f210eeb2" => :yosemite
+    sha256 "be616703689b716b329e364c0c58493c9bebe7418a7ef38f0b69aafed3881eef" => :el_capitan
+    sha256 "be616703689b716b329e364c0c58493c9bebe7418a7ef38f0b69aafed3881eef" => :mavericks
+    sha256 "be616703689b716b329e364c0c58493c9bebe7418a7ef38f0b69aafed3881eef" => :sierra
+    sha256 "be616703689b716b329e364c0c58493c9bebe7418a7ef38f0b69aafed3881eef" => :yosemite
   end
 end

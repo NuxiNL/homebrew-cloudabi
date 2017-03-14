@@ -3,7 +3,7 @@ class X8664UnknownCloudabiLibtomfloat < Formula
   homepage "http://www.libtom.net/"
   url "http://this.package.cannot.be.built.from.source/"
   version "0.2"
-  revision 16
+  revision 17
   depends_on "x86_64-unknown-cloudabi-cloudabi"
   depends_on "x86_64-unknown-cloudabi-cloudlibc"
   depends_on "x86_64-unknown-cloudabi-compiler-rt"
@@ -11,9 +11,9 @@ class X8664UnknownCloudabiLibtomfloat < Formula
 
   bottle do
     root_url "https://nuxi.nl/distfiles/cloudabi-ports/homebrew/links"
-    sha256 "ce890953133134adfe81bbc0dcbe6cb5e6905f43f78c68e0d1bbc1804d937e30" => :el_capitan
-    sha256 "ce890953133134adfe81bbc0dcbe6cb5e6905f43f78c68e0d1bbc1804d937e30" => :mavericks
-    sha256 "ce890953133134adfe81bbc0dcbe6cb5e6905f43f78c68e0d1bbc1804d937e30" => :sierra
-    sha256 "ce890953133134adfe81bbc0dcbe6cb5e6905f43f78c68e0d1bbc1804d937e30" => :yosemite
+    sha256 "0cee466a6f96e1219149b8e125611f0bb0896d6fead2c91fd30789497f003697" => :el_capitan
+    sha256 "0cee466a6f96e1219149b8e125611f0bb0896d6fead2c91fd30789497f003697" => :mavericks
+    sha256 "0cee466a6f96e1219149b8e125611f0bb0896d6fead2c91fd30789497f003697" => :sierra
+    sha256 "0cee466a6f96e1219149b8e125611f0bb0896d6fead2c91fd30789497f003697" => :yosemite
   end
 end

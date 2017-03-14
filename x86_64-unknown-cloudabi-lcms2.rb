@@ -3,7 +3,7 @@ class X8664UnknownCloudabiLcms2 < Formula
   homepage "http://www.littlecms.com/"
   url "http://this.package.cannot.be.built.from.source/"
   version "2.8"
-  revision 4
+  revision 5
   depends_on "x86_64-unknown-cloudabi-argdata"
   depends_on "x86_64-unknown-cloudabi-cloudabi"
   depends_on "x86_64-unknown-cloudabi-cloudlibc"
@@ -18,9 +18,9 @@ class X8664UnknownCloudabiLcms2 < Formula
 
   bottle do
     root_url "https://nuxi.nl/distfiles/cloudabi-ports/homebrew/links"
-    sha256 "dbb7fc0ef0f65e613f38912d2c9945414f2bbcc4b4c29eda79d31138524c6586" => :el_capitan
-    sha256 "dbb7fc0ef0f65e613f38912d2c9945414f2bbcc4b4c29eda79d31138524c6586" => :mavericks
-    sha256 "dbb7fc0ef0f65e613f38912d2c9945414f2bbcc4b4c29eda79d31138524c6586" => :sierra
-    sha256 "dbb7fc0ef0f65e613f38912d2c9945414f2bbcc4b4c29eda79d31138524c6586" => :yosemite
+    sha256 "a7d4a31b12294492fd928d4d1843f4e8b65426bdaad0ed12f4ef1681c62bf4a0" => :el_capitan
+    sha256 "a7d4a31b12294492fd928d4d1843f4e8b65426bdaad0ed12f4ef1681c62bf4a0" => :mavericks
+    sha256 "a7d4a31b12294492fd928d4d1843f4e8b65426bdaad0ed12f4ef1681c62bf4a0" => :sierra
+    sha256 "a7d4a31b12294492fd928d4d1843f4e8b65426bdaad0ed12f4ef1681c62bf4a0" => :yosemite
   end
 end

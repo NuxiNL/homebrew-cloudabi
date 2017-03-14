@@ -3,16 +3,16 @@ class X8664UnknownCloudabiBzip2 < Formula
   homepage "http://www.bzip.org/"
   url "http://this.package.cannot.be.built.from.source/"
   version "1.0.6"
-  revision 18
+  revision 19
   depends_on "x86_64-unknown-cloudabi-cloudabi"
   depends_on "x86_64-unknown-cloudabi-cloudlibc"
   depends_on "x86_64-unknown-cloudabi-compiler-rt"
 
   bottle do
     root_url "https://nuxi.nl/distfiles/cloudabi-ports/homebrew/links"
-    sha256 "19dd747c6750b3f96aef35626683482cdc4d139218a2a8c51f80b0c148527978" => :el_capitan
-    sha256 "19dd747c6750b3f96aef35626683482cdc4d139218a2a8c51f80b0c148527978" => :mavericks
-    sha256 "19dd747c6750b3f96aef35626683482cdc4d139218a2a8c51f80b0c148527978" => :sierra
-    sha256 "19dd747c6750b3f96aef35626683482cdc4d139218a2a8c51f80b0c148527978" => :yosemite
+    sha256 "8631afcf133305c85027c131eb43803858791ce715682f98fd9fefca94b93a65" => :el_capitan
+    sha256 "8631afcf133305c85027c131eb43803858791ce715682f98fd9fefca94b93a65" => :mavericks
+    sha256 "8631afcf133305c85027c131eb43803858791ce715682f98fd9fefca94b93a65" => :sierra
+    sha256 "8631afcf133305c85027c131eb43803858791ce715682f98fd9fefca94b93a65" => :yosemite
   end
 end

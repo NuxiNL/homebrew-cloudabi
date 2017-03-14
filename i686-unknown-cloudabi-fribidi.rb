@@ -3,16 +3,16 @@ class I686UnknownCloudabiFribidi < Formula
   homepage "http://fribidi.org/"
   url "http://this.package.cannot.be.built.from.source/"
   version "0.19.7"
-  revision 7
+  revision 8
   depends_on "i686-unknown-cloudabi-cloudabi"
   depends_on "i686-unknown-cloudabi-cloudlibc"
   depends_on "i686-unknown-cloudabi-compiler-rt"
 
   bottle do
     root_url "https://nuxi.nl/distfiles/cloudabi-ports/homebrew/links"
-    sha256 "84ce8e47251636a7311e9b38fca4871a1e3a1dcfb07804c16d9f7712fcf542bd" => :el_capitan
-    sha256 "84ce8e47251636a7311e9b38fca4871a1e3a1dcfb07804c16d9f7712fcf542bd" => :mavericks
-    sha256 "84ce8e47251636a7311e9b38fca4871a1e3a1dcfb07804c16d9f7712fcf542bd" => :sierra
-    sha256 "84ce8e47251636a7311e9b38fca4871a1e3a1dcfb07804c16d9f7712fcf542bd" => :yosemite
+    sha256 "8fde103b6bcbaace306ad01ffa969e19425e2864de7d8f0d7babffc27b1632dc" => :el_capitan
+    sha256 "8fde103b6bcbaace306ad01ffa969e19425e2864de7d8f0d7babffc27b1632dc" => :mavericks
+    sha256 "8fde103b6bcbaace306ad01ffa969e19425e2864de7d8f0d7babffc27b1632dc" => :sierra
+    sha256 "8fde103b6bcbaace306ad01ffa969e19425e2864de7d8f0d7babffc27b1632dc" => :yosemite
   end
 end

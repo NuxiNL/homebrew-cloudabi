@@ -3,7 +3,7 @@ class I686UnknownCloudabiLibucl < Formula
   homepage "https://github.com/vstakhov/libucl"
   url "http://this.package.cannot.be.built.from.source/"
   version "0.8.0"
-  revision 5
+  revision 6
   depends_on "i686-unknown-cloudabi-cloudabi"
   depends_on "i686-unknown-cloudabi-cloudlibc"
   depends_on "i686-unknown-cloudabi-compiler-rt"
@@ -11,9 +11,9 @@ class I686UnknownCloudabiLibucl < Formula
 
   bottle do
     root_url "https://nuxi.nl/distfiles/cloudabi-ports/homebrew/links"
-    sha256 "d8a4f2bb28e532946195615216b3bc2b1095a97bea1d00e0d5618778bea9bd79" => :el_capitan
-    sha256 "d8a4f2bb28e532946195615216b3bc2b1095a97bea1d00e0d5618778bea9bd79" => :mavericks
-    sha256 "d8a4f2bb28e532946195615216b3bc2b1095a97bea1d00e0d5618778bea9bd79" => :sierra
-    sha256 "d8a4f2bb28e532946195615216b3bc2b1095a97bea1d00e0d5618778bea9bd79" => :yosemite
+    sha256 "9209899b281140a43fada6d3bf4755d89e226e84478a682bb8ddd557a0bdb545" => :el_capitan
+    sha256 "9209899b281140a43fada6d3bf4755d89e226e84478a682bb8ddd557a0bdb545" => :mavericks
+    sha256 "9209899b281140a43fada6d3bf4755d89e226e84478a682bb8ddd557a0bdb545" => :sierra
+    sha256 "9209899b281140a43fada6d3bf4755d89e226e84478a682bb8ddd557a0bdb545" => :yosemite
   end
 end
