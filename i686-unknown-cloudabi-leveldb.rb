@@ -3,7 +3,7 @@ class I686UnknownCloudabiLeveldb < Formula
   homepage "http://leveldb.org/"
   url "http://this.package.cannot.be.built.from.source/"
   version "1.20"
-  revision 2
+  revision 3
   depends_on "i686-unknown-cloudabi-argdata"
   depends_on "i686-unknown-cloudabi-cloudabi"
   depends_on "i686-unknown-cloudabi-cloudlibc"
@@ -16,9 +16,9 @@ class I686UnknownCloudabiLeveldb < Formula
 
   bottle do
     root_url "https://nuxi.nl/distfiles/cloudabi-ports/homebrew/links"
-    sha256 "6e494d74f003c688d052876787969a8ef5425bcfb9062e18733f965390990211" => :el_capitan
-    sha256 "6e494d74f003c688d052876787969a8ef5425bcfb9062e18733f965390990211" => :mavericks
-    sha256 "6e494d74f003c688d052876787969a8ef5425bcfb9062e18733f965390990211" => :sierra
-    sha256 "6e494d74f003c688d052876787969a8ef5425bcfb9062e18733f965390990211" => :yosemite
+    sha256 "3e9bbe72f96ac0b31f15837ac8c1b606e04a3c6382348dab7c9ed62d42a32fac" => :el_capitan
+    sha256 "3e9bbe72f96ac0b31f15837ac8c1b606e04a3c6382348dab7c9ed62d42a32fac" => :mavericks
+    sha256 "3e9bbe72f96ac0b31f15837ac8c1b606e04a3c6382348dab7c9ed62d42a32fac" => :sierra
+    sha256 "3e9bbe72f96ac0b31f15837ac8c1b606e04a3c6382348dab7c9ed62d42a32fac" => :yosemite
   end
 end
