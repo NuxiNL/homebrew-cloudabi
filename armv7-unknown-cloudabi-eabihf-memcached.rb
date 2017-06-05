@@ -3,7 +3,7 @@ class Armv7UnknownCloudabiEabihfMemcached < Formula
   homepage "https://memcached.org/"
   url "http://this.package.cannot.be.built.from.source/"
   version "1.4.35"
-  revision 1
+  revision 2
   depends_on "armv7-unknown-cloudabi-eabihf-cloudabi"
   depends_on "armv7-unknown-cloudabi-eabihf-cloudlibc"
   depends_on "armv7-unknown-cloudabi-eabihf-compiler-rt"
@@ -11,9 +11,9 @@ class Armv7UnknownCloudabiEabihfMemcached < Formula
 
   bottle do
     root_url "https://nuxi.nl/distfiles/cloudabi-ports/homebrew/links"
-    sha256 "44f61a7f05a2c6d08b6d5e8dace54cbbaefd0699e50e13783bb7f2d2ec370b17" => :el_capitan
-    sha256 "44f61a7f05a2c6d08b6d5e8dace54cbbaefd0699e50e13783bb7f2d2ec370b17" => :mavericks
-    sha256 "44f61a7f05a2c6d08b6d5e8dace54cbbaefd0699e50e13783bb7f2d2ec370b17" => :sierra
-    sha256 "44f61a7f05a2c6d08b6d5e8dace54cbbaefd0699e50e13783bb7f2d2ec370b17" => :yosemite
+    sha256 "a5462b840e23c3cc9d2af6aa0972c23186cb89c65a41298b37d0f89e2efcecf8" => :el_capitan
+    sha256 "a5462b840e23c3cc9d2af6aa0972c23186cb89c65a41298b37d0f89e2efcecf8" => :mavericks
+    sha256 "a5462b840e23c3cc9d2af6aa0972c23186cb89c65a41298b37d0f89e2efcecf8" => :sierra
+    sha256 "a5462b840e23c3cc9d2af6aa0972c23186cb89c65a41298b37d0f89e2efcecf8" => :yosemite
   end
 end
