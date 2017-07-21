@@ -1,20 +1,20 @@
 class CloudabiToolchain < Formula
   desc "C/C++ toolchain for developing CloudABI applications"
   homepage "https://nuxi.nl/cloudabi/"
-  revision 2
+  revision 1
 
   stable do
-    url "http://llvm.org/releases/4.0.0/llvm-4.0.0.src.tar.xz"
-    sha256 "8d10511df96e73b8ff9e7abbfb4d4d432edbdbe965f1f4f07afaf370b8a533be"
+    url "http://llvm.org/releases/4.0.1/llvm-4.0.1.src.tar.xz"
+    sha256 "da783db1f82d516791179fe103c71706046561f7972b18f0049242dee6712b51"
 
     resource "clang" do
-      url "http://llvm.org/releases/4.0.0/cfe-4.0.0.src.tar.xz"
-      sha256 "cea5f88ebddb30e296ca89130c83b9d46c2d833685e2912303c828054c4dc98a"
+      url "http://llvm.org/releases/4.0.1/cfe-4.0.1.src.tar.xz"
+      sha256 "61738a735852c23c3bdbe52d035488cdb2083013f384d67c1ba36fabebd8769b"
     end
 
     resource "lld" do
-      url "http://llvm.org/releases/4.0.0/lld-4.0.0.src.tar.xz"
-      sha256 "33e06457b9ce0563c89b11ccc7ccabf9cff71b83571985a5bf8684c9150e7502"
+      url "http://llvm.org/releases/4.0.1/lld-4.0.1.src.tar.xz"
+      sha256 "63ce10e533276ca353941ce5ab5cc8e8dcd99dbdd9c4fa49f344a212f29d36ed"
     end
   end
 
