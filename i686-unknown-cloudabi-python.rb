@@ -3,7 +3,7 @@ class I686UnknownCloudabiPython < Formula
   homepage "https://www.python.org/"
   url "http://this.package.cannot.be.built.from.source/"
   version "3.6.0"
-  revision 47
+  revision 48
   depends_on "i686-unknown-cloudabi-bzip2"
   depends_on "i686-unknown-cloudabi-cloudabi"
   depends_on "i686-unknown-cloudabi-cloudlibc"
@@ -16,9 +16,9 @@ class I686UnknownCloudabiPython < Formula
 
   bottle do
     root_url "https://nuxi.nl/distfiles/cloudabi-ports/homebrew/links"
-    sha256 "6d3c233bdfe54eeae409995d6e46b37af5621ff50e4138b8a08f82d88b3e7d9e" => :el_capitan
-    sha256 "6d3c233bdfe54eeae409995d6e46b37af5621ff50e4138b8a08f82d88b3e7d9e" => :mavericks
-    sha256 "6d3c233bdfe54eeae409995d6e46b37af5621ff50e4138b8a08f82d88b3e7d9e" => :sierra
-    sha256 "6d3c233bdfe54eeae409995d6e46b37af5621ff50e4138b8a08f82d88b3e7d9e" => :yosemite
+    sha256 "67e6bc29ec33262a3189bf9489a03ca4bf42ba214b6c9d9bf99078578b136e1a" => :el_capitan
+    sha256 "67e6bc29ec33262a3189bf9489a03ca4bf42ba214b6c9d9bf99078578b136e1a" => :mavericks
+    sha256 "67e6bc29ec33262a3189bf9489a03ca4bf42ba214b6c9d9bf99078578b136e1a" => :sierra
+    sha256 "67e6bc29ec33262a3189bf9489a03ca4bf42ba214b6c9d9bf99078578b136e1a" => :yosemite
   end
 end

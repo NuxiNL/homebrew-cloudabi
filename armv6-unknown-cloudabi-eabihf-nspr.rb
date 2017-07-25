@@ -3,16 +3,16 @@ class Armv6UnknownCloudabiEabihfNspr < Formula
   homepage "https://developer.mozilla.org/en-US/docs/Mozilla/Projects/NSPR"
   url "http://this.package.cannot.be.built.from.source/"
   version "4.13.1"
-  revision 10
+  revision 11
   depends_on "armv6-unknown-cloudabi-eabihf-cloudabi"
   depends_on "armv6-unknown-cloudabi-eabihf-cloudlibc"
   depends_on "armv6-unknown-cloudabi-eabihf-compiler-rt"
 
   bottle do
     root_url "https://nuxi.nl/distfiles/cloudabi-ports/homebrew/links"
-    sha256 "732b2d3fea3cf0c5bb77d0b347b10d18cf2e651d582e5a08bd84d2f3e376207d" => :el_capitan
-    sha256 "732b2d3fea3cf0c5bb77d0b347b10d18cf2e651d582e5a08bd84d2f3e376207d" => :mavericks
-    sha256 "732b2d3fea3cf0c5bb77d0b347b10d18cf2e651d582e5a08bd84d2f3e376207d" => :sierra
-    sha256 "732b2d3fea3cf0c5bb77d0b347b10d18cf2e651d582e5a08bd84d2f3e376207d" => :yosemite
+    sha256 "a72bc4f18623e3a141c4a1af852149c53b3533164326ed5f0680e2f7530f71b8" => :el_capitan
+    sha256 "a72bc4f18623e3a141c4a1af852149c53b3533164326ed5f0680e2f7530f71b8" => :mavericks
+    sha256 "a72bc4f18623e3a141c4a1af852149c53b3533164326ed5f0680e2f7530f71b8" => :sierra
+    sha256 "a72bc4f18623e3a141c4a1af852149c53b3533164326ed5f0680e2f7530f71b8" => :yosemite
   end
 end
