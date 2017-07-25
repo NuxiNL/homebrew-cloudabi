@@ -1,8 +1,8 @@
 class Argdata < Formula
   desc "Binary serialisation format inspired by YAML, MessagePack and nvlists"
   homepage "https://github.com/NuxiNL/argdata"
-  url "https://github.com/NuxiNL/argdata/archive/v0.3.tar.gz"
-  sha256 "12e3cc43074e2d7b22a4ae81e7262c932a4b8144b5b03f59578c00aa8aea16f4"
+  url "https://github.com/NuxiNL/argdata/archive/v0.5.tar.gz"
+  sha256 "8e1b92bb6dd1cf5f3fefcaf58e1a9d7c7caa8f255e85008ea79150a86319727d"
 
   depends_on "cmake" => :build
 
