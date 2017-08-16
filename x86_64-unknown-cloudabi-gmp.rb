@@ -3,16 +3,16 @@ class X8664UnknownCloudabiGmp < Formula
   homepage "https://gmplib.org/"
   url "http://this.package.cannot.be.built.from.source/"
   version "6.1.2"
-  revision 2
+  revision 3
   depends_on "x86_64-unknown-cloudabi-cloudabi"
   depends_on "x86_64-unknown-cloudabi-cloudlibc"
   depends_on "x86_64-unknown-cloudabi-compiler-rt"
 
   bottle do
     root_url "https://nuxi.nl/distfiles/cloudabi-ports/homebrew/links"
-    sha256 "785b48bb2c9b6f9ba2f64f734f5b9bce07d41c59e6bce89a31ec64070c822514" => :el_capitan
-    sha256 "785b48bb2c9b6f9ba2f64f734f5b9bce07d41c59e6bce89a31ec64070c822514" => :mavericks
-    sha256 "785b48bb2c9b6f9ba2f64f734f5b9bce07d41c59e6bce89a31ec64070c822514" => :sierra
-    sha256 "785b48bb2c9b6f9ba2f64f734f5b9bce07d41c59e6bce89a31ec64070c822514" => :yosemite
+    sha256 "c22b7c8f1e4f317e69ae7281fa8628d608278205eff2adaab360f239d05df8f6" => :el_capitan
+    sha256 "c22b7c8f1e4f317e69ae7281fa8628d608278205eff2adaab360f239d05df8f6" => :mavericks
+    sha256 "c22b7c8f1e4f317e69ae7281fa8628d608278205eff2adaab360f239d05df8f6" => :sierra
+    sha256 "c22b7c8f1e4f317e69ae7281fa8628d608278205eff2adaab360f239d05df8f6" => :yosemite
   end
 end

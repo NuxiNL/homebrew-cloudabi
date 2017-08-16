@@ -3,16 +3,16 @@ class Armv6UnknownCloudabiEabihfPixman < Formula
   homepage "http://www.pixman.org/"
   url "http://this.package.cannot.be.built.from.source/"
   version "0.34.0"
-  revision 5
+  revision 6
   depends_on "armv6-unknown-cloudabi-eabihf-cloudabi"
   depends_on "armv6-unknown-cloudabi-eabihf-cloudlibc"
   depends_on "armv6-unknown-cloudabi-eabihf-compiler-rt"
 
   bottle do
     root_url "https://nuxi.nl/distfiles/cloudabi-ports/homebrew/links"
-    sha256 "c2d05d13c05764a75fe9b556aaaa1a52e9b7c922ef656ee96d0c9e95b4eae9bd" => :el_capitan
-    sha256 "c2d05d13c05764a75fe9b556aaaa1a52e9b7c922ef656ee96d0c9e95b4eae9bd" => :mavericks
-    sha256 "c2d05d13c05764a75fe9b556aaaa1a52e9b7c922ef656ee96d0c9e95b4eae9bd" => :sierra
-    sha256 "c2d05d13c05764a75fe9b556aaaa1a52e9b7c922ef656ee96d0c9e95b4eae9bd" => :yosemite
+    sha256 "ac816ad6e866b99d70a7a9f906dfa34faad130e58f0d9b351bfca7a6782ee468" => :el_capitan
+    sha256 "ac816ad6e866b99d70a7a9f906dfa34faad130e58f0d9b351bfca7a6782ee468" => :mavericks
+    sha256 "ac816ad6e866b99d70a7a9f906dfa34faad130e58f0d9b351bfca7a6782ee468" => :sierra
+    sha256 "ac816ad6e866b99d70a7a9f906dfa34faad130e58f0d9b351bfca7a6782ee468" => :yosemite
   end
 end

@@ -3,16 +3,16 @@ class I686UnknownCloudabiJpeg < Formula
   homepage "http://www.ijg.org/"
   url "http://this.package.cannot.be.built.from.source/"
   version "9.2"
-  revision 8
+  revision 9
   depends_on "i686-unknown-cloudabi-cloudabi"
   depends_on "i686-unknown-cloudabi-cloudlibc"
   depends_on "i686-unknown-cloudabi-compiler-rt"
 
   bottle do
     root_url "https://nuxi.nl/distfiles/cloudabi-ports/homebrew/links"
-    sha256 "54617b4295b861e4d5e79b35bd95889958edbab58c5caee309d00b5925484539" => :el_capitan
-    sha256 "54617b4295b861e4d5e79b35bd95889958edbab58c5caee309d00b5925484539" => :mavericks
-    sha256 "54617b4295b861e4d5e79b35bd95889958edbab58c5caee309d00b5925484539" => :sierra
-    sha256 "54617b4295b861e4d5e79b35bd95889958edbab58c5caee309d00b5925484539" => :yosemite
+    sha256 "55209cd7a03b8886f591d91adeb6599aed72f5eb39980478c8eb1c80607fc09d" => :el_capitan
+    sha256 "55209cd7a03b8886f591d91adeb6599aed72f5eb39980478c8eb1c80607fc09d" => :mavericks
+    sha256 "55209cd7a03b8886f591d91adeb6599aed72f5eb39980478c8eb1c80607fc09d" => :sierra
+    sha256 "55209cd7a03b8886f591d91adeb6599aed72f5eb39980478c8eb1c80607fc09d" => :yosemite
   end
 end

@@ -3,16 +3,16 @@ class I686UnknownCloudabiPixman < Formula
   homepage "http://www.pixman.org/"
   url "http://this.package.cannot.be.built.from.source/"
   version "0.34.0"
-  revision 8
+  revision 9
   depends_on "i686-unknown-cloudabi-cloudabi"
   depends_on "i686-unknown-cloudabi-cloudlibc"
   depends_on "i686-unknown-cloudabi-compiler-rt"
 
   bottle do
     root_url "https://nuxi.nl/distfiles/cloudabi-ports/homebrew/links"
-    sha256 "4cf5c9575e466e8d6cd513328741ca9bac3a6f0aa6767577da52b494f303e2e2" => :el_capitan
-    sha256 "4cf5c9575e466e8d6cd513328741ca9bac3a6f0aa6767577da52b494f303e2e2" => :mavericks
-    sha256 "4cf5c9575e466e8d6cd513328741ca9bac3a6f0aa6767577da52b494f303e2e2" => :sierra
-    sha256 "4cf5c9575e466e8d6cd513328741ca9bac3a6f0aa6767577da52b494f303e2e2" => :yosemite
+    sha256 "937aa7432bdb9ec46630d87b3eb65aeb8b5572c95eda9b7cccc03d405c09bad7" => :el_capitan
+    sha256 "937aa7432bdb9ec46630d87b3eb65aeb8b5572c95eda9b7cccc03d405c09bad7" => :mavericks
+    sha256 "937aa7432bdb9ec46630d87b3eb65aeb8b5572c95eda9b7cccc03d405c09bad7" => :sierra
+    sha256 "937aa7432bdb9ec46630d87b3eb65aeb8b5572c95eda9b7cccc03d405c09bad7" => :yosemite
   end
 end

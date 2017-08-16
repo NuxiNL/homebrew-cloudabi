@@ -2,7 +2,7 @@ class Armv7UnknownCloudabiEabihfLibunwind < Formula
   desc "libunwind for armv7-unknown-cloudabi-eabihf"
   homepage "http://libcxx.llvm.org/"
   url "http://this.package.cannot.be.built.from.source/"
-  version "4.0.0"
+  version "5.0.0"
   revision 1
   depends_on "armv7-unknown-cloudabi-eabihf-cloudabi"
   depends_on "armv7-unknown-cloudabi-eabihf-cloudlibc"
@@ -11,9 +11,9 @@ class Armv7UnknownCloudabiEabihfLibunwind < Formula
 
   bottle do
     root_url "https://nuxi.nl/distfiles/cloudabi-ports/homebrew/links"
-    sha256 "e669bc8580de61e433cf8a650416165866d0e85449261f88ae46b4916322c87b" => :el_capitan
-    sha256 "e669bc8580de61e433cf8a650416165866d0e85449261f88ae46b4916322c87b" => :mavericks
-    sha256 "e669bc8580de61e433cf8a650416165866d0e85449261f88ae46b4916322c87b" => :sierra
-    sha256 "e669bc8580de61e433cf8a650416165866d0e85449261f88ae46b4916322c87b" => :yosemite
+    sha256 "f895ead0da17099b955b3506769c25833d5ea5fe9c5304277cf9003e3842080e" => :el_capitan
+    sha256 "f895ead0da17099b955b3506769c25833d5ea5fe9c5304277cf9003e3842080e" => :mavericks
+    sha256 "f895ead0da17099b955b3506769c25833d5ea5fe9c5304277cf9003e3842080e" => :sierra
+    sha256 "f895ead0da17099b955b3506769c25833d5ea5fe9c5304277cf9003e3842080e" => :yosemite
   end
 end

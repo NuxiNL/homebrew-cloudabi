@@ -3,16 +3,16 @@ class Aarch64UnknownCloudabiOpus < Formula
   homepage "http://www.opus-codec.org/"
   url "http://this.package.cannot.be.built.from.source/"
   version "1.1.4"
-  revision 2
+  revision 3
   depends_on "aarch64-unknown-cloudabi-cloudabi"
   depends_on "aarch64-unknown-cloudabi-cloudlibc"
   depends_on "aarch64-unknown-cloudabi-compiler-rt"
 
   bottle do
     root_url "https://nuxi.nl/distfiles/cloudabi-ports/homebrew/links"
-    sha256 "55ddd3eba6f71c82ebb5665a57730fd565b6b5cef0d589d2e93627453da1ec47" => :el_capitan
-    sha256 "55ddd3eba6f71c82ebb5665a57730fd565b6b5cef0d589d2e93627453da1ec47" => :mavericks
-    sha256 "55ddd3eba6f71c82ebb5665a57730fd565b6b5cef0d589d2e93627453da1ec47" => :sierra
-    sha256 "55ddd3eba6f71c82ebb5665a57730fd565b6b5cef0d589d2e93627453da1ec47" => :yosemite
+    sha256 "99b0d120a6a70bfc6fb73848f1be20338c013c552e7662c7f23bf905d2322b74" => :el_capitan
+    sha256 "99b0d120a6a70bfc6fb73848f1be20338c013c552e7662c7f23bf905d2322b74" => :mavericks
+    sha256 "99b0d120a6a70bfc6fb73848f1be20338c013c552e7662c7f23bf905d2322b74" => :sierra
+    sha256 "99b0d120a6a70bfc6fb73848f1be20338c013c552e7662c7f23bf905d2322b74" => :yosemite
   end
 end

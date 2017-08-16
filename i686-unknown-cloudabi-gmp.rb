@@ -3,16 +3,16 @@ class I686UnknownCloudabiGmp < Formula
   homepage "https://gmplib.org/"
   url "http://this.package.cannot.be.built.from.source/"
   version "6.1.2"
-  revision 2
+  revision 3
   depends_on "i686-unknown-cloudabi-cloudabi"
   depends_on "i686-unknown-cloudabi-cloudlibc"
   depends_on "i686-unknown-cloudabi-compiler-rt"
 
   bottle do
     root_url "https://nuxi.nl/distfiles/cloudabi-ports/homebrew/links"
-    sha256 "b68c933cd70bd766000001c7371a77e6fb1c23b83eee964840bcf289852d7b93" => :el_capitan
-    sha256 "b68c933cd70bd766000001c7371a77e6fb1c23b83eee964840bcf289852d7b93" => :mavericks
-    sha256 "b68c933cd70bd766000001c7371a77e6fb1c23b83eee964840bcf289852d7b93" => :sierra
-    sha256 "b68c933cd70bd766000001c7371a77e6fb1c23b83eee964840bcf289852d7b93" => :yosemite
+    sha256 "d0da649ec33795a6090a74b38a3deb0e2aa5fad652cfdbdde1fe6d629dac11e9" => :el_capitan
+    sha256 "d0da649ec33795a6090a74b38a3deb0e2aa5fad652cfdbdde1fe6d629dac11e9" => :mavericks
+    sha256 "d0da649ec33795a6090a74b38a3deb0e2aa5fad652cfdbdde1fe6d629dac11e9" => :sierra
+    sha256 "d0da649ec33795a6090a74b38a3deb0e2aa5fad652cfdbdde1fe6d629dac11e9" => :yosemite
   end
 end

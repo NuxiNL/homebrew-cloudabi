@@ -3,7 +3,7 @@ class Aarch64UnknownCloudabiDb48 < Formula
   homepage "http://www.oracle.com/technetwork/database/database-technologies/berkeleydb/"
   url "http://this.package.cannot.be.built.from.source/"
   version "4.8.30"
-  revision 2
+  revision 3
   depends_on "aarch64-unknown-cloudabi-argdata"
   depends_on "aarch64-unknown-cloudabi-cloudabi"
   depends_on "aarch64-unknown-cloudabi-cloudlibc"
@@ -15,9 +15,9 @@ class Aarch64UnknownCloudabiDb48 < Formula
 
   bottle do
     root_url "https://nuxi.nl/distfiles/cloudabi-ports/homebrew/links"
-    sha256 "0937db41a4ba07be79a38533dfb78a175887a1e6b2e1d1f5f2da9b717fe9923c" => :el_capitan
-    sha256 "0937db41a4ba07be79a38533dfb78a175887a1e6b2e1d1f5f2da9b717fe9923c" => :mavericks
-    sha256 "0937db41a4ba07be79a38533dfb78a175887a1e6b2e1d1f5f2da9b717fe9923c" => :sierra
-    sha256 "0937db41a4ba07be79a38533dfb78a175887a1e6b2e1d1f5f2da9b717fe9923c" => :yosemite
+    sha256 "2b02b3b5638d74b0ffeb40be321687542446e5b40a8a4c4261a400e5c87e9c5d" => :el_capitan
+    sha256 "2b02b3b5638d74b0ffeb40be321687542446e5b40a8a4c4261a400e5c87e9c5d" => :mavericks
+    sha256 "2b02b3b5638d74b0ffeb40be321687542446e5b40a8a4c4261a400e5c87e9c5d" => :sierra
+    sha256 "2b02b3b5638d74b0ffeb40be321687542446e5b40a8a4c4261a400e5c87e9c5d" => :yosemite
   end
 end

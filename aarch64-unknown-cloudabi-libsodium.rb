@@ -3,16 +3,16 @@ class Aarch64UnknownCloudabiLibsodium < Formula
   homepage "https://www.libsodium.org/"
   url "http://this.package.cannot.be.built.from.source/"
   version "1.0.11"
-  revision 5
+  revision 6
   depends_on "aarch64-unknown-cloudabi-cloudabi"
   depends_on "aarch64-unknown-cloudabi-cloudlibc"
   depends_on "aarch64-unknown-cloudabi-compiler-rt"
 
   bottle do
     root_url "https://nuxi.nl/distfiles/cloudabi-ports/homebrew/links"
-    sha256 "9198dd6cd1b2abc96b6b5b7b9586a03845895e9ffa3706163f5906f96dd93912" => :el_capitan
-    sha256 "9198dd6cd1b2abc96b6b5b7b9586a03845895e9ffa3706163f5906f96dd93912" => :mavericks
-    sha256 "9198dd6cd1b2abc96b6b5b7b9586a03845895e9ffa3706163f5906f96dd93912" => :sierra
-    sha256 "9198dd6cd1b2abc96b6b5b7b9586a03845895e9ffa3706163f5906f96dd93912" => :yosemite
+    sha256 "e726581a8b4c7393cabbcba30362eaeed8f51bb9a510cde3f213a41f7a520dea" => :el_capitan
+    sha256 "e726581a8b4c7393cabbcba30362eaeed8f51bb9a510cde3f213a41f7a520dea" => :mavericks
+    sha256 "e726581a8b4c7393cabbcba30362eaeed8f51bb9a510cde3f213a41f7a520dea" => :sierra
+    sha256 "e726581a8b4c7393cabbcba30362eaeed8f51bb9a510cde3f213a41f7a520dea" => :yosemite
   end
 end

@@ -3,7 +3,7 @@ class Armv7UnknownCloudabiEabihfLibtheora < Formula
   homepage "http://www.theora.org/"
   url "http://this.package.cannot.be.built.from.source/"
   version "1.1.1"
-  revision 1
+  revision 2
   depends_on "armv7-unknown-cloudabi-eabihf-cloudabi"
   depends_on "armv7-unknown-cloudabi-eabihf-cloudlibc"
   depends_on "armv7-unknown-cloudabi-eabihf-compiler-rt"
@@ -11,9 +11,9 @@ class Armv7UnknownCloudabiEabihfLibtheora < Formula
 
   bottle do
     root_url "https://nuxi.nl/distfiles/cloudabi-ports/homebrew/links"
-    sha256 "a0af92296dadfe271a644d0200879bcf5ecc344f22652f47b6da9fe8af681def" => :el_capitan
-    sha256 "a0af92296dadfe271a644d0200879bcf5ecc344f22652f47b6da9fe8af681def" => :mavericks
-    sha256 "a0af92296dadfe271a644d0200879bcf5ecc344f22652f47b6da9fe8af681def" => :sierra
-    sha256 "a0af92296dadfe271a644d0200879bcf5ecc344f22652f47b6da9fe8af681def" => :yosemite
+    sha256 "c180171be907c43a13fda748bc5bb62051513c56eb2e472e8e4ecfea9fd63ede" => :el_capitan
+    sha256 "c180171be907c43a13fda748bc5bb62051513c56eb2e472e8e4ecfea9fd63ede" => :mavericks
+    sha256 "c180171be907c43a13fda748bc5bb62051513c56eb2e472e8e4ecfea9fd63ede" => :sierra
+    sha256 "c180171be907c43a13fda748bc5bb62051513c56eb2e472e8e4ecfea9fd63ede" => :yosemite
   end
 end

@@ -2,14 +2,14 @@ class Armv7UnknownCloudabiEabihfCompilerRt < Formula
   desc "compiler-rt for armv7-unknown-cloudabi-eabihf"
   homepage "http://compiler-rt.llvm.org/"
   url "http://this.package.cannot.be.built.from.source/"
-  version "4.0.0"
+  version "5.0.0"
   revision 1
 
   bottle do
     root_url "https://nuxi.nl/distfiles/cloudabi-ports/homebrew/links"
-    sha256 "a6619cfc4ba6ab6155cf39f8b74650da232e56df4ceeb899b4f4102d1a4ec400" => :el_capitan
-    sha256 "a6619cfc4ba6ab6155cf39f8b74650da232e56df4ceeb899b4f4102d1a4ec400" => :mavericks
-    sha256 "a6619cfc4ba6ab6155cf39f8b74650da232e56df4ceeb899b4f4102d1a4ec400" => :sierra
-    sha256 "a6619cfc4ba6ab6155cf39f8b74650da232e56df4ceeb899b4f4102d1a4ec400" => :yosemite
+    sha256 "a87bb993269cf5341d1198d6d763fece5eab0cb143655e25aaef3b54edde6cf7" => :el_capitan
+    sha256 "a87bb993269cf5341d1198d6d763fece5eab0cb143655e25aaef3b54edde6cf7" => :mavericks
+    sha256 "a87bb993269cf5341d1198d6d763fece5eab0cb143655e25aaef3b54edde6cf7" => :sierra
+    sha256 "a87bb993269cf5341d1198d6d763fece5eab0cb143655e25aaef3b54edde6cf7" => :yosemite
   end
 end

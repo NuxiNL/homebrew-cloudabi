@@ -3,7 +3,7 @@ class I686UnknownCloudabiJsoncpp < Formula
   homepage "https://github.com/open-source-parsers/jsoncpp"
   url "http://this.package.cannot.be.built.from.source/"
   version "1.8.0"
-  revision 3
+  revision 4
   depends_on "i686-unknown-cloudabi-argdata"
   depends_on "i686-unknown-cloudabi-cloudabi"
   depends_on "i686-unknown-cloudabi-cloudlibc"
@@ -15,9 +15,9 @@ class I686UnknownCloudabiJsoncpp < Formula
 
   bottle do
     root_url "https://nuxi.nl/distfiles/cloudabi-ports/homebrew/links"
-    sha256 "8c832b241095530b7d23aad2dc6eca45c0708e814a01cc99169a500bc36d26c6" => :el_capitan
-    sha256 "8c832b241095530b7d23aad2dc6eca45c0708e814a01cc99169a500bc36d26c6" => :mavericks
-    sha256 "8c832b241095530b7d23aad2dc6eca45c0708e814a01cc99169a500bc36d26c6" => :sierra
-    sha256 "8c832b241095530b7d23aad2dc6eca45c0708e814a01cc99169a500bc36d26c6" => :yosemite
+    sha256 "7f87b73fdf83229ee1194854880457d0ddecf8f9b87b43b7fdb9ccf237149165" => :el_capitan
+    sha256 "7f87b73fdf83229ee1194854880457d0ddecf8f9b87b43b7fdb9ccf237149165" => :mavericks
+    sha256 "7f87b73fdf83229ee1194854880457d0ddecf8f9b87b43b7fdb9ccf237149165" => :sierra
+    sha256 "7f87b73fdf83229ee1194854880457d0ddecf8f9b87b43b7fdb9ccf237149165" => :yosemite
   end
 end

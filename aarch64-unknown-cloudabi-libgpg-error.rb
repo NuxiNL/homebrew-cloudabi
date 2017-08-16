@@ -3,16 +3,16 @@ class Aarch64UnknownCloudabiLibgpgError < Formula
   homepage "https://www.gnupg.org/"
   url "http://this.package.cannot.be.built.from.source/"
   version "1.27"
-  revision 2
+  revision 3
   depends_on "aarch64-unknown-cloudabi-cloudabi"
   depends_on "aarch64-unknown-cloudabi-cloudlibc"
   depends_on "aarch64-unknown-cloudabi-compiler-rt"
 
   bottle do
     root_url "https://nuxi.nl/distfiles/cloudabi-ports/homebrew/links"
-    sha256 "71b9cdb8997dcc15390f7249095568a0f3a90bc2f95d5ab24276487c94e58e0c" => :el_capitan
-    sha256 "71b9cdb8997dcc15390f7249095568a0f3a90bc2f95d5ab24276487c94e58e0c" => :mavericks
-    sha256 "71b9cdb8997dcc15390f7249095568a0f3a90bc2f95d5ab24276487c94e58e0c" => :sierra
-    sha256 "71b9cdb8997dcc15390f7249095568a0f3a90bc2f95d5ab24276487c94e58e0c" => :yosemite
+    sha256 "d5d27d4fd0bc803e49f674ad7dc3520cc330a2f546e7589f11410484dc84611e" => :el_capitan
+    sha256 "d5d27d4fd0bc803e49f674ad7dc3520cc330a2f546e7589f11410484dc84611e" => :mavericks
+    sha256 "d5d27d4fd0bc803e49f674ad7dc3520cc330a2f546e7589f11410484dc84611e" => :sierra
+    sha256 "d5d27d4fd0bc803e49f674ad7dc3520cc330a2f546e7589f11410484dc84611e" => :yosemite
   end
 end

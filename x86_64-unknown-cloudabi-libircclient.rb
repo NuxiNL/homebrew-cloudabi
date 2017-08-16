@@ -3,7 +3,7 @@ class X8664UnknownCloudabiLibircclient < Formula
   homepage "https://sourceforge.net/p/libircclient"
   url "http://this.package.cannot.be.built.from.source/"
   version "1.9"
-  revision 1
+  revision 2
   depends_on "x86_64-unknown-cloudabi-argdata"
   depends_on "x86_64-unknown-cloudabi-cloudabi"
   depends_on "x86_64-unknown-cloudabi-cloudlibc"
@@ -15,9 +15,9 @@ class X8664UnknownCloudabiLibircclient < Formula
 
   bottle do
     root_url "https://nuxi.nl/distfiles/cloudabi-ports/homebrew/links"
-    sha256 "a4ae402c49105c02f9147c7313a7d18c2befe149446c10af6fe221b689fb9796" => :el_capitan
-    sha256 "a4ae402c49105c02f9147c7313a7d18c2befe149446c10af6fe221b689fb9796" => :mavericks
-    sha256 "a4ae402c49105c02f9147c7313a7d18c2befe149446c10af6fe221b689fb9796" => :sierra
-    sha256 "a4ae402c49105c02f9147c7313a7d18c2befe149446c10af6fe221b689fb9796" => :yosemite
+    sha256 "3a73e95b7b75d0b269a72f894cee8c3e3f37b5914272c1aa5841a8d8556ca6be" => :el_capitan
+    sha256 "3a73e95b7b75d0b269a72f894cee8c3e3f37b5914272c1aa5841a8d8556ca6be" => :mavericks
+    sha256 "3a73e95b7b75d0b269a72f894cee8c3e3f37b5914272c1aa5841a8d8556ca6be" => :sierra
+    sha256 "3a73e95b7b75d0b269a72f894cee8c3e3f37b5914272c1aa5841a8d8556ca6be" => :yosemite
   end
 end

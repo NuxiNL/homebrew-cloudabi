@@ -2,14 +2,14 @@ class Aarch64UnknownCloudabiCompilerRt < Formula
   desc "compiler-rt for aarch64-unknown-cloudabi"
   homepage "http://compiler-rt.llvm.org/"
   url "http://this.package.cannot.be.built.from.source/"
-  version "4.0.0"
-  revision 2
+  version "5.0.0"
+  revision 1
 
   bottle do
     root_url "https://nuxi.nl/distfiles/cloudabi-ports/homebrew/links"
-    sha256 "51f1b39e660ef6bb31f75b8915d77fbf55b6aea46e6bc33179a0eef1178aed66" => :el_capitan
-    sha256 "51f1b39e660ef6bb31f75b8915d77fbf55b6aea46e6bc33179a0eef1178aed66" => :mavericks
-    sha256 "51f1b39e660ef6bb31f75b8915d77fbf55b6aea46e6bc33179a0eef1178aed66" => :sierra
-    sha256 "51f1b39e660ef6bb31f75b8915d77fbf55b6aea46e6bc33179a0eef1178aed66" => :yosemite
+    sha256 "5f269c42d7ce2dcbd82bc73d0ae3c8d44459dfd7d8340b5f4c092938b6e91ace" => :el_capitan
+    sha256 "5f269c42d7ce2dcbd82bc73d0ae3c8d44459dfd7d8340b5f4c092938b6e91ace" => :mavericks
+    sha256 "5f269c42d7ce2dcbd82bc73d0ae3c8d44459dfd7d8340b5f4c092938b6e91ace" => :sierra
+    sha256 "5f269c42d7ce2dcbd82bc73d0ae3c8d44459dfd7d8340b5f4c092938b6e91ace" => :yosemite
   end
 end

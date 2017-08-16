@@ -3,7 +3,7 @@ class Armv7UnknownCloudabiEabihfSnappy < Formula
   homepage "https://google.github.io/snappy/"
   url "http://this.package.cannot.be.built.from.source/"
   version "1.1.4"
-  revision 1
+  revision 2
   depends_on "armv7-unknown-cloudabi-eabihf-argdata"
   depends_on "armv7-unknown-cloudabi-eabihf-cloudabi"
   depends_on "armv7-unknown-cloudabi-eabihf-cloudlibc"
@@ -15,9 +15,9 @@ class Armv7UnknownCloudabiEabihfSnappy < Formula
 
   bottle do
     root_url "https://nuxi.nl/distfiles/cloudabi-ports/homebrew/links"
-    sha256 "cd0788d64d67722b6ecc1cc3b6f7704be0a2b7c9d5fef93af8253b6ea2c27351" => :el_capitan
-    sha256 "cd0788d64d67722b6ecc1cc3b6f7704be0a2b7c9d5fef93af8253b6ea2c27351" => :mavericks
-    sha256 "cd0788d64d67722b6ecc1cc3b6f7704be0a2b7c9d5fef93af8253b6ea2c27351" => :sierra
-    sha256 "cd0788d64d67722b6ecc1cc3b6f7704be0a2b7c9d5fef93af8253b6ea2c27351" => :yosemite
+    sha256 "577b827fcb78ff144a584be50774c13ec7af8e0014a2a750cf4a6acdbc22e78a" => :el_capitan
+    sha256 "577b827fcb78ff144a584be50774c13ec7af8e0014a2a750cf4a6acdbc22e78a" => :mavericks
+    sha256 "577b827fcb78ff144a584be50774c13ec7af8e0014a2a750cf4a6acdbc22e78a" => :sierra
+    sha256 "577b827fcb78ff144a584be50774c13ec7af8e0014a2a750cf4a6acdbc22e78a" => :yosemite
   end
 end

@@ -3,7 +3,7 @@ class I686UnknownCloudabiZstd < Formula
   homepage "https://facebook.github.io/zstd/"
   url "http://this.package.cannot.be.built.from.source/"
   version "1.1.4"
-  revision 1
+  revision 2
   depends_on "i686-unknown-cloudabi-argdata"
   depends_on "i686-unknown-cloudabi-cloudabi"
   depends_on "i686-unknown-cloudabi-cloudlibc"
@@ -15,9 +15,9 @@ class I686UnknownCloudabiZstd < Formula
 
   bottle do
     root_url "https://nuxi.nl/distfiles/cloudabi-ports/homebrew/links"
-    sha256 "e528251b9f8177f01423e3369c4a15bec73b267ae0170e15d267ea6ca28f5a1b" => :el_capitan
-    sha256 "e528251b9f8177f01423e3369c4a15bec73b267ae0170e15d267ea6ca28f5a1b" => :mavericks
-    sha256 "e528251b9f8177f01423e3369c4a15bec73b267ae0170e15d267ea6ca28f5a1b" => :sierra
-    sha256 "e528251b9f8177f01423e3369c4a15bec73b267ae0170e15d267ea6ca28f5a1b" => :yosemite
+    sha256 "464d996a5c80f7a1dd72bc3e9b4039e2ded1cf482208187fbda2e7b3235c95b9" => :el_capitan
+    sha256 "464d996a5c80f7a1dd72bc3e9b4039e2ded1cf482208187fbda2e7b3235c95b9" => :mavericks
+    sha256 "464d996a5c80f7a1dd72bc3e9b4039e2ded1cf482208187fbda2e7b3235c95b9" => :sierra
+    sha256 "464d996a5c80f7a1dd72bc3e9b4039e2ded1cf482208187fbda2e7b3235c95b9" => :yosemite
   end
 end
