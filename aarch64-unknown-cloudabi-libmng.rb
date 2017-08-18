@@ -3,7 +3,7 @@ class Aarch64UnknownCloudabiLibmng < Formula
   homepage "http://libmng.com/"
   url "http://this.package.cannot.be.built.from.source/"
   version "2.0.3"
-  revision 18
+  revision 19
   depends_on "aarch64-unknown-cloudabi-argdata"
   depends_on "aarch64-unknown-cloudabi-cloudabi"
   depends_on "aarch64-unknown-cloudabi-cloudlibc"
@@ -13,15 +13,14 @@ class Aarch64UnknownCloudabiLibmng < Formula
   depends_on "aarch64-unknown-cloudabi-libcxx"
   depends_on "aarch64-unknown-cloudabi-libcxxabi"
   depends_on "aarch64-unknown-cloudabi-libunwind"
-  depends_on "aarch64-unknown-cloudabi-mstd"
   depends_on "aarch64-unknown-cloudabi-tiff"
   depends_on "aarch64-unknown-cloudabi-zlib"
 
   bottle do
     root_url "https://nuxi.nl/distfiles/cloudabi-ports/homebrew/links"
-    sha256 "783590f8fc429b11290038a96293a6aa003fee6a63715d35211a7a2726981b3a" => :el_capitan
-    sha256 "783590f8fc429b11290038a96293a6aa003fee6a63715d35211a7a2726981b3a" => :mavericks
-    sha256 "783590f8fc429b11290038a96293a6aa003fee6a63715d35211a7a2726981b3a" => :sierra
-    sha256 "783590f8fc429b11290038a96293a6aa003fee6a63715d35211a7a2726981b3a" => :yosemite
+    sha256 "c49b4c709f3a73a626541ab23cff85429416f4ff7c1d62652381f27b716f28c2" => :el_capitan
+    sha256 "c49b4c709f3a73a626541ab23cff85429416f4ff7c1d62652381f27b716f28c2" => :mavericks
+    sha256 "c49b4c709f3a73a626541ab23cff85429416f4ff7c1d62652381f27b716f28c2" => :sierra
+    sha256 "c49b4c709f3a73a626541ab23cff85429416f4ff7c1d62652381f27b716f28c2" => :yosemite
   end
 end

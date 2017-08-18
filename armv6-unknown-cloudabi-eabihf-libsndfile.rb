@@ -3,7 +3,7 @@ class Armv6UnknownCloudabiEabihfLibsndfile < Formula
   homepage "http://www.mega-nerd.com/libsndfile/"
   url "http://this.package.cannot.be.built.from.source/"
   version "1.0.27"
-  revision 8
+  revision 9
   depends_on "armv6-unknown-cloudabi-eabihf-argdata"
   depends_on "armv6-unknown-cloudabi-eabihf-cloudabi"
   depends_on "armv6-unknown-cloudabi-eabihf-cloudlibc"
@@ -14,14 +14,13 @@ class Armv6UnknownCloudabiEabihfLibsndfile < Formula
   depends_on "armv6-unknown-cloudabi-eabihf-libogg"
   depends_on "armv6-unknown-cloudabi-eabihf-libunwind"
   depends_on "armv6-unknown-cloudabi-eabihf-libvorbis"
-  depends_on "armv6-unknown-cloudabi-eabihf-mstd"
   depends_on "armv6-unknown-cloudabi-eabihf-speex"
 
   bottle do
     root_url "https://nuxi.nl/distfiles/cloudabi-ports/homebrew/links"
-    sha256 "09ece8656b5500d5b9df8243c18edbe51859304703a4985262cdc12b030dd4a1" => :el_capitan
-    sha256 "09ece8656b5500d5b9df8243c18edbe51859304703a4985262cdc12b030dd4a1" => :mavericks
-    sha256 "09ece8656b5500d5b9df8243c18edbe51859304703a4985262cdc12b030dd4a1" => :sierra
-    sha256 "09ece8656b5500d5b9df8243c18edbe51859304703a4985262cdc12b030dd4a1" => :yosemite
+    sha256 "bcd5955bb5eeaaf9a71cc9a4f3fab766e3223d5d16ed5a1000923769cbe83fd1" => :el_capitan
+    sha256 "bcd5955bb5eeaaf9a71cc9a4f3fab766e3223d5d16ed5a1000923769cbe83fd1" => :mavericks
+    sha256 "bcd5955bb5eeaaf9a71cc9a4f3fab766e3223d5d16ed5a1000923769cbe83fd1" => :sierra
+    sha256 "bcd5955bb5eeaaf9a71cc9a4f3fab766e3223d5d16ed5a1000923769cbe83fd1" => :yosemite
   end
 end
