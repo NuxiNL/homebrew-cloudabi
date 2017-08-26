@@ -2,8 +2,8 @@ class Aarch64UnknownCloudabiProtobufCpp < Formula
   desc "protobuf-cpp for aarch64-unknown-cloudabi"
   homepage "https://developers.google.com/protocol-buffers/"
   url "http://this.package.cannot.be.built.from.source/"
-  version "3.3.0"
-  revision 3
+  version "3.4.0"
+  revision 1
   depends_on "aarch64-unknown-cloudabi-argdata"
   depends_on "aarch64-unknown-cloudabi-cloudabi"
   depends_on "aarch64-unknown-cloudabi-cloudlibc"
@@ -15,9 +15,9 @@ class Aarch64UnknownCloudabiProtobufCpp < Formula
 
   bottle do
     root_url "https://nuxi.nl/distfiles/cloudabi-ports/homebrew/links"
-    sha256 "68bc6813eb7ca9face58d3af91654039a201ee40d10803b60e88aad712a70b1b" => :el_capitan
-    sha256 "68bc6813eb7ca9face58d3af91654039a201ee40d10803b60e88aad712a70b1b" => :mavericks
-    sha256 "68bc6813eb7ca9face58d3af91654039a201ee40d10803b60e88aad712a70b1b" => :sierra
-    sha256 "68bc6813eb7ca9face58d3af91654039a201ee40d10803b60e88aad712a70b1b" => :yosemite
+    sha256 "c90f39b977cce2beb0b34f27bbb31f18f471acaeb5e9cd4a16894e82e896623f" => :el_capitan
+    sha256 "c90f39b977cce2beb0b34f27bbb31f18f471acaeb5e9cd4a16894e82e896623f" => :mavericks
+    sha256 "c90f39b977cce2beb0b34f27bbb31f18f471acaeb5e9cd4a16894e82e896623f" => :sierra
+    sha256 "c90f39b977cce2beb0b34f27bbb31f18f471acaeb5e9cd4a16894e82e896623f" => :yosemite
   end
 end
