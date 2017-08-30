@@ -7,16 +7,13 @@ class CloudabiUtils < Formula
   depends_on "argdata"
   depends_on "cloudabi" => :build
   depends_on "cmake" => :build
+  depends_on "flower" => :build
   depends_on "libyaml"
+  depends_on "llvm"
   depends_on "yaml2argdata" => :build
 
   def install
-    inreplace Dir[buildpath/"src/cloudabi-run/*"] do |s|
-      s.gsub! "<optional>", "<experimental/optional>", false
-      s.gsub! "<string_view>", "<experimental/string_view>", false
-    end
-
-    system "cmake", ".", *std_cmake_args
+    system "cmake", ".", "-DCMAKE_C_COMPILER=#{Formula["llvm"].opt_bin}/clang", "-DCMAKE_CXX_COMPILER=#{Formula["llvm"].opt_bin}/clang++", *std_cmake_args
     system "make"
     system "make", "install"
   end
