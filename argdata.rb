@@ -1,12 +1,17 @@
 class Argdata < Formula
   desc "Binary serialisation format inspired by YAML, MessagePack and nvlists"
   homepage "https://github.com/NuxiNL/argdata"
-  url "https://github.com/NuxiNL/argdata/archive/v0.5.tar.gz"
-  sha256 "8e1b92bb6dd1cf5f3fefcaf58e1a9d7c7caa8f255e85008ea79150a86319727d"
+  url "https://github.com/NuxiNL/argdata/archive/v0.7.tar.gz"
+  sha256 "ed48e65c9e4d1ee0d3d72adee9d7a64690e2afd15e0e4eec799ddf409f89799c"
 
   depends_on "cmake" => :build
 
   def install
+    inreplace buildpath/"src/argdata.hpp" do |s|
+      s.gsub! "<optional>", "<experimental/optional>"
+      s.gsub! "<string_view>", "<experimental/string_view>"
+    end
+
     system "cmake", ".", *std_cmake_args
     system "make"
     system "make", "install"
