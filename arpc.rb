@@ -6,17 +6,11 @@ class Arpc < Formula
 
   depends_on "argdata"
   depends_on "cmake" => :build
+  depends_on "llvm"
   depends_on "python3"
 
   def install
-    inreplace Dir["include/arpc++/arpc++.h", buildpath/"src/*"] do |s|
-      s.gsub! "<optional>", "<experimental/optional>", false
-      s.gsub! "std::optional", "std::experimental::optional", false
-      s.gsub! "<string_view>", "<experimental/string_view>", false
-      s.gsub! "std::string_view", "std::experimental::string_view", false
-    end
-
-    system "cmake", ".", *std_cmake_args
+    system "cmake", ".", "-DCMAKE_C_COMPILER=#{Formula["llvm"].opt_bin}/clang", "-DCMAKE_CXX_COMPILER=#{Formula["llvm"].opt_bin}/clang++", *std_cmake_args
     system "make"
     system "make", "install"
   end
