@@ -9,7 +9,9 @@ class Argdata < Formula
   def install
     inreplace buildpath/"src/argdata.hpp" do |s|
       s.gsub! "<optional>", "<experimental/optional>"
+      s.gsub! "std::optional", "std::experimental::optional"
       s.gsub! "<string_view>", "<experimental/string_view>"
+      s.gsub! "std::string_view", "std::experimental::string_view"
     end
 
     system "cmake", ".", *std_cmake_args
