@@ -2,7 +2,7 @@ class Aarch64UnknownCloudabiYaml2argdata < Formula
   desc "yaml2argdata for aarch64-unknown-cloudabi"
   homepage "https://github.com/NuxiNL/yaml2argdata"
   url "http://this.package.cannot.be.built.from.source/"
-  version "0.2"
+  version "0.3"
   revision 1
   depends_on "aarch64-unknown-cloudabi-argdata"
   depends_on "aarch64-unknown-cloudabi-boost"
@@ -19,9 +19,9 @@ class Aarch64UnknownCloudabiYaml2argdata < Formula
 
   bottle do
     root_url "https://nuxi.nl/distfiles/cloudabi-ports/homebrew/links"
-    sha256 "62b36196b41d683ba3458a34509e30363ea7515cc97b74bdfcb23edbee17cadc" => :el_capitan
-    sha256 "62b36196b41d683ba3458a34509e30363ea7515cc97b74bdfcb23edbee17cadc" => :mavericks
-    sha256 "62b36196b41d683ba3458a34509e30363ea7515cc97b74bdfcb23edbee17cadc" => :sierra
-    sha256 "62b36196b41d683ba3458a34509e30363ea7515cc97b74bdfcb23edbee17cadc" => :yosemite
+    sha256 "aa950f5f9d4566137ffecefb3cd766838f05d33ad1aa9ba95e67490227c6ac7a" => :el_capitan
+    sha256 "aa950f5f9d4566137ffecefb3cd766838f05d33ad1aa9ba95e67490227c6ac7a" => :mavericks
+    sha256 "aa950f5f9d4566137ffecefb3cd766838f05d33ad1aa9ba95e67490227c6ac7a" => :sierra
+    sha256 "aa950f5f9d4566137ffecefb3cd766838f05d33ad1aa9ba95e67490227c6ac7a" => :yosemite
   end
 end
