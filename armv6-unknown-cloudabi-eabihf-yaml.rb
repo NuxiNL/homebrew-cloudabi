@@ -3,16 +3,16 @@ class Armv6UnknownCloudabiEabihfYaml < Formula
   homepage "http://pyyaml.org/wiki/LibYAML"
   url "http://this.package.cannot.be.built.from.source/"
   version "0.1.7"
-  revision 5
+  revision 6
   depends_on "armv6-unknown-cloudabi-eabihf-cloudabi"
   depends_on "armv6-unknown-cloudabi-eabihf-cloudlibc"
   depends_on "armv6-unknown-cloudabi-eabihf-compiler-rt"
 
   bottle do
     root_url "https://nuxi.nl/distfiles/cloudabi-ports/homebrew/links"
-    sha256 "7fb7dd081fd1b178a74c6f72ac61c4c0933ef6f07f1e0ea8334e7d55f4b5cc46" => :el_capitan
-    sha256 "7fb7dd081fd1b178a74c6f72ac61c4c0933ef6f07f1e0ea8334e7d55f4b5cc46" => :mavericks
-    sha256 "7fb7dd081fd1b178a74c6f72ac61c4c0933ef6f07f1e0ea8334e7d55f4b5cc46" => :sierra
-    sha256 "7fb7dd081fd1b178a74c6f72ac61c4c0933ef6f07f1e0ea8334e7d55f4b5cc46" => :yosemite
+    sha256 "01eb9a40241ee2c1fada0cddde49a82282237ef5008b41f9b20c179661a4d1c4" => :el_capitan
+    sha256 "01eb9a40241ee2c1fada0cddde49a82282237ef5008b41f9b20c179661a4d1c4" => :mavericks
+    sha256 "01eb9a40241ee2c1fada0cddde49a82282237ef5008b41f9b20c179661a4d1c4" => :sierra
+    sha256 "01eb9a40241ee2c1fada0cddde49a82282237ef5008b41f9b20c179661a4d1c4" => :yosemite
   end
 end

@@ -3,7 +3,7 @@ class X8664UnknownCloudabiTaglib < Formula
   homepage "https://taglib.github.io/"
   url "http://this.package.cannot.be.built.from.source/"
   version "1.11.1"
-  revision 7
+  revision 8
   depends_on "x86_64-unknown-cloudabi-argdata"
   depends_on "x86_64-unknown-cloudabi-cloudabi"
   depends_on "x86_64-unknown-cloudabi-cloudlibc"
@@ -15,9 +15,9 @@ class X8664UnknownCloudabiTaglib < Formula
 
   bottle do
     root_url "https://nuxi.nl/distfiles/cloudabi-ports/homebrew/links"
-    sha256 "ae258c69610638dd31d19fb45cda3db912ed6018ba04e93fcc1c41309b13430d" => :el_capitan
-    sha256 "ae258c69610638dd31d19fb45cda3db912ed6018ba04e93fcc1c41309b13430d" => :mavericks
-    sha256 "ae258c69610638dd31d19fb45cda3db912ed6018ba04e93fcc1c41309b13430d" => :sierra
-    sha256 "ae258c69610638dd31d19fb45cda3db912ed6018ba04e93fcc1c41309b13430d" => :yosemite
+    sha256 "757ff01b67bc2b9342b32719c4da6c94d93d36c8eb77c792f28eb407cc5eff20" => :el_capitan
+    sha256 "757ff01b67bc2b9342b32719c4da6c94d93d36c8eb77c792f28eb407cc5eff20" => :mavericks
+    sha256 "757ff01b67bc2b9342b32719c4da6c94d93d36c8eb77c792f28eb407cc5eff20" => :sierra
+    sha256 "757ff01b67bc2b9342b32719c4da6c94d93d36c8eb77c792f28eb407cc5eff20" => :yosemite
   end
 end

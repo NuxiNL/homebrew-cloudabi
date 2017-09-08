@@ -3,16 +3,16 @@ class I686UnknownCloudabiGiflib < Formula
   homepage "http://giflib.sourceforge.net/"
   url "http://this.package.cannot.be.built.from.source/"
   version "5.1.4"
-  revision 10
+  revision 11
   depends_on "i686-unknown-cloudabi-cloudabi"
   depends_on "i686-unknown-cloudabi-cloudlibc"
   depends_on "i686-unknown-cloudabi-compiler-rt"
 
   bottle do
     root_url "https://nuxi.nl/distfiles/cloudabi-ports/homebrew/links"
-    sha256 "6e5150f768077b5cce9618ce2bff1a69fcae83ca3b6a174d9010ba3f4f06f3a4" => :el_capitan
-    sha256 "6e5150f768077b5cce9618ce2bff1a69fcae83ca3b6a174d9010ba3f4f06f3a4" => :mavericks
-    sha256 "6e5150f768077b5cce9618ce2bff1a69fcae83ca3b6a174d9010ba3f4f06f3a4" => :sierra
-    sha256 "6e5150f768077b5cce9618ce2bff1a69fcae83ca3b6a174d9010ba3f4f06f3a4" => :yosemite
+    sha256 "f67e5178c5e913711927b8d40489d8570fdec0ccbbbf2249a65a89006c133f75" => :el_capitan
+    sha256 "f67e5178c5e913711927b8d40489d8570fdec0ccbbbf2249a65a89006c133f75" => :mavericks
+    sha256 "f67e5178c5e913711927b8d40489d8570fdec0ccbbbf2249a65a89006c133f75" => :sierra
+    sha256 "f67e5178c5e913711927b8d40489d8570fdec0ccbbbf2249a65a89006c133f75" => :yosemite
   end
 end

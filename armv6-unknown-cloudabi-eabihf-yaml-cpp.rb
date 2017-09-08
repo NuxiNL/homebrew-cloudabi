@@ -3,7 +3,7 @@ class Armv6UnknownCloudabiEabihfYamlCpp < Formula
   homepage "https://github.com/jbeder/yaml-cpp"
   url "http://this.package.cannot.be.built.from.source/"
   version "0.5.3"
-  revision 3
+  revision 4
   depends_on "armv6-unknown-cloudabi-eabihf-argdata"
   depends_on "armv6-unknown-cloudabi-eabihf-boost"
   depends_on "armv6-unknown-cloudabi-eabihf-bzip2"
@@ -18,9 +18,9 @@ class Armv6UnknownCloudabiEabihfYamlCpp < Formula
 
   bottle do
     root_url "https://nuxi.nl/distfiles/cloudabi-ports/homebrew/links"
-    sha256 "2a9a13a0e34c0aba9bf51c3cacca39eb59cb1eb8cf129769a4ccc01d3e465f71" => :el_capitan
-    sha256 "2a9a13a0e34c0aba9bf51c3cacca39eb59cb1eb8cf129769a4ccc01d3e465f71" => :mavericks
-    sha256 "2a9a13a0e34c0aba9bf51c3cacca39eb59cb1eb8cf129769a4ccc01d3e465f71" => :sierra
-    sha256 "2a9a13a0e34c0aba9bf51c3cacca39eb59cb1eb8cf129769a4ccc01d3e465f71" => :yosemite
+    sha256 "a1ed54af946b5cbd314f26c1d279b0f4f8a1c5fabcfac6d60d5001cf1e35f0f3" => :el_capitan
+    sha256 "a1ed54af946b5cbd314f26c1d279b0f4f8a1c5fabcfac6d60d5001cf1e35f0f3" => :mavericks
+    sha256 "a1ed54af946b5cbd314f26c1d279b0f4f8a1c5fabcfac6d60d5001cf1e35f0f3" => :sierra
+    sha256 "a1ed54af946b5cbd314f26c1d279b0f4f8a1c5fabcfac6d60d5001cf1e35f0f3" => :yosemite
   end
 end

@@ -3,7 +3,7 @@ class Aarch64UnknownCloudabiCapnproto < Formula
   homepage "https://github.com/capnproto/capnproto"
   url "http://this.package.cannot.be.built.from.source/"
   version "0.6.1"
-  revision 1
+  revision 2
   depends_on "aarch64-unknown-cloudabi-argdata"
   depends_on "aarch64-unknown-cloudabi-cloudabi"
   depends_on "aarch64-unknown-cloudabi-cloudlibc"
@@ -14,9 +14,9 @@ class Aarch64UnknownCloudabiCapnproto < Formula
 
   bottle do
     root_url "https://nuxi.nl/distfiles/cloudabi-ports/homebrew/links"
-    sha256 "b173fe6cfef8fd706c3579b61387e0200c6930d950b2545b79d882420a876334" => :el_capitan
-    sha256 "b173fe6cfef8fd706c3579b61387e0200c6930d950b2545b79d882420a876334" => :mavericks
-    sha256 "b173fe6cfef8fd706c3579b61387e0200c6930d950b2545b79d882420a876334" => :sierra
-    sha256 "b173fe6cfef8fd706c3579b61387e0200c6930d950b2545b79d882420a876334" => :yosemite
+    sha256 "a106ad1939b21d859d012a55880a85367984795dec71ca158d87e0be4740363b" => :el_capitan
+    sha256 "a106ad1939b21d859d012a55880a85367984795dec71ca158d87e0be4740363b" => :mavericks
+    sha256 "a106ad1939b21d859d012a55880a85367984795dec71ca158d87e0be4740363b" => :sierra
+    sha256 "a106ad1939b21d859d012a55880a85367984795dec71ca158d87e0be4740363b" => :yosemite
   end
 end

@@ -3,7 +3,7 @@ class Aarch64UnknownCloudabiLibmatroska < Formula
   homepage "http://www.matroska.org/"
   url "http://this.package.cannot.be.built.from.source/"
   version "1.4.7"
-  revision 4
+  revision 5
   depends_on "aarch64-unknown-cloudabi-argdata"
   depends_on "aarch64-unknown-cloudabi-cloudabi"
   depends_on "aarch64-unknown-cloudabi-cloudlibc"
@@ -15,9 +15,9 @@ class Aarch64UnknownCloudabiLibmatroska < Formula
 
   bottle do
     root_url "https://nuxi.nl/distfiles/cloudabi-ports/homebrew/links"
-    sha256 "1a3a9ef5cb5922ad704dc496d5378db8ef89b7e0f5cd6438cfa536a25bbdb439" => :el_capitan
-    sha256 "1a3a9ef5cb5922ad704dc496d5378db8ef89b7e0f5cd6438cfa536a25bbdb439" => :mavericks
-    sha256 "1a3a9ef5cb5922ad704dc496d5378db8ef89b7e0f5cd6438cfa536a25bbdb439" => :sierra
-    sha256 "1a3a9ef5cb5922ad704dc496d5378db8ef89b7e0f5cd6438cfa536a25bbdb439" => :yosemite
+    sha256 "c5f98a2c7c21451f725b4ad34021f2c599bce68117ed6b6e3dc7847727d3f95b" => :el_capitan
+    sha256 "c5f98a2c7c21451f725b4ad34021f2c599bce68117ed6b6e3dc7847727d3f95b" => :mavericks
+    sha256 "c5f98a2c7c21451f725b4ad34021f2c599bce68117ed6b6e3dc7847727d3f95b" => :sierra
+    sha256 "c5f98a2c7c21451f725b4ad34021f2c599bce68117ed6b6e3dc7847727d3f95b" => :yosemite
   end
 end

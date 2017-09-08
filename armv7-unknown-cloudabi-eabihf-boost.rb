@@ -3,7 +3,7 @@ class Armv7UnknownCloudabiEabihfBoost < Formula
   homepage "http://www.boost.org/"
   url "http://this.package.cannot.be.built.from.source/"
   version "1.61.0"
-  revision 3
+  revision 4
   depends_on "armv7-unknown-cloudabi-eabihf-argdata"
   depends_on "armv7-unknown-cloudabi-eabihf-bzip2"
   depends_on "armv7-unknown-cloudabi-eabihf-cloudabi"
@@ -17,9 +17,9 @@ class Armv7UnknownCloudabiEabihfBoost < Formula
 
   bottle do
     root_url "https://nuxi.nl/distfiles/cloudabi-ports/homebrew/links"
-    sha256 "26e41655f86ee8fb48533b5ce5f54099c58bf02199cba26e38dc1d5a2c0b41d0" => :el_capitan
-    sha256 "26e41655f86ee8fb48533b5ce5f54099c58bf02199cba26e38dc1d5a2c0b41d0" => :mavericks
-    sha256 "26e41655f86ee8fb48533b5ce5f54099c58bf02199cba26e38dc1d5a2c0b41d0" => :sierra
-    sha256 "26e41655f86ee8fb48533b5ce5f54099c58bf02199cba26e38dc1d5a2c0b41d0" => :yosemite
+    sha256 "d1c451fcc4f5e5207faff422f9a52eeda89ddbe321a2184c5679398a7ec9f217" => :el_capitan
+    sha256 "d1c451fcc4f5e5207faff422f9a52eeda89ddbe321a2184c5679398a7ec9f217" => :mavericks
+    sha256 "d1c451fcc4f5e5207faff422f9a52eeda89ddbe321a2184c5679398a7ec9f217" => :sierra
+    sha256 "d1c451fcc4f5e5207faff422f9a52eeda89ddbe321a2184c5679398a7ec9f217" => :yosemite
   end
 end

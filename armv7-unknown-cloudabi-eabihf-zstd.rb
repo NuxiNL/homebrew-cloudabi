@@ -3,7 +3,7 @@ class Armv7UnknownCloudabiEabihfZstd < Formula
   homepage "https://facebook.github.io/zstd/"
   url "http://this.package.cannot.be.built.from.source/"
   version "1.1.4"
-  revision 3
+  revision 4
   depends_on "armv7-unknown-cloudabi-eabihf-argdata"
   depends_on "armv7-unknown-cloudabi-eabihf-cloudabi"
   depends_on "armv7-unknown-cloudabi-eabihf-cloudlibc"
@@ -14,9 +14,9 @@ class Armv7UnknownCloudabiEabihfZstd < Formula
 
   bottle do
     root_url "https://nuxi.nl/distfiles/cloudabi-ports/homebrew/links"
-    sha256 "50db46719601cad02e3138e1722489264394776856a451cc2373436a241cb208" => :el_capitan
-    sha256 "50db46719601cad02e3138e1722489264394776856a451cc2373436a241cb208" => :mavericks
-    sha256 "50db46719601cad02e3138e1722489264394776856a451cc2373436a241cb208" => :sierra
-    sha256 "50db46719601cad02e3138e1722489264394776856a451cc2373436a241cb208" => :yosemite
+    sha256 "a82499f966626434583b7ab530c47c93d8d1841b5d9119cdd46124a84410b5a7" => :el_capitan
+    sha256 "a82499f966626434583b7ab530c47c93d8d1841b5d9119cdd46124a84410b5a7" => :mavericks
+    sha256 "a82499f966626434583b7ab530c47c93d8d1841b5d9119cdd46124a84410b5a7" => :sierra
+    sha256 "a82499f966626434583b7ab530c47c93d8d1841b5d9119cdd46124a84410b5a7" => :yosemite
   end
 end

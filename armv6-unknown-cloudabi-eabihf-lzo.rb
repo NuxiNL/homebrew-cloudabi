@@ -3,16 +3,16 @@ class Armv6UnknownCloudabiEabihfLzo < Formula
   homepage "http://www.oberhumer.com/opensource/lzo/"
   url "http://this.package.cannot.be.built.from.source/"
   version "2.10"
-  revision 3
+  revision 4
   depends_on "armv6-unknown-cloudabi-eabihf-cloudabi"
   depends_on "armv6-unknown-cloudabi-eabihf-cloudlibc"
   depends_on "armv6-unknown-cloudabi-eabihf-compiler-rt"
 
   bottle do
     root_url "https://nuxi.nl/distfiles/cloudabi-ports/homebrew/links"
-    sha256 "71a037fa52ee6a87b0241e1a42bbfaaee8ed871f15a90d99385a06a9fb3fa9af" => :el_capitan
-    sha256 "71a037fa52ee6a87b0241e1a42bbfaaee8ed871f15a90d99385a06a9fb3fa9af" => :mavericks
-    sha256 "71a037fa52ee6a87b0241e1a42bbfaaee8ed871f15a90d99385a06a9fb3fa9af" => :sierra
-    sha256 "71a037fa52ee6a87b0241e1a42bbfaaee8ed871f15a90d99385a06a9fb3fa9af" => :yosemite
+    sha256 "8923d3b9597ee5cefdc7038c8e3eff4266840916a13f7d3c1206f39124f4c366" => :el_capitan
+    sha256 "8923d3b9597ee5cefdc7038c8e3eff4266840916a13f7d3c1206f39124f4c366" => :mavericks
+    sha256 "8923d3b9597ee5cefdc7038c8e3eff4266840916a13f7d3c1206f39124f4c366" => :sierra
+    sha256 "8923d3b9597ee5cefdc7038c8e3eff4266840916a13f7d3c1206f39124f4c366" => :yosemite
   end
 end

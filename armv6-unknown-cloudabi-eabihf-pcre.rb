@@ -3,7 +3,7 @@ class Armv6UnknownCloudabiEabihfPcre < Formula
   homepage "http://www.pcre.org/"
   url "http://this.package.cannot.be.built.from.source/"
   version "8.40"
-  revision 4
+  revision 5
   depends_on "armv6-unknown-cloudabi-eabihf-argdata"
   depends_on "armv6-unknown-cloudabi-eabihf-cloudabi"
   depends_on "armv6-unknown-cloudabi-eabihf-cloudlibc"
@@ -14,9 +14,9 @@ class Armv6UnknownCloudabiEabihfPcre < Formula
 
   bottle do
     root_url "https://nuxi.nl/distfiles/cloudabi-ports/homebrew/links"
-    sha256 "1f65eb18bf813dd3dc67251ce9f4e07c8ee08d0d82ece0f303210addd3e03550" => :el_capitan
-    sha256 "1f65eb18bf813dd3dc67251ce9f4e07c8ee08d0d82ece0f303210addd3e03550" => :mavericks
-    sha256 "1f65eb18bf813dd3dc67251ce9f4e07c8ee08d0d82ece0f303210addd3e03550" => :sierra
-    sha256 "1f65eb18bf813dd3dc67251ce9f4e07c8ee08d0d82ece0f303210addd3e03550" => :yosemite
+    sha256 "602d50c66fb075f7dfc5f138546f9b546de910c3f93ed7b51275a49c60320fe2" => :el_capitan
+    sha256 "602d50c66fb075f7dfc5f138546f9b546de910c3f93ed7b51275a49c60320fe2" => :mavericks
+    sha256 "602d50c66fb075f7dfc5f138546f9b546de910c3f93ed7b51275a49c60320fe2" => :sierra
+    sha256 "602d50c66fb075f7dfc5f138546f9b546de910c3f93ed7b51275a49c60320fe2" => :yosemite
   end
 end

@@ -3,7 +3,7 @@ class X8664UnknownCloudabiPrometheusCpp < Formula
   homepage "https://github.com/jupp0r/prometheus-cpp"
   url "http://this.package.cannot.be.built.from.source/"
   version "0.1.6"
-  revision 4
+  revision 5
   depends_on "x86_64-unknown-cloudabi-argdata"
   depends_on "x86_64-unknown-cloudabi-cloudabi"
   depends_on "x86_64-unknown-cloudabi-cloudlibc"
@@ -16,9 +16,9 @@ class X8664UnknownCloudabiPrometheusCpp < Formula
 
   bottle do
     root_url "https://nuxi.nl/distfiles/cloudabi-ports/homebrew/links"
-    sha256 "ffcb1e94cb09863f4333abe851f57d15c5f869382a9ea93ea7f11b749f41817f" => :el_capitan
-    sha256 "ffcb1e94cb09863f4333abe851f57d15c5f869382a9ea93ea7f11b749f41817f" => :mavericks
-    sha256 "ffcb1e94cb09863f4333abe851f57d15c5f869382a9ea93ea7f11b749f41817f" => :sierra
-    sha256 "ffcb1e94cb09863f4333abe851f57d15c5f869382a9ea93ea7f11b749f41817f" => :yosemite
+    sha256 "504cf33ace44e1cfda9f8fd4d1c337e52eb576e0b24a1ca89c56d8f013d5c24b" => :el_capitan
+    sha256 "504cf33ace44e1cfda9f8fd4d1c337e52eb576e0b24a1ca89c56d8f013d5c24b" => :mavericks
+    sha256 "504cf33ace44e1cfda9f8fd4d1c337e52eb576e0b24a1ca89c56d8f013d5c24b" => :sierra
+    sha256 "504cf33ace44e1cfda9f8fd4d1c337e52eb576e0b24a1ca89c56d8f013d5c24b" => :yosemite
   end
 end

@@ -3,7 +3,7 @@ class Aarch64UnknownCloudabiFreetype < Formula
   homepage "http://www.freetype.org/"
   url "http://this.package.cannot.be.built.from.source/"
   version "2.7.1"
-  revision 3
+  revision 4
   depends_on "aarch64-unknown-cloudabi-bzip2"
   depends_on "aarch64-unknown-cloudabi-cloudabi"
   depends_on "aarch64-unknown-cloudabi-cloudlibc"
@@ -13,9 +13,9 @@ class Aarch64UnknownCloudabiFreetype < Formula
 
   bottle do
     root_url "https://nuxi.nl/distfiles/cloudabi-ports/homebrew/links"
-    sha256 "ba1d942abd8ac0d945a58ca2a2290b1ba50da2474c118dcc1746b0878070fdb1" => :el_capitan
-    sha256 "ba1d942abd8ac0d945a58ca2a2290b1ba50da2474c118dcc1746b0878070fdb1" => :mavericks
-    sha256 "ba1d942abd8ac0d945a58ca2a2290b1ba50da2474c118dcc1746b0878070fdb1" => :sierra
-    sha256 "ba1d942abd8ac0d945a58ca2a2290b1ba50da2474c118dcc1746b0878070fdb1" => :yosemite
+    sha256 "4546a75bdb65075f3c0e636c3ee259ea6e9c439e4bb7ce68f3f0a6489fdb1c14" => :el_capitan
+    sha256 "4546a75bdb65075f3c0e636c3ee259ea6e9c439e4bb7ce68f3f0a6489fdb1c14" => :mavericks
+    sha256 "4546a75bdb65075f3c0e636c3ee259ea6e9c439e4bb7ce68f3f0a6489fdb1c14" => :sierra
+    sha256 "4546a75bdb65075f3c0e636c3ee259ea6e9c439e4bb7ce68f3f0a6489fdb1c14" => :yosemite
   end
 end

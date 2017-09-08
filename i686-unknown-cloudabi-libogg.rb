@@ -3,16 +3,16 @@ class I686UnknownCloudabiLibogg < Formula
   homepage "https://xiph.org/ogg/"
   url "http://this.package.cannot.be.built.from.source/"
   version "1.3.2"
-  revision 9
+  revision 10
   depends_on "i686-unknown-cloudabi-cloudabi"
   depends_on "i686-unknown-cloudabi-cloudlibc"
   depends_on "i686-unknown-cloudabi-compiler-rt"
 
   bottle do
     root_url "https://nuxi.nl/distfiles/cloudabi-ports/homebrew/links"
-    sha256 "6399a7ee7c76ac448d726c05da014f6ae574b40d729086794e70807935a4573d" => :el_capitan
-    sha256 "6399a7ee7c76ac448d726c05da014f6ae574b40d729086794e70807935a4573d" => :mavericks
-    sha256 "6399a7ee7c76ac448d726c05da014f6ae574b40d729086794e70807935a4573d" => :sierra
-    sha256 "6399a7ee7c76ac448d726c05da014f6ae574b40d729086794e70807935a4573d" => :yosemite
+    sha256 "1c201c1d0f169a98941199aed4153b4cdcb3b330226b7b9850c3b2600208dfcf" => :el_capitan
+    sha256 "1c201c1d0f169a98941199aed4153b4cdcb3b330226b7b9850c3b2600208dfcf" => :mavericks
+    sha256 "1c201c1d0f169a98941199aed4153b4cdcb3b330226b7b9850c3b2600208dfcf" => :sierra
+    sha256 "1c201c1d0f169a98941199aed4153b4cdcb3b330226b7b9850c3b2600208dfcf" => :yosemite
   end
 end
