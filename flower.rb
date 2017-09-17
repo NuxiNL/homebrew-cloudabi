@@ -8,11 +8,11 @@ class Flower < Formula
   depends_on "arpc"
   depends_on "cmake" => :build
   depends_on "jsoncpp"
-  depends_on "llvm"
+  depends_on "llvm@4"
   depends_on "python3"
 
   def install
-    system "cmake", ".", "-DCMAKE_C_COMPILER=#{Formula["llvm"].opt_bin}/clang", "-DCMAKE_CXX_COMPILER=#{Formula["llvm"].opt_bin}/clang++", *std_cmake_args
+    system "cmake", ".", "-DCMAKE_C_COMPILER=#{Formula["llvm@4"].opt_bin}/clang", "-DCMAKE_CXX_COMPILER=#{Formula["llvm@4"].opt_bin}/clang++", *std_cmake_args
     system "make"
     system "make", "install"
   end
