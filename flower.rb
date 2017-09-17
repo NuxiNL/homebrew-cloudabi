@@ -1,8 +1,8 @@
 class Flower < Formula
   desc "Label-based network connection daemon"
   homepage "https://github.com/NuxiNL/flower"
-  url "https://github.com/NuxiNL/flower/archive/v0.9.tar.gz"
-  sha256 "e712081eb5794245f4e27e591b1a1ea296c1bd6f2941afc2536c04be01355b10"
+  url "https://github.com/NuxiNL/flower/archive/v0.10.tar.gz"
+  sha256 "6af98bf7f598a41c40e4a9006b034943795f9bea453ea22b6c07aec57b851a30"
 
   depends_on "argdata"
   depends_on "arpc"
