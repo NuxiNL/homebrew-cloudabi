@@ -9,11 +9,11 @@ class CloudabiUtils < Formula
   depends_on "cmake" => :build
   depends_on "flower" => :build
   depends_on "libyaml"
-  depends_on "llvm"
+  depends_on "llvm@4"
   depends_on "yaml2argdata" => :build
 
   def install
-    system "cmake", ".", "-DCMAKE_C_COMPILER=#{Formula["llvm"].opt_bin}/clang", "-DCMAKE_CXX_COMPILER=#{Formula["llvm"].opt_bin}/clang++", *std_cmake_args
+    system "cmake", ".", "-DCMAKE_C_COMPILER=#{Formula["llvm@4"].opt_bin}/clang", "-DCMAKE_CXX_COMPILER=#{Formula["llvm@4"].opt_bin}/clang++", *std_cmake_args
     system "make"
     system "make", "install"
   end
