@@ -2,7 +2,7 @@ class Arpc < Formula
   desc "GRPC-like RPC library that supports file descriptor passing"
   homepage "https://github.com/NuxiNL/arpc"
   url "https://github.com/NuxiNL/arpc/archive/v0.5.tar.gz"
-  sha256 "754853d37d83138e62f23eff95be8b3fa200238387d83e83453e6a5519458bed"
+  sha256 "065e71feeda98e153193dad03d89b78462a3f3034c25179b248b785032c44242"
 
   depends_on "argdata"
   depends_on "cmake" => :build
