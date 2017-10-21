@@ -3,7 +3,7 @@ class Armv6UnknownCloudabiEabihfCapnproto < Formula
   homepage "https://github.com/capnproto/capnproto"
   url "http://this.package.cannot.be.built.from.source/"
   version "0.6.1"
-  revision 2
+  revision 3
   depends_on "armv6-unknown-cloudabi-eabihf-argdata"
   depends_on "armv6-unknown-cloudabi-eabihf-cloudabi"
   depends_on "armv6-unknown-cloudabi-eabihf-cloudlibc"
@@ -14,9 +14,9 @@ class Armv6UnknownCloudabiEabihfCapnproto < Formula
 
   bottle do
     root_url "https://nuxi.nl/distfiles/cloudabi-ports/homebrew/links"
-    sha256 "33cbd3e9caaa121e3a42461b852538a1064ab814d9e7846826ea237ebc05bf14" => :el_capitan
-    sha256 "33cbd3e9caaa121e3a42461b852538a1064ab814d9e7846826ea237ebc05bf14" => :mavericks
-    sha256 "33cbd3e9caaa121e3a42461b852538a1064ab814d9e7846826ea237ebc05bf14" => :sierra
-    sha256 "33cbd3e9caaa121e3a42461b852538a1064ab814d9e7846826ea237ebc05bf14" => :yosemite
+    sha256 "db5edca4320cee68ccf21c7ce330b371309da0d959f397a90ff3c8358acc1d7f" => :el_capitan
+    sha256 "db5edca4320cee68ccf21c7ce330b371309da0d959f397a90ff3c8358acc1d7f" => :mavericks
+    sha256 "db5edca4320cee68ccf21c7ce330b371309da0d959f397a90ff3c8358acc1d7f" => :sierra
+    sha256 "db5edca4320cee68ccf21c7ce330b371309da0d959f397a90ff3c8358acc1d7f" => :yosemite
   end
 end

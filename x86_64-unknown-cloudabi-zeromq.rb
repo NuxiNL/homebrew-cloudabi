@@ -3,7 +3,7 @@ class X8664UnknownCloudabiZeromq < Formula
   homepage "http://zeromq.org/"
   url "http://this.package.cannot.be.built.from.source/"
   version "4.2.1"
-  revision 9
+  revision 10
   depends_on "x86_64-unknown-cloudabi-argdata"
   depends_on "x86_64-unknown-cloudabi-cloudabi"
   depends_on "x86_64-unknown-cloudabi-cloudlibc"
@@ -14,9 +14,9 @@ class X8664UnknownCloudabiZeromq < Formula
 
   bottle do
     root_url "https://nuxi.nl/distfiles/cloudabi-ports/homebrew/links"
-    sha256 "222f6cc0d56262c3bb58a1adac3ccb9384553188b62ac72cfa0a5def72757e6d" => :el_capitan
-    sha256 "222f6cc0d56262c3bb58a1adac3ccb9384553188b62ac72cfa0a5def72757e6d" => :mavericks
-    sha256 "222f6cc0d56262c3bb58a1adac3ccb9384553188b62ac72cfa0a5def72757e6d" => :sierra
-    sha256 "222f6cc0d56262c3bb58a1adac3ccb9384553188b62ac72cfa0a5def72757e6d" => :yosemite
+    sha256 "90bf69f1c3edec00f85e0571555580540e349dab46dfd2c4aed71108ca48520c" => :el_capitan
+    sha256 "90bf69f1c3edec00f85e0571555580540e349dab46dfd2c4aed71108ca48520c" => :mavericks
+    sha256 "90bf69f1c3edec00f85e0571555580540e349dab46dfd2c4aed71108ca48520c" => :sierra
+    sha256 "90bf69f1c3edec00f85e0571555580540e349dab46dfd2c4aed71108ca48520c" => :yosemite
   end
 end

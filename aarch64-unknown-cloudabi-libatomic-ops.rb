@@ -3,16 +3,16 @@ class Aarch64UnknownCloudabiLibatomicOps < Formula
   homepage "http://www.hpl.hp.com/research/linux/atomic_ops/"
   url "http://this.package.cannot.be.built.from.source/"
   version "7.4.0"
-  revision 18
+  revision 19
   depends_on "aarch64-unknown-cloudabi-cloudabi"
   depends_on "aarch64-unknown-cloudabi-cloudlibc"
   depends_on "aarch64-unknown-cloudabi-compiler-rt"
 
   bottle do
     root_url "https://nuxi.nl/distfiles/cloudabi-ports/homebrew/links"
-    sha256 "06692ce0245efdb5eef08f75f901b9d6b2b333d4f8a4afdf20f1c31cb4f1ddc0" => :el_capitan
-    sha256 "06692ce0245efdb5eef08f75f901b9d6b2b333d4f8a4afdf20f1c31cb4f1ddc0" => :mavericks
-    sha256 "06692ce0245efdb5eef08f75f901b9d6b2b333d4f8a4afdf20f1c31cb4f1ddc0" => :sierra
-    sha256 "06692ce0245efdb5eef08f75f901b9d6b2b333d4f8a4afdf20f1c31cb4f1ddc0" => :yosemite
+    sha256 "ccca4825f0d835c0202fb293269434dd22332f9a2c0a2963165221f2451e5623" => :el_capitan
+    sha256 "ccca4825f0d835c0202fb293269434dd22332f9a2c0a2963165221f2451e5623" => :mavericks
+    sha256 "ccca4825f0d835c0202fb293269434dd22332f9a2c0a2963165221f2451e5623" => :sierra
+    sha256 "ccca4825f0d835c0202fb293269434dd22332f9a2c0a2963165221f2451e5623" => :yosemite
   end
 end

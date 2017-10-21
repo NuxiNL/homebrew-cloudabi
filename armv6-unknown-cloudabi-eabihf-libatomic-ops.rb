@@ -3,16 +3,16 @@ class Armv6UnknownCloudabiEabihfLibatomicOps < Formula
   homepage "http://www.hpl.hp.com/research/linux/atomic_ops/"
   url "http://this.package.cannot.be.built.from.source/"
   version "7.4.0"
-  revision 7
+  revision 8
   depends_on "armv6-unknown-cloudabi-eabihf-cloudabi"
   depends_on "armv6-unknown-cloudabi-eabihf-cloudlibc"
   depends_on "armv6-unknown-cloudabi-eabihf-compiler-rt"
 
   bottle do
     root_url "https://nuxi.nl/distfiles/cloudabi-ports/homebrew/links"
-    sha256 "2866207cefeda88731a819b62d2caf3e18aa854d649564d25d5bbaebd7be9012" => :el_capitan
-    sha256 "2866207cefeda88731a819b62d2caf3e18aa854d649564d25d5bbaebd7be9012" => :mavericks
-    sha256 "2866207cefeda88731a819b62d2caf3e18aa854d649564d25d5bbaebd7be9012" => :sierra
-    sha256 "2866207cefeda88731a819b62d2caf3e18aa854d649564d25d5bbaebd7be9012" => :yosemite
+    sha256 "4e8d08f1ab6143ea1d6df9c713daa1fe7ff4de3d741557ac1b21fd98c6f8a696" => :el_capitan
+    sha256 "4e8d08f1ab6143ea1d6df9c713daa1fe7ff4de3d741557ac1b21fd98c6f8a696" => :mavericks
+    sha256 "4e8d08f1ab6143ea1d6df9c713daa1fe7ff4de3d741557ac1b21fd98c6f8a696" => :sierra
+    sha256 "4e8d08f1ab6143ea1d6df9c713daa1fe7ff4de3d741557ac1b21fd98c6f8a696" => :yosemite
   end
 end
