@@ -3,7 +3,7 @@ class Aarch64UnknownCloudabiNode < Formula
   homepage "http://nodejs.org/"
   url "http://this.package.cannot.be.built.from.source/"
   version "8.8.1"
-  revision 2
+  revision 3
   depends_on "aarch64-unknown-cloudabi-argdata"
   depends_on "aarch64-unknown-cloudabi-c-ares"
   depends_on "aarch64-unknown-cloudabi-cloudabi"
@@ -19,9 +19,9 @@ class Aarch64UnknownCloudabiNode < Formula
 
   bottle do
     root_url "https://nuxi.nl/distfiles/cloudabi-ports/homebrew/links"
-    sha256 "a45ee217c3f0bdbc469585ea79444ad3feb0f17a387dea28e1e74dd1ed326cb0" => :el_capitan
-    sha256 "a45ee217c3f0bdbc469585ea79444ad3feb0f17a387dea28e1e74dd1ed326cb0" => :mavericks
-    sha256 "a45ee217c3f0bdbc469585ea79444ad3feb0f17a387dea28e1e74dd1ed326cb0" => :sierra
-    sha256 "a45ee217c3f0bdbc469585ea79444ad3feb0f17a387dea28e1e74dd1ed326cb0" => :yosemite
+    sha256 "ced372ea64ac596afe93291b64b9274f6d9afef973dbc9ef7a327ef87915162d" => :el_capitan
+    sha256 "ced372ea64ac596afe93291b64b9274f6d9afef973dbc9ef7a327ef87915162d" => :mavericks
+    sha256 "ced372ea64ac596afe93291b64b9274f6d9afef973dbc9ef7a327ef87915162d" => :sierra
+    sha256 "ced372ea64ac596afe93291b64b9274f6d9afef973dbc9ef7a327ef87915162d" => :yosemite
   end
 end
