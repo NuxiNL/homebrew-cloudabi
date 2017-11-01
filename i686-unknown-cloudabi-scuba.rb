@@ -3,7 +3,7 @@ class I686UnknownCloudabiScuba < Formula
   homepage "https://github.com/NuxiNL/scuba"
   url "http://this.package.cannot.be.built.from.source/"
   version "0.6"
-  revision 4
+  revision 5
   depends_on "i686-unknown-cloudabi-argdata"
   depends_on "i686-unknown-cloudabi-arpc"
   depends_on "i686-unknown-cloudabi-boost"
@@ -27,9 +27,9 @@ class I686UnknownCloudabiScuba < Formula
 
   bottle do
     root_url "https://nuxi.nl/distfiles/cloudabi-ports/homebrew/links"
-    sha256 "f68c2ec425c1182a42121e5c7a05e53662c0e5ff3358c860f065bf72abe5c2cb" => :el_capitan
-    sha256 "f68c2ec425c1182a42121e5c7a05e53662c0e5ff3358c860f065bf72abe5c2cb" => :mavericks
-    sha256 "f68c2ec425c1182a42121e5c7a05e53662c0e5ff3358c860f065bf72abe5c2cb" => :sierra
-    sha256 "f68c2ec425c1182a42121e5c7a05e53662c0e5ff3358c860f065bf72abe5c2cb" => :yosemite
+    sha256 "5196568b6e86772a619c38869432deebcdedefe8771ea7a68593d00396cf34b2" => :el_capitan
+    sha256 "5196568b6e86772a619c38869432deebcdedefe8771ea7a68593d00396cf34b2" => :mavericks
+    sha256 "5196568b6e86772a619c38869432deebcdedefe8771ea7a68593d00396cf34b2" => :sierra
+    sha256 "5196568b6e86772a619c38869432deebcdedefe8771ea7a68593d00396cf34b2" => :yosemite
   end
 end
