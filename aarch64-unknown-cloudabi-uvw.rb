@@ -3,7 +3,7 @@ class Aarch64UnknownCloudabiUvw < Formula
   homepage "https://github.com/skypjack/uvw"
   url "http://this.package.cannot.be.built.from.source/"
   version "1.3.0"
-  revision 1
+  revision 2
   depends_on "aarch64-unknown-cloudabi-cloudabi"
   depends_on "aarch64-unknown-cloudabi-cloudlibc"
   depends_on "aarch64-unknown-cloudabi-compiler-rt"
@@ -11,9 +11,9 @@ class Aarch64UnknownCloudabiUvw < Formula
 
   bottle do
     root_url "https://nuxi.nl/distfiles/cloudabi-ports/homebrew/links"
-    sha256 "e1f420f5dbb996ac93993c9a0a428735725fd1d8bba6606f35ac13b2f5d925cf" => :el_capitan
-    sha256 "e1f420f5dbb996ac93993c9a0a428735725fd1d8bba6606f35ac13b2f5d925cf" => :mavericks
-    sha256 "e1f420f5dbb996ac93993c9a0a428735725fd1d8bba6606f35ac13b2f5d925cf" => :sierra
-    sha256 "e1f420f5dbb996ac93993c9a0a428735725fd1d8bba6606f35ac13b2f5d925cf" => :yosemite
+    sha256 "43adb1b6facd6407f2638198015edf30cf77c8d520fd6ac6b942539b9540f012" => :el_capitan
+    sha256 "43adb1b6facd6407f2638198015edf30cf77c8d520fd6ac6b942539b9540f012" => :mavericks
+    sha256 "43adb1b6facd6407f2638198015edf30cf77c8d520fd6ac6b942539b9540f012" => :sierra
+    sha256 "43adb1b6facd6407f2638198015edf30cf77c8d520fd6ac6b942539b9540f012" => :yosemite
   end
 end
