@@ -18,6 +18,7 @@ class X8664UnknownCloudabiDjango < Formula
   bottle do
     root_url "https://nuxi.nl/distfiles/cloudabi-ports/homebrew/links"
     sha256 "ab714c51c1bb81fbc16955e447becc7ad87cd8a8c2aedc18e2a0c2044e22a9e7" => :el_capitan
+    sha256 "ab714c51c1bb81fbc16955e447becc7ad87cd8a8c2aedc18e2a0c2044e22a9e7" => :high_sierra
     sha256 "ab714c51c1bb81fbc16955e447becc7ad87cd8a8c2aedc18e2a0c2044e22a9e7" => :mavericks
     sha256 "ab714c51c1bb81fbc16955e447becc7ad87cd8a8c2aedc18e2a0c2044e22a9e7" => :sierra
     sha256 "ab714c51c1bb81fbc16955e447becc7ad87cd8a8c2aedc18e2a0c2044e22a9e7" => :yosemite

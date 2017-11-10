@@ -12,6 +12,7 @@ class Aarch64UnknownCloudabiLibcxxabi < Formula
   bottle do
     root_url "https://nuxi.nl/distfiles/cloudabi-ports/homebrew/links"
     sha256 "b38bcd01543d89be647b8bf42a8b3b133b2cc253f814b83038a0d01943b66295" => :el_capitan
+    sha256 "b38bcd01543d89be647b8bf42a8b3b133b2cc253f814b83038a0d01943b66295" => :high_sierra
     sha256 "b38bcd01543d89be647b8bf42a8b3b133b2cc253f814b83038a0d01943b66295" => :mavericks
     sha256 "b38bcd01543d89be647b8bf42a8b3b133b2cc253f814b83038a0d01943b66295" => :sierra
     sha256 "b38bcd01543d89be647b8bf42a8b3b133b2cc253f814b83038a0d01943b66295" => :yosemite

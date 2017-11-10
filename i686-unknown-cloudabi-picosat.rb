@@ -11,6 +11,7 @@ class I686UnknownCloudabiPicosat < Formula
   bottle do
     root_url "https://nuxi.nl/distfiles/cloudabi-ports/homebrew/links"
     sha256 "f0a53ac70e57a5062631d54414424dd0611febd6c391708e136b3afb5e914107" => :el_capitan
+    sha256 "f0a53ac70e57a5062631d54414424dd0611febd6c391708e136b3afb5e914107" => :high_sierra
     sha256 "f0a53ac70e57a5062631d54414424dd0611febd6c391708e136b3afb5e914107" => :mavericks
     sha256 "f0a53ac70e57a5062631d54414424dd0611febd6c391708e136b3afb5e914107" => :sierra
     sha256 "f0a53ac70e57a5062631d54414424dd0611febd6c391708e136b3afb5e914107" => :yosemite

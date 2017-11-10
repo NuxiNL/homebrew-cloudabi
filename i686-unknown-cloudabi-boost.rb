@@ -18,6 +18,7 @@ class I686UnknownCloudabiBoost < Formula
   bottle do
     root_url "https://nuxi.nl/distfiles/cloudabi-ports/homebrew/links"
     sha256 "3fd2120d2cb14c46b02a793e7533500d3bd84732c64f120bb8430489edba4fbd" => :el_capitan
+    sha256 "3fd2120d2cb14c46b02a793e7533500d3bd84732c64f120bb8430489edba4fbd" => :high_sierra
     sha256 "3fd2120d2cb14c46b02a793e7533500d3bd84732c64f120bb8430489edba4fbd" => :mavericks
     sha256 "3fd2120d2cb14c46b02a793e7533500d3bd84732c64f120bb8430489edba4fbd" => :sierra
     sha256 "3fd2120d2cb14c46b02a793e7533500d3bd84732c64f120bb8430489edba4fbd" => :yosemite

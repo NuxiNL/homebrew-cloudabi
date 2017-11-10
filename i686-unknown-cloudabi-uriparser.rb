@@ -11,6 +11,7 @@ class I686UnknownCloudabiUriparser < Formula
   bottle do
     root_url "https://nuxi.nl/distfiles/cloudabi-ports/homebrew/links"
     sha256 "4944ccc60f760e47e736c3d79a0ffd922b3bda2571472bead7fb23367c078047" => :el_capitan
+    sha256 "4944ccc60f760e47e736c3d79a0ffd922b3bda2571472bead7fb23367c078047" => :high_sierra
     sha256 "4944ccc60f760e47e736c3d79a0ffd922b3bda2571472bead7fb23367c078047" => :mavericks
     sha256 "4944ccc60f760e47e736c3d79a0ffd922b3bda2571472bead7fb23367c078047" => :sierra
     sha256 "4944ccc60f760e47e736c3d79a0ffd922b3bda2571472bead7fb23367c078047" => :yosemite

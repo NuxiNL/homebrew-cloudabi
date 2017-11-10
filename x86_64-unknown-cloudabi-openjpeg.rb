@@ -11,6 +11,7 @@ class X8664UnknownCloudabiOpenjpeg < Formula
   bottle do
     root_url "https://nuxi.nl/distfiles/cloudabi-ports/homebrew/links"
     sha256 "d2865eb21212f308a189ddb0ae351c21ae1de73416c555d90a1244c4f56fb818" => :el_capitan
+    sha256 "d2865eb21212f308a189ddb0ae351c21ae1de73416c555d90a1244c4f56fb818" => :high_sierra
     sha256 "d2865eb21212f308a189ddb0ae351c21ae1de73416c555d90a1244c4f56fb818" => :mavericks
     sha256 "d2865eb21212f308a189ddb0ae351c21ae1de73416c555d90a1244c4f56fb818" => :sierra
     sha256 "d2865eb21212f308a189ddb0ae351c21ae1de73416c555d90a1244c4f56fb818" => :yosemite

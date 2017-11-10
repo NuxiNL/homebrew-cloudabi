@@ -19,6 +19,7 @@ class Armv7UnknownCloudabiEabihfLibsndfile < Formula
   bottle do
     root_url "https://nuxi.nl/distfiles/cloudabi-ports/homebrew/links"
     sha256 "53d32ee7d427526159934c9be74cb8845b59dc72091e54f84a5d26ded9a25906" => :el_capitan
+    sha256 "53d32ee7d427526159934c9be74cb8845b59dc72091e54f84a5d26ded9a25906" => :high_sierra
     sha256 "53d32ee7d427526159934c9be74cb8845b59dc72091e54f84a5d26ded9a25906" => :mavericks
     sha256 "53d32ee7d427526159934c9be74cb8845b59dc72091e54f84a5d26ded9a25906" => :sierra
     sha256 "53d32ee7d427526159934c9be74cb8845b59dc72091e54f84a5d26ded9a25906" => :yosemite

@@ -18,6 +18,7 @@ class I686UnknownCloudabiDjango < Formula
   bottle do
     root_url "https://nuxi.nl/distfiles/cloudabi-ports/homebrew/links"
     sha256 "13cf565345660d34942da2a6ae82dd82d6f6060c0ea4de649429c4993f08ab10" => :el_capitan
+    sha256 "13cf565345660d34942da2a6ae82dd82d6f6060c0ea4de649429c4993f08ab10" => :high_sierra
     sha256 "13cf565345660d34942da2a6ae82dd82d6f6060c0ea4de649429c4993f08ab10" => :mavericks
     sha256 "13cf565345660d34942da2a6ae82dd82d6f6060c0ea4de649429c4993f08ab10" => :sierra
     sha256 "13cf565345660d34942da2a6ae82dd82d6f6060c0ea4de649429c4993f08ab10" => :yosemite

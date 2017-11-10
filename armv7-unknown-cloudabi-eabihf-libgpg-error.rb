@@ -11,6 +11,7 @@ class Armv7UnknownCloudabiEabihfLibgpgError < Formula
   bottle do
     root_url "https://nuxi.nl/distfiles/cloudabi-ports/homebrew/links"
     sha256 "50a595aeae250110da5271b329f1432cbbead7ff149512b835898b3fb12b79c9" => :el_capitan
+    sha256 "50a595aeae250110da5271b329f1432cbbead7ff149512b835898b3fb12b79c9" => :high_sierra
     sha256 "50a595aeae250110da5271b329f1432cbbead7ff149512b835898b3fb12b79c9" => :mavericks
     sha256 "50a595aeae250110da5271b329f1432cbbead7ff149512b835898b3fb12b79c9" => :sierra
     sha256 "50a595aeae250110da5271b329f1432cbbead7ff149512b835898b3fb12b79c9" => :yosemite
