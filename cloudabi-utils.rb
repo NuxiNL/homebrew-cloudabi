@@ -1,8 +1,8 @@
 class CloudabiUtils < Formula
   desc "Utilities for starting CloudABI programs"
   homepage "https://github.com/NuxiNL/cloudabi-utils"
-  url "https://github.com/NuxiNL/cloudabi-utils/archive/v0.34.tar.gz"
-  sha256 "de924fed3d2e64bd59f21bb1c949774b2fdc7882d81d75787e7d75f5c81ee1fb"
+  url "https://github.com/NuxiNL/cloudabi-utils/archive/v0.35.tar.gz"
+  sha256 "ab67e06e7c38a03bcc589c0c12e48eb4e3945c8ab369bf46002959b0036178d6"
 
   depends_on "argdata"
   depends_on "cloudabi" => :build
