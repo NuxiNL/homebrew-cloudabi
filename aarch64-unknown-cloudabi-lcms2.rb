@@ -3,7 +3,7 @@ class Aarch64UnknownCloudabiLcms2 < Formula
   homepage "http://www.littlecms.com/"
   url "http://this.package.cannot.be.built.from.source/"
   version "2.8"
-  revision 9
+  revision 10
   depends_on "aarch64-unknown-cloudabi-argdata"
   depends_on "aarch64-unknown-cloudabi-cloudabi"
   depends_on "aarch64-unknown-cloudabi-cloudlibc"
@@ -17,10 +17,10 @@ class Aarch64UnknownCloudabiLcms2 < Formula
 
   bottle do
     root_url "https://nuxi.nl/distfiles/cloudabi-ports/homebrew/links"
-    sha256 "c1a6d4944e391d1f7d7d8c934d53d2cf1ebb7ac93d76f1d52d678b996ae4fb22" => :el_capitan
-    sha256 "c1a6d4944e391d1f7d7d8c934d53d2cf1ebb7ac93d76f1d52d678b996ae4fb22" => :high_sierra
-    sha256 "c1a6d4944e391d1f7d7d8c934d53d2cf1ebb7ac93d76f1d52d678b996ae4fb22" => :mavericks
-    sha256 "c1a6d4944e391d1f7d7d8c934d53d2cf1ebb7ac93d76f1d52d678b996ae4fb22" => :sierra
-    sha256 "c1a6d4944e391d1f7d7d8c934d53d2cf1ebb7ac93d76f1d52d678b996ae4fb22" => :yosemite
+    sha256 "45bc6ad23e4c2154ccb37331ba83cddc6c352bd11b30697a14dc6c29a201e647" => :el_capitan
+    sha256 "45bc6ad23e4c2154ccb37331ba83cddc6c352bd11b30697a14dc6c29a201e647" => :high_sierra
+    sha256 "45bc6ad23e4c2154ccb37331ba83cddc6c352bd11b30697a14dc6c29a201e647" => :mavericks
+    sha256 "45bc6ad23e4c2154ccb37331ba83cddc6c352bd11b30697a14dc6c29a201e647" => :sierra
+    sha256 "45bc6ad23e4c2154ccb37331ba83cddc6c352bd11b30697a14dc6c29a201e647" => :yosemite
   end
 end

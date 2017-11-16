@@ -3,17 +3,17 @@ class Aarch64UnknownCloudabiLzo < Formula
   homepage "http://www.oberhumer.com/opensource/lzo/"
   url "http://this.package.cannot.be.built.from.source/"
   version "2.10"
-  revision 4
+  revision 5
   depends_on "aarch64-unknown-cloudabi-cloudabi"
   depends_on "aarch64-unknown-cloudabi-cloudlibc"
   depends_on "aarch64-unknown-cloudabi-compiler-rt"
 
   bottle do
     root_url "https://nuxi.nl/distfiles/cloudabi-ports/homebrew/links"
-    sha256 "9079c0f103c4ddf73da0c0add3c6aa6ca73b815f8bfc13ec4cd4ae4d901c4ebd" => :el_capitan
-    sha256 "9079c0f103c4ddf73da0c0add3c6aa6ca73b815f8bfc13ec4cd4ae4d901c4ebd" => :high_sierra
-    sha256 "9079c0f103c4ddf73da0c0add3c6aa6ca73b815f8bfc13ec4cd4ae4d901c4ebd" => :mavericks
-    sha256 "9079c0f103c4ddf73da0c0add3c6aa6ca73b815f8bfc13ec4cd4ae4d901c4ebd" => :sierra
-    sha256 "9079c0f103c4ddf73da0c0add3c6aa6ca73b815f8bfc13ec4cd4ae4d901c4ebd" => :yosemite
+    sha256 "7c0e2d1f4a80cc22b6c15d7d08d1d6f31ce503b4046e8e2fccf582cfda865190" => :el_capitan
+    sha256 "7c0e2d1f4a80cc22b6c15d7d08d1d6f31ce503b4046e8e2fccf582cfda865190" => :high_sierra
+    sha256 "7c0e2d1f4a80cc22b6c15d7d08d1d6f31ce503b4046e8e2fccf582cfda865190" => :mavericks
+    sha256 "7c0e2d1f4a80cc22b6c15d7d08d1d6f31ce503b4046e8e2fccf582cfda865190" => :sierra
+    sha256 "7c0e2d1f4a80cc22b6c15d7d08d1d6f31ce503b4046e8e2fccf582cfda865190" => :yosemite
   end
 end
