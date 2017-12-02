@@ -3,7 +3,7 @@ class Armv6UnknownCloudabiEabihfLibcroco < Formula
   homepage "https://github.com/GNOME/libcroco"
   url "http://this.package.cannot.be.built.from.source/"
   version "0.6.12"
-  revision 1
+  revision 2
   depends_on "armv6-unknown-cloudabi-eabihf-argdata"
   depends_on "armv6-unknown-cloudabi-eabihf-cloudabi"
   depends_on "armv6-unknown-cloudabi-eabihf-cloudlibc"
@@ -19,10 +19,10 @@ class Armv6UnknownCloudabiEabihfLibcroco < Formula
 
   bottle do
     root_url "https://nuxi.nl/distfiles/cloudabi-ports/homebrew/links"
-    sha256 "894bed065f6ee6861c4d2d1c3c1e39ce6570888d81e4d4ccf035cb8b9af24a41" => :el_capitan
-    sha256 "894bed065f6ee6861c4d2d1c3c1e39ce6570888d81e4d4ccf035cb8b9af24a41" => :high_sierra
-    sha256 "894bed065f6ee6861c4d2d1c3c1e39ce6570888d81e4d4ccf035cb8b9af24a41" => :mavericks
-    sha256 "894bed065f6ee6861c4d2d1c3c1e39ce6570888d81e4d4ccf035cb8b9af24a41" => :sierra
-    sha256 "894bed065f6ee6861c4d2d1c3c1e39ce6570888d81e4d4ccf035cb8b9af24a41" => :yosemite
+    sha256 "76946e2f057c18e6e34381da9437b6e498892ab26f6a72b8a0e4848f5716d3ea" => :el_capitan
+    sha256 "76946e2f057c18e6e34381da9437b6e498892ab26f6a72b8a0e4848f5716d3ea" => :high_sierra
+    sha256 "76946e2f057c18e6e34381da9437b6e498892ab26f6a72b8a0e4848f5716d3ea" => :mavericks
+    sha256 "76946e2f057c18e6e34381da9437b6e498892ab26f6a72b8a0e4848f5716d3ea" => :sierra
+    sha256 "76946e2f057c18e6e34381da9437b6e498892ab26f6a72b8a0e4848f5716d3ea" => :yosemite
   end
 end

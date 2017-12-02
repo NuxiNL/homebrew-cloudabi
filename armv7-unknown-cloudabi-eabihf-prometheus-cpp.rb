@@ -3,7 +3,7 @@ class Armv7UnknownCloudabiEabihfPrometheusCpp < Formula
   homepage "https://github.com/jupp0r/prometheus-cpp"
   url "http://this.package.cannot.be.built.from.source/"
   version "0.1.6"
-  revision 6
+  revision 7
   depends_on "armv7-unknown-cloudabi-eabihf-argdata"
   depends_on "armv7-unknown-cloudabi-eabihf-cloudabi"
   depends_on "armv7-unknown-cloudabi-eabihf-cloudlibc"
@@ -16,10 +16,10 @@ class Armv7UnknownCloudabiEabihfPrometheusCpp < Formula
 
   bottle do
     root_url "https://nuxi.nl/distfiles/cloudabi-ports/homebrew/links"
-    sha256 "3c8446843dc17e4cb1b2737df6410eb888b590cbd8c4b4dcfdbc129014365aa2" => :el_capitan
-    sha256 "3c8446843dc17e4cb1b2737df6410eb888b590cbd8c4b4dcfdbc129014365aa2" => :high_sierra
-    sha256 "3c8446843dc17e4cb1b2737df6410eb888b590cbd8c4b4dcfdbc129014365aa2" => :mavericks
-    sha256 "3c8446843dc17e4cb1b2737df6410eb888b590cbd8c4b4dcfdbc129014365aa2" => :sierra
-    sha256 "3c8446843dc17e4cb1b2737df6410eb888b590cbd8c4b4dcfdbc129014365aa2" => :yosemite
+    sha256 "81df7af6252a9a51c2f725b5804939bc65b76e732319707dec32c1c80bef1c4b" => :el_capitan
+    sha256 "81df7af6252a9a51c2f725b5804939bc65b76e732319707dec32c1c80bef1c4b" => :high_sierra
+    sha256 "81df7af6252a9a51c2f725b5804939bc65b76e732319707dec32c1c80bef1c4b" => :mavericks
+    sha256 "81df7af6252a9a51c2f725b5804939bc65b76e732319707dec32c1c80bef1c4b" => :sierra
+    sha256 "81df7af6252a9a51c2f725b5804939bc65b76e732319707dec32c1c80bef1c4b" => :yosemite
   end
 end

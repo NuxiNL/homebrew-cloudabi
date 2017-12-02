@@ -2,18 +2,18 @@ class Armv7UnknownCloudabiEabihfOpus < Formula
   desc "opus for armv7-unknown-cloudabi-eabihf"
   homepage "http://www.opus-codec.org/"
   url "http://this.package.cannot.be.built.from.source/"
-  version "1.1.4"
-  revision 3
+  version "1.2.1"
+  revision 1
   depends_on "armv7-unknown-cloudabi-eabihf-cloudabi"
   depends_on "armv7-unknown-cloudabi-eabihf-cloudlibc"
   depends_on "armv7-unknown-cloudabi-eabihf-compiler-rt"
 
   bottle do
     root_url "https://nuxi.nl/distfiles/cloudabi-ports/homebrew/links"
-    sha256 "f62828db3e96e8c7369afd13e6aee93a1faa6c8539b9b9dd6fee51979c9cdd74" => :el_capitan
-    sha256 "f62828db3e96e8c7369afd13e6aee93a1faa6c8539b9b9dd6fee51979c9cdd74" => :high_sierra
-    sha256 "f62828db3e96e8c7369afd13e6aee93a1faa6c8539b9b9dd6fee51979c9cdd74" => :mavericks
-    sha256 "f62828db3e96e8c7369afd13e6aee93a1faa6c8539b9b9dd6fee51979c9cdd74" => :sierra
-    sha256 "f62828db3e96e8c7369afd13e6aee93a1faa6c8539b9b9dd6fee51979c9cdd74" => :yosemite
+    sha256 "c60d2c5beef803e59fe78841487a373976c47b5ba8208ad2d7625a335ef715cc" => :el_capitan
+    sha256 "c60d2c5beef803e59fe78841487a373976c47b5ba8208ad2d7625a335ef715cc" => :high_sierra
+    sha256 "c60d2c5beef803e59fe78841487a373976c47b5ba8208ad2d7625a335ef715cc" => :mavericks
+    sha256 "c60d2c5beef803e59fe78841487a373976c47b5ba8208ad2d7625a335ef715cc" => :sierra
+    sha256 "c60d2c5beef803e59fe78841487a373976c47b5ba8208ad2d7625a335ef715cc" => :yosemite
   end
 end
