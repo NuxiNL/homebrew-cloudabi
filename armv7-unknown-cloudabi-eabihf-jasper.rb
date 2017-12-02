@@ -2,18 +2,18 @@ class Armv7UnknownCloudabiEabihfJasper < Formula
   desc "jasper for armv7-unknown-cloudabi-eabihf"
   homepage "http://www.ece.uvic.ca/~frodo/jasper/"
   url "http://this.package.cannot.be.built.from.source/"
-  version "2.0.12"
-  revision 3
+  version "2.0.14"
+  revision 1
   depends_on "armv7-unknown-cloudabi-eabihf-cloudabi"
   depends_on "armv7-unknown-cloudabi-eabihf-cloudlibc"
   depends_on "armv7-unknown-cloudabi-eabihf-compiler-rt"
 
   bottle do
     root_url "https://nuxi.nl/distfiles/cloudabi-ports/homebrew/links"
-    sha256 "0bd297be4a9a28b9050b5363c2c0ed909a44b0bd1c947e9a873edb25acefcb79" => :el_capitan
-    sha256 "0bd297be4a9a28b9050b5363c2c0ed909a44b0bd1c947e9a873edb25acefcb79" => :high_sierra
-    sha256 "0bd297be4a9a28b9050b5363c2c0ed909a44b0bd1c947e9a873edb25acefcb79" => :mavericks
-    sha256 "0bd297be4a9a28b9050b5363c2c0ed909a44b0bd1c947e9a873edb25acefcb79" => :sierra
-    sha256 "0bd297be4a9a28b9050b5363c2c0ed909a44b0bd1c947e9a873edb25acefcb79" => :yosemite
+    sha256 "220a9dcd050a25dcd751a2b3071b1d9ec71432e1dbd5f1508556c62089114ac4" => :el_capitan
+    sha256 "220a9dcd050a25dcd751a2b3071b1d9ec71432e1dbd5f1508556c62089114ac4" => :high_sierra
+    sha256 "220a9dcd050a25dcd751a2b3071b1d9ec71432e1dbd5f1508556c62089114ac4" => :mavericks
+    sha256 "220a9dcd050a25dcd751a2b3071b1d9ec71432e1dbd5f1508556c62089114ac4" => :sierra
+    sha256 "220a9dcd050a25dcd751a2b3071b1d9ec71432e1dbd5f1508556c62089114ac4" => :yosemite
   end
 end

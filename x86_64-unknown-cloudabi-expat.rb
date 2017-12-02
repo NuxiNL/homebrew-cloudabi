@@ -2,18 +2,18 @@ class X8664UnknownCloudabiExpat < Formula
   desc "expat for x86_64-unknown-cloudabi"
   homepage "http://expat.sourceforge.net/"
   url "http://this.package.cannot.be.built.from.source/"
-  version "2.2.0"
-  revision 11
+  version "2.2.5"
+  revision 1
   depends_on "x86_64-unknown-cloudabi-cloudabi"
   depends_on "x86_64-unknown-cloudabi-cloudlibc"
   depends_on "x86_64-unknown-cloudabi-compiler-rt"
 
   bottle do
     root_url "https://nuxi.nl/distfiles/cloudabi-ports/homebrew/links"
-    sha256 "00a210f79167f7ae32b06d845e4633cf92b9484a9b7af26f2c09a9d58b3167c2" => :el_capitan
-    sha256 "00a210f79167f7ae32b06d845e4633cf92b9484a9b7af26f2c09a9d58b3167c2" => :high_sierra
-    sha256 "00a210f79167f7ae32b06d845e4633cf92b9484a9b7af26f2c09a9d58b3167c2" => :mavericks
-    sha256 "00a210f79167f7ae32b06d845e4633cf92b9484a9b7af26f2c09a9d58b3167c2" => :sierra
-    sha256 "00a210f79167f7ae32b06d845e4633cf92b9484a9b7af26f2c09a9d58b3167c2" => :yosemite
+    sha256 "4579ae24bb07f31852af0264c0ff210bba7e2b073101d629a92343f23409147a" => :el_capitan
+    sha256 "4579ae24bb07f31852af0264c0ff210bba7e2b073101d629a92343f23409147a" => :high_sierra
+    sha256 "4579ae24bb07f31852af0264c0ff210bba7e2b073101d629a92343f23409147a" => :mavericks
+    sha256 "4579ae24bb07f31852af0264c0ff210bba7e2b073101d629a92343f23409147a" => :sierra
+    sha256 "4579ae24bb07f31852af0264c0ff210bba7e2b073101d629a92343f23409147a" => :yosemite
   end
 end

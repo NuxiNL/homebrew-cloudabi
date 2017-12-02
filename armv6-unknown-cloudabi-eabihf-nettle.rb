@@ -2,8 +2,8 @@ class Armv6UnknownCloudabiEabihfNettle < Formula
   desc "nettle for armv6-unknown-cloudabi-eabihf"
   homepage "http://www.lysator.liu.se/~nisse/nettle/"
   url "http://this.package.cannot.be.built.from.source/"
-  version "3.3"
-  revision 13
+  version "3.4"
+  revision 1
   depends_on "armv6-unknown-cloudabi-eabihf-cloudabi"
   depends_on "armv6-unknown-cloudabi-eabihf-cloudlibc"
   depends_on "armv6-unknown-cloudabi-eabihf-compiler-rt"
@@ -11,10 +11,10 @@ class Armv6UnknownCloudabiEabihfNettle < Formula
 
   bottle do
     root_url "https://nuxi.nl/distfiles/cloudabi-ports/homebrew/links"
-    sha256 "88fea0b05e11a8e3fc4bb6a1a730997376d36e1790d83dce063ab78123c0e5ba" => :el_capitan
-    sha256 "88fea0b05e11a8e3fc4bb6a1a730997376d36e1790d83dce063ab78123c0e5ba" => :high_sierra
-    sha256 "88fea0b05e11a8e3fc4bb6a1a730997376d36e1790d83dce063ab78123c0e5ba" => :mavericks
-    sha256 "88fea0b05e11a8e3fc4bb6a1a730997376d36e1790d83dce063ab78123c0e5ba" => :sierra
-    sha256 "88fea0b05e11a8e3fc4bb6a1a730997376d36e1790d83dce063ab78123c0e5ba" => :yosemite
+    sha256 "829693a9f4cbb47e79a0bfc2da113e4cde66cf8754bc8a6314dc54624c9a479f" => :el_capitan
+    sha256 "829693a9f4cbb47e79a0bfc2da113e4cde66cf8754bc8a6314dc54624c9a479f" => :high_sierra
+    sha256 "829693a9f4cbb47e79a0bfc2da113e4cde66cf8754bc8a6314dc54624c9a479f" => :mavericks
+    sha256 "829693a9f4cbb47e79a0bfc2da113e4cde66cf8754bc8a6314dc54624c9a479f" => :sierra
+    sha256 "829693a9f4cbb47e79a0bfc2da113e4cde66cf8754bc8a6314dc54624c9a479f" => :yosemite
   end
 end
