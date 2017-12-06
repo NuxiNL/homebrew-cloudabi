@@ -3,7 +3,7 @@ class Aarch64UnknownCloudabiMpfr < Formula
   homepage "http://www.mpfr.org/"
   url "http://this.package.cannot.be.built.from.source/"
   version "3.1.6"
-  revision 2
+  revision 3
   depends_on "aarch64-unknown-cloudabi-cloudabi"
   depends_on "aarch64-unknown-cloudabi-cloudlibc"
   depends_on "aarch64-unknown-cloudabi-compiler-rt"
@@ -11,10 +11,10 @@ class Aarch64UnknownCloudabiMpfr < Formula
 
   bottle do
     root_url "https://nuxi.nl/distfiles/cloudabi-ports/homebrew/links"
-    sha256 "c2643e7fb5d3677d9a7594307aa87433a4db6a99cd21a002c8b1264f58d64b8d" => :el_capitan
-    sha256 "c2643e7fb5d3677d9a7594307aa87433a4db6a99cd21a002c8b1264f58d64b8d" => :high_sierra
-    sha256 "c2643e7fb5d3677d9a7594307aa87433a4db6a99cd21a002c8b1264f58d64b8d" => :mavericks
-    sha256 "c2643e7fb5d3677d9a7594307aa87433a4db6a99cd21a002c8b1264f58d64b8d" => :sierra
-    sha256 "c2643e7fb5d3677d9a7594307aa87433a4db6a99cd21a002c8b1264f58d64b8d" => :yosemite
+    sha256 "0e1f432c3a1f130f3e7922be385c873b196f924c85bfaa34ff7ad15aaa43275f" => :el_capitan
+    sha256 "0e1f432c3a1f130f3e7922be385c873b196f924c85bfaa34ff7ad15aaa43275f" => :high_sierra
+    sha256 "0e1f432c3a1f130f3e7922be385c873b196f924c85bfaa34ff7ad15aaa43275f" => :mavericks
+    sha256 "0e1f432c3a1f130f3e7922be385c873b196f924c85bfaa34ff7ad15aaa43275f" => :sierra
+    sha256 "0e1f432c3a1f130f3e7922be385c873b196f924c85bfaa34ff7ad15aaa43275f" => :yosemite
   end
 end

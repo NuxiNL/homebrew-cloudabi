@@ -3,7 +3,7 @@ class Armv7UnknownCloudabiEabihfGrpc < Formula
   homepage "http://www.grpc.io/"
   url "http://this.package.cannot.be.built.from.source/"
   version "1.7.2"
-  revision 2
+  revision 3
   depends_on "armv7-unknown-cloudabi-eabihf-argdata"
   depends_on "armv7-unknown-cloudabi-eabihf-c-ares"
   depends_on "armv7-unknown-cloudabi-eabihf-cloudabi"
@@ -18,10 +18,10 @@ class Armv7UnknownCloudabiEabihfGrpc < Formula
 
   bottle do
     root_url "https://nuxi.nl/distfiles/cloudabi-ports/homebrew/links"
-    sha256 "be9e01c33ca9b5359e2eaac1bc10a942534bcccdd163aafbcc527e2a0d436abe" => :el_capitan
-    sha256 "be9e01c33ca9b5359e2eaac1bc10a942534bcccdd163aafbcc527e2a0d436abe" => :high_sierra
-    sha256 "be9e01c33ca9b5359e2eaac1bc10a942534bcccdd163aafbcc527e2a0d436abe" => :mavericks
-    sha256 "be9e01c33ca9b5359e2eaac1bc10a942534bcccdd163aafbcc527e2a0d436abe" => :sierra
-    sha256 "be9e01c33ca9b5359e2eaac1bc10a942534bcccdd163aafbcc527e2a0d436abe" => :yosemite
+    sha256 "1f6d222af1065157eef85ac43ead5c0d6f158021b6a0b619c011b2748ec549e4" => :el_capitan
+    sha256 "1f6d222af1065157eef85ac43ead5c0d6f158021b6a0b619c011b2748ec549e4" => :high_sierra
+    sha256 "1f6d222af1065157eef85ac43ead5c0d6f158021b6a0b619c011b2748ec549e4" => :mavericks
+    sha256 "1f6d222af1065157eef85ac43ead5c0d6f158021b6a0b619c011b2748ec549e4" => :sierra
+    sha256 "1f6d222af1065157eef85ac43ead5c0d6f158021b6a0b619c011b2748ec549e4" => :yosemite
   end
 end

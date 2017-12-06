@@ -3,7 +3,7 @@ class Armv7UnknownCloudabiEabihfX265 < Formula
   homepage "http://x265.org/"
   url "http://this.package.cannot.be.built.from.source/"
   version "2.3"
-  revision 5
+  revision 6
   depends_on "armv7-unknown-cloudabi-eabihf-argdata"
   depends_on "armv7-unknown-cloudabi-eabihf-cloudabi"
   depends_on "armv7-unknown-cloudabi-eabihf-cloudlibc"
@@ -14,10 +14,10 @@ class Armv7UnknownCloudabiEabihfX265 < Formula
 
   bottle do
     root_url "https://nuxi.nl/distfiles/cloudabi-ports/homebrew/links"
-    sha256 "554f2e8c68a9bf8fb5efa14f724b2f0f3d1fe1ef7e5a1f51e1f1ba83a8e73dd7" => :el_capitan
-    sha256 "554f2e8c68a9bf8fb5efa14f724b2f0f3d1fe1ef7e5a1f51e1f1ba83a8e73dd7" => :high_sierra
-    sha256 "554f2e8c68a9bf8fb5efa14f724b2f0f3d1fe1ef7e5a1f51e1f1ba83a8e73dd7" => :mavericks
-    sha256 "554f2e8c68a9bf8fb5efa14f724b2f0f3d1fe1ef7e5a1f51e1f1ba83a8e73dd7" => :sierra
-    sha256 "554f2e8c68a9bf8fb5efa14f724b2f0f3d1fe1ef7e5a1f51e1f1ba83a8e73dd7" => :yosemite
+    sha256 "4ba2b7d798ead2321306ac43c54ca93479f06ef21b41907dbe2e8c6970c2f078" => :el_capitan
+    sha256 "4ba2b7d798ead2321306ac43c54ca93479f06ef21b41907dbe2e8c6970c2f078" => :high_sierra
+    sha256 "4ba2b7d798ead2321306ac43c54ca93479f06ef21b41907dbe2e8c6970c2f078" => :mavericks
+    sha256 "4ba2b7d798ead2321306ac43c54ca93479f06ef21b41907dbe2e8c6970c2f078" => :sierra
+    sha256 "4ba2b7d798ead2321306ac43c54ca93479f06ef21b41907dbe2e8c6970c2f078" => :yosemite
   end
 end
