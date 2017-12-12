@@ -3,7 +3,7 @@ class Armv6UnknownCloudabiEabihfLibpng < Formula
   homepage "http://www.libpng.org/"
   url "http://this.package.cannot.be.built.from.source/"
   version "1.6.34"
-  revision 1
+  revision 2
   depends_on "armv6-unknown-cloudabi-eabihf-cloudabi"
   depends_on "armv6-unknown-cloudabi-eabihf-cloudlibc"
   depends_on "armv6-unknown-cloudabi-eabihf-compiler-rt"
@@ -11,10 +11,10 @@ class Armv6UnknownCloudabiEabihfLibpng < Formula
 
   bottle do
     root_url "https://nuxi.nl/distfiles/cloudabi-ports/homebrew/links"
-    sha256 "46c2ae93c7898cbd73205783b4df1c00b1e5b0c691d0e74e66b2414ee40db0bd" => :el_capitan
-    sha256 "46c2ae93c7898cbd73205783b4df1c00b1e5b0c691d0e74e66b2414ee40db0bd" => :high_sierra
-    sha256 "46c2ae93c7898cbd73205783b4df1c00b1e5b0c691d0e74e66b2414ee40db0bd" => :mavericks
-    sha256 "46c2ae93c7898cbd73205783b4df1c00b1e5b0c691d0e74e66b2414ee40db0bd" => :sierra
-    sha256 "46c2ae93c7898cbd73205783b4df1c00b1e5b0c691d0e74e66b2414ee40db0bd" => :yosemite
+    sha256 "dad579ac9ccbfa48d2cbbb01586ba523b7fbf478c03d091b59c6141135220e65" => :el_capitan
+    sha256 "dad579ac9ccbfa48d2cbbb01586ba523b7fbf478c03d091b59c6141135220e65" => :high_sierra
+    sha256 "dad579ac9ccbfa48d2cbbb01586ba523b7fbf478c03d091b59c6141135220e65" => :mavericks
+    sha256 "dad579ac9ccbfa48d2cbbb01586ba523b7fbf478c03d091b59c6141135220e65" => :sierra
+    sha256 "dad579ac9ccbfa48d2cbbb01586ba523b7fbf478c03d091b59c6141135220e65" => :yosemite
   end
 end
