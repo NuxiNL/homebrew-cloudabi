@@ -3,7 +3,7 @@ class Aarch64UnknownCloudabiQpdf < Formula
   homepage "http://qpdf.sourceforge.net/"
   url "http://this.package.cannot.be.built.from.source/"
   version "7.0.0"
-  revision 2
+  revision 3
   depends_on "aarch64-unknown-cloudabi-argdata"
   depends_on "aarch64-unknown-cloudabi-cloudabi"
   depends_on "aarch64-unknown-cloudabi-cloudlibc"
@@ -17,10 +17,10 @@ class Aarch64UnknownCloudabiQpdf < Formula
 
   bottle do
     root_url "https://nuxi.nl/distfiles/cloudabi-ports/homebrew/links"
-    sha256 "a751febd6198ed52d43929aa366433246f710764d31366e4956c03b6bf25cf35" => :el_capitan
-    sha256 "a751febd6198ed52d43929aa366433246f710764d31366e4956c03b6bf25cf35" => :high_sierra
-    sha256 "a751febd6198ed52d43929aa366433246f710764d31366e4956c03b6bf25cf35" => :mavericks
-    sha256 "a751febd6198ed52d43929aa366433246f710764d31366e4956c03b6bf25cf35" => :sierra
-    sha256 "a751febd6198ed52d43929aa366433246f710764d31366e4956c03b6bf25cf35" => :yosemite
+    sha256 "7c055233b3320fdb6e1ee2085b77f93462906dea9cebf115faa7c7d96e943e2e" => :el_capitan
+    sha256 "7c055233b3320fdb6e1ee2085b77f93462906dea9cebf115faa7c7d96e943e2e" => :high_sierra
+    sha256 "7c055233b3320fdb6e1ee2085b77f93462906dea9cebf115faa7c7d96e943e2e" => :mavericks
+    sha256 "7c055233b3320fdb6e1ee2085b77f93462906dea9cebf115faa7c7d96e943e2e" => :sierra
+    sha256 "7c055233b3320fdb6e1ee2085b77f93462906dea9cebf115faa7c7d96e943e2e" => :yosemite
   end
 end
