@@ -3,7 +3,7 @@ class Aarch64UnknownCloudabiFlower < Formula
   homepage "https://github.com/NuxiNL/flower"
   url "http://this.package.cannot.be.built.from.source/"
   version "0.10"
-  revision 9
+  revision 10
   depends_on "aarch64-unknown-cloudabi-argdata"
   depends_on "aarch64-unknown-cloudabi-arpc"
   depends_on "aarch64-unknown-cloudabi-cloudabi"
@@ -16,10 +16,10 @@ class Aarch64UnknownCloudabiFlower < Formula
 
   bottle do
     root_url "https://nuxi.nl/distfiles/cloudabi-ports/homebrew/links"
-    sha256 "6ccc8c83f5d87ab802add8aafec88ea8a1bbf1e382d5a0dbdf9d36468af94bf6" => :el_capitan
-    sha256 "6ccc8c83f5d87ab802add8aafec88ea8a1bbf1e382d5a0dbdf9d36468af94bf6" => :high_sierra
-    sha256 "6ccc8c83f5d87ab802add8aafec88ea8a1bbf1e382d5a0dbdf9d36468af94bf6" => :mavericks
-    sha256 "6ccc8c83f5d87ab802add8aafec88ea8a1bbf1e382d5a0dbdf9d36468af94bf6" => :sierra
-    sha256 "6ccc8c83f5d87ab802add8aafec88ea8a1bbf1e382d5a0dbdf9d36468af94bf6" => :yosemite
+    sha256 "c6137ec9d44ff0eacc1721e15e5c30fafe6792e2e3824b552ba4c00dabc50eb5" => :el_capitan
+    sha256 "c6137ec9d44ff0eacc1721e15e5c30fafe6792e2e3824b552ba4c00dabc50eb5" => :high_sierra
+    sha256 "c6137ec9d44ff0eacc1721e15e5c30fafe6792e2e3824b552ba4c00dabc50eb5" => :mavericks
+    sha256 "c6137ec9d44ff0eacc1721e15e5c30fafe6792e2e3824b552ba4c00dabc50eb5" => :sierra
+    sha256 "c6137ec9d44ff0eacc1721e15e5c30fafe6792e2e3824b552ba4c00dabc50eb5" => :yosemite
   end
 end
