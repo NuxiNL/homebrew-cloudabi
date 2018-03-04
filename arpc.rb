@@ -10,7 +10,7 @@ class Arpc < Formula
   depends_on "python3"
 
   def install
-    system "cmake", ".", "-DCMAKE_C_COMPILER=#{Formula["llvm@4"].opt_bin}/clang", "-DCMAKE_CXX_COMPILER=#{Formula["llvm@4"].opt_bin}/clang++", "-DCMAKE_CXX_FLAGS=\"-I#{Formula["argdata"].include}\"", *std_cmake_args
+    system "cmake", ".", "-DCMAKE_C_COMPILER=#{Formula["llvm@4"].opt_bin}/clang", "-DCMAKE_CXX_COMPILER=#{Formula["llvm@4"].opt_bin}/clang++", "-DCMAKE_CXX_FLAGS=-I#{Formula["argdata"].include}", *std_cmake_args
     system "make"
     system "make", "install"
   end
