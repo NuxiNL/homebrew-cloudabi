@@ -1,8 +1,8 @@
 class CloudabiUtils < Formula
   desc "Utilities for starting CloudABI programs"
   homepage "https://github.com/NuxiNL/cloudabi-utils"
-  url "https://github.com/NuxiNL/cloudabi-utils/archive/v0.36.tar.gz"
-  sha256 "2bafcc66e48be7f0b11fc7e0438fa7141dcb8938adf9cbd6014e1695009851c6"
+  url "https://github.com/NuxiNL/cloudabi-utils/archive/v0.38.tar.gz"
+  sha256 "331913d737605d43df62a0dfcf05dc13582d5d97b27d6d87f7c4daffd5cde8b0"
 
   depends_on "argdata"
   depends_on "cloudabi" => :build
@@ -13,7 +13,7 @@ class CloudabiUtils < Formula
   depends_on "yaml2argdata" => :build
 
   def install
-    system "cmake", ".", "-DCMAKE_C_COMPILER=#{Formula["llvm@4"].opt_bin}/clang", "-DCMAKE_CXX_COMPILER=#{Formula["llvm@4"].opt_bin}/clang++", *std_cmake_args
+    system "cmake", ".", "-DCMAKE_C_COMPILER=#{Formula["llvm@4"].opt_bin}/clang", "-DCMAKE_CXX_COMPILER=#{Formula["llvm@4"].opt_bin}/clang++", "-DCMAKE_C_FLAGS=-I#{Formula["argdata"].include} -I#{Formula["cloudabi"].include}", "-DCMAKE_CXX_FLAGS=-I#{Formula["argdata"].include} -I#{Formula["arpc"].include} -I#{Formula["cloudabi"].include} -I#{Formula["flower"].include} -I#{Formula["yaml-cpp"].include} -I#{Formula["yaml2argdata"].include}", *std_cmake_args
     system "make"
     system "make", "install"
   end

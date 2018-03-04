@@ -15,7 +15,7 @@ class Flower < Formula
     vendor_site_packages = libexec/"vendor/lib/python#{Language::Python.major_minor_version "python3"}/site-packages"
     ENV.prepend_create_path "PYTHONPATH", vendor_site_packages
 
-    system "cmake", ".", "-DCMAKE_C_COMPILER=#{Formula["llvm@4"].opt_bin}/clang", "-DCMAKE_CXX_COMPILER=#{Formula["llvm@4"].opt_bin}/clang++", *std_cmake_args
+    system "cmake", ".", "-DCMAKE_C_COMPILER=#{Formula["llvm@4"].opt_bin}/clang", "-DCMAKE_CXX_COMPILER=#{Formula["llvm@4"].opt_bin}/clang++", "-DCMAKE_CXX_FLAGS=-I#{Formula["argdata"].include} -I#{Formula["arpc"].include} -I#{Formula["jsoncpp"].include}", *std_cmake_args
     system "make"
     system "make", "install"
   end
