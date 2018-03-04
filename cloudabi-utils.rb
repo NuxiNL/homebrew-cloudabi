@@ -13,7 +13,7 @@ class CloudabiUtils < Formula
   depends_on "yaml2argdata" => :build
 
   def install
-    system "cmake", ".", "-DCMAKE_C_COMPILER=#{Formula["llvm@4"].opt_bin}/clang", "-DCMAKE_CXX_COMPILER=#{Formula["llvm@4"].opt_bin}/clang++", *std_cmake_args
+    system "cmake", ".", "-DCMAKE_C_COMPILER=#{Formula["llvm@4"].opt_bin}/clang", "-DCMAKE_CXX_COMPILER=#{Formula["llvm@4"].opt_bin}/clang++", "-DCMAKE_CXX_FLAGS=\"-I#{Formula["cloudabi"].include}\"", *std_cmake_args
     system "make"
     system "make", "install"
   end
