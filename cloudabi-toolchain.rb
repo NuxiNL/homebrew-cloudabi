@@ -69,11 +69,11 @@ class CloudabiToolchain < Formula
       libexec.install_symlink targetroot
 
       # Convenience scripts.
-      (bin/"#{arch}-man").write <<-EOS.undent
+      (bin/"#{arch}-man").write <<~EOS
         #!/bin/sh
         MANPATH=#{targetroot}/share/man man "$@"
       EOS
-      (bin/"#{arch}-pkg-config").write <<-EOS.undent
+      (bin/"#{arch}-pkg-config").write <<~EOS
         #!/bin/sh
         PKG_CONFIG_LIBDIR=#{targetroot}/lib/pkgconfig pkg-config "$@"
       EOS
