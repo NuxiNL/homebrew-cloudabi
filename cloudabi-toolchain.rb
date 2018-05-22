@@ -4,17 +4,17 @@ class CloudabiToolchain < Formula
   revision 1
 
   stable do
-    url "http://llvm.org/releases/5.0.0/llvm-5.0.0.src.tar.xz"
-    sha256 "e35dcbae6084adcf4abb32514127c5eabd7d63b733852ccdb31e06f1373136da"
+    url "http://llvm.org/releases/6.0.0/llvm-6.0.0.src.tar.xz"
+    sha256 "1ff53c915b4e761ef400b803f07261ade637b0c269d99569f18040f3dcee4408"
 
     resource "clang" do
-      url "http://llvm.org/releases/5.0.0/cfe-5.0.0.src.tar.xz"
-      sha256 "019f23c2192df793ac746595e94a403908749f8e0c484b403476d2611dd20970"
+      url "http://llvm.org/releases/6.0.0/cfe-6.0.0.src.tar.xz"
+      sha256 "e07d6dd8d9ef196cfc8e8bb131cbd6a2ed0b1caf1715f9d05b0f0eeaddb6df32"
     end
 
     resource "lld" do
-      url "http://llvm.org/releases/5.0.0/lld-5.0.0.src.tar.xz"
-      sha256 "399a7920a5278d42c46a7bf7e4191820ec2301457a7d0d4fcc9a4ac05dd53897"
+      url "http://llvm.org/releases/6.0.0/lld-6.0.0.src.tar.xz"
+      sha256 "6b8c4a833cf30230c0213d78dbac01af21387b298225de90ab56032ca79c0e0b"
     end
   end
 
