@@ -3,7 +3,7 @@ class X8664UnknownCloudabiCloudabiDemoWebserver < Formula
   homepage "https://github.com/NuxiNL/cloudabi-demo-webserver"
   url "http://this.package.cannot.be.built.from.source/"
   version "0.2"
-  revision 9
+  revision 10
   depends_on "x86_64-unknown-cloudabi-argdata"
   depends_on "x86_64-unknown-cloudabi-arpc"
   depends_on "x86_64-unknown-cloudabi-cloudabi"
@@ -17,10 +17,10 @@ class X8664UnknownCloudabiCloudabiDemoWebserver < Formula
 
   bottle do
     root_url "https://nuxi.nl/distfiles/cloudabi-ports/homebrew/links"
-    sha256 "773aff1a9af5fa5d3129a2a5a49cee0c810926db675e5a66e74dcda1314cf5de" => :el_capitan
-    sha256 "773aff1a9af5fa5d3129a2a5a49cee0c810926db675e5a66e74dcda1314cf5de" => :high_sierra
-    sha256 "773aff1a9af5fa5d3129a2a5a49cee0c810926db675e5a66e74dcda1314cf5de" => :mavericks
-    sha256 "773aff1a9af5fa5d3129a2a5a49cee0c810926db675e5a66e74dcda1314cf5de" => :sierra
-    sha256 "773aff1a9af5fa5d3129a2a5a49cee0c810926db675e5a66e74dcda1314cf5de" => :yosemite
+    sha256 "32047f2f325cfe72fadecfd51f2410705380649493eccba81c6bef267a018645" => :el_capitan
+    sha256 "32047f2f325cfe72fadecfd51f2410705380649493eccba81c6bef267a018645" => :high_sierra
+    sha256 "32047f2f325cfe72fadecfd51f2410705380649493eccba81c6bef267a018645" => :mavericks
+    sha256 "32047f2f325cfe72fadecfd51f2410705380649493eccba81c6bef267a018645" => :sierra
+    sha256 "32047f2f325cfe72fadecfd51f2410705380649493eccba81c6bef267a018645" => :yosemite
   end
 end

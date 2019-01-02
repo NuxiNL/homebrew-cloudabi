@@ -2,7 +2,7 @@ class Aarch64UnknownCloudabiArpc < Formula
   desc "arpc for aarch64-unknown-cloudabi"
   homepage "https://github.com/NuxiNL/arpc"
   url "http://this.package.cannot.be.built.from.source/"
-  version "0.7"
+  version "0.8"
   revision 1
   depends_on "aarch64-unknown-cloudabi-argdata"
   depends_on "aarch64-unknown-cloudabi-cloudabi"
@@ -14,10 +14,10 @@ class Aarch64UnknownCloudabiArpc < Formula
 
   bottle do
     root_url "https://nuxi.nl/distfiles/cloudabi-ports/homebrew/links"
-    sha256 "3f981219cfcdb5b75e2d3b4d30d1a601e53590fbc585993e7eb06abb54eb79cf" => :el_capitan
-    sha256 "3f981219cfcdb5b75e2d3b4d30d1a601e53590fbc585993e7eb06abb54eb79cf" => :high_sierra
-    sha256 "3f981219cfcdb5b75e2d3b4d30d1a601e53590fbc585993e7eb06abb54eb79cf" => :mavericks
-    sha256 "3f981219cfcdb5b75e2d3b4d30d1a601e53590fbc585993e7eb06abb54eb79cf" => :sierra
-    sha256 "3f981219cfcdb5b75e2d3b4d30d1a601e53590fbc585993e7eb06abb54eb79cf" => :yosemite
+    sha256 "7b6a8372cd290a24b981798d5b1716f0990cfca1de18e8eb4077971fdd219ede" => :el_capitan
+    sha256 "7b6a8372cd290a24b981798d5b1716f0990cfca1de18e8eb4077971fdd219ede" => :high_sierra
+    sha256 "7b6a8372cd290a24b981798d5b1716f0990cfca1de18e8eb4077971fdd219ede" => :mavericks
+    sha256 "7b6a8372cd290a24b981798d5b1716f0990cfca1de18e8eb4077971fdd219ede" => :sierra
+    sha256 "7b6a8372cd290a24b981798d5b1716f0990cfca1de18e8eb4077971fdd219ede" => :yosemite
   end
 end
